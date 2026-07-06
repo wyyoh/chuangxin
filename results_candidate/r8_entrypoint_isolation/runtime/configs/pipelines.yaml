@@ -1,0 +1,39 @@
+pipelines:
+  identity:
+    description: "No optimization; copy input to output. Last-resort fallback only."
+    steps: ""
+
+  baseline:
+    description: "Conservative verified ABC baseline for Phase 2."
+    steps: "strash; balance; rewrite; rewrite -z; refactor; refactor -z; balance"
+    final_candidate: true
+
+  aig_fast:
+    description: "Short AIG cleanup candidate."
+    steps: "strash; balance; rewrite -z; refactor -z; balance"
+    final_candidate: true
+
+  dc2_fast:
+    description: "AIG dc2 candidate. Selector default for AIG-like structures."
+    steps: "strash; balance; rewrite -z; refactor -z; dc2; balance"
+    final_candidate: true
+
+  rewrite2:
+    description: "Repeated lightweight rewrite/refactor candidate for medium non-AIG-like structures."
+    steps: "strash; balance; rewrite -z; refactor -z; balance; rewrite -z; refactor -z; balance"
+    final_candidate: true
+
+  sop_fx:
+    description: "Current-ABC-compatible reproduction of selector-v2 SOP extraction."
+    steps: "sop; fx; strash; balance; rewrite -z; refactor -z; balance"
+    final_candidate: true
+
+  high_aig_three_round:
+    description: "Selector-v2 high-effort AIG cleanup for coarse large runtime buckets."
+    steps: "strash; balance; rewrite -z; refactor -z; balance; resub -z; rewrite -z; refactor -z; dc2; balance; rewrite -z; refactor -z; balance"
+    final_candidate: true
+
+  r7b_r7win_fraig_high:
+    description: "R7b guarded high-TFI-overlap ABC-native FRAIG before high-effort AIG cleanup."
+    steps: "strash; r7win -mode rewrite -F fraig -G 0 -diag; balance; rewrite -z; refactor -z; balance; resub -z; rewrite -z; refactor -z; dc2; balance; rewrite -z; refactor -z; balance"
+    final_candidate: true

@@ -1,0 +1,61 @@
+{
+    "release_tag":  "final_selector_v4_20260623",
+    "release_candidate_head_before_packaging":  "1e3e82641537e0111e702284c4589a921aa19849",
+    "previous_formal_tag":  "final_selector_v3_20260622",
+    "previous_submit_sha256":  "4B6236AF057009318EA50E39FFC43FFA3A74708B49A07C2F08FD386AB6D1AF8A",
+    "final_submit_sha256":  "35BE0138E0B132E39118F4E0466B27AA2F9FA54291091094CB6076D79E54287D",
+    "cases_path":  "C:\\Users\\yy257\\cpipc_r9_large_smallpo\\local_data\\tc_public",
+    "abc_path":  "C:\\Users\\yy257\\cpipc_r9_large_smallpo\\submit\\bin\\abc.exe",
+    "metrics":  {
+                    "cases":  30,
+                    "selected_total_nodes":  41004,
+                    "max_selected_level":  20,
+                    "total_selected_levels":  285,
+                    "cec_passed":  30,
+                    "fallback_count":  0,
+                    "inner_fallback_count":  0,
+                    "bad_entry_count":  0,
+                    "total_opt_time_sec":  502.589751,
+                    "total_cec_time_sec":  134.860504,
+                    "total_stats_time_sec":  29.85395,
+                    "peak_RSS_MB":  52.141
+                },
+    "formal_attempts":  {
+                            "initial_default_abc_exit":  1,
+                            "initial_failure_reason":  "formal helper deleted submit before using default --abc submit/bin/abc.exe",
+                            "recovery_external_abc_exit":  0,
+                            "rezip_reason":  "added submit/logs reproduce CEC logs before final archive hash"
+                        },
+    "verification_logs":  {
+                              "logs\\r23_final_zip_extract_cec.log":  {
+                                                                          "exists":  true,
+                                                                          "passed_true":  30,
+                                                                          "bad_markers":  0,
+                                                                          "sha256":  "32C0EB88236DC4AF1F394624F3C6DC31AC986EDD0336EC57E42AB7DFE5B60862"
+                                                                      },
+                              "logs\\r23_final_zip_extract_inside_cec.log":  {
+                                                                                 "exists":  true,
+                                                                                 "passed_true":  30,
+                                                                                 "bad_markers":  0,
+                                                                                 "sha256":  "075712D88320903D755846DF4F6CAC34E7E8DE69075700227AF052508A61DA10"
+                                                                             },
+                              "submit\\logs\\reproduce_cec.log":  {
+                                                                      "exists":  true,
+                                                                      "passed_true":  30,
+                                                                      "bad_markers":  0,
+                                                                      "sha256":  "527F668FB6413E7D512A19CF956EFA62F5286657D80AA920D447C9999A132840"
+                                                                  },
+                              "submit\\logs\\reproduce_cec_inside.log":  {
+                                                                             "exists":  true,
+                                                                             "passed_true":  30,
+                                                                             "bad_markers":  0,
+                                                                             "sha256":  "C94497F2959963549F1C6B8AED2B08D2C3954596E5E3CE5BC0857B149F4AA3BE"
+                                                                         },
+                              "logs\\final_cec.log":  {
+                                                          "exists":  true,
+                                                          "passed_true":  30,
+                                                          "bad_markers":  0,
+                                                          "sha256":  "79E35CEC7F37C2482F0D9FD63589C01D8456E51C49FF5E07F0747C40F6DCB1B5"
+                                                      }
+                          }
+}

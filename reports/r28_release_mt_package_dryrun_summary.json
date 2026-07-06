@@ -1,0 +1,61 @@
+{
+  "dryrun_submit_dir": "scratch/r28_release_mt_submit_dryrun",
+  "dryrun_zip": "scratch/r28_release_mt_submit_dryrun.zip",
+  "dryrun_zip_sha256": "ADF5749A5B1EA168B89C1AA03D15669A37576601226D649B2850267E1405DC16",
+  "zip_size": 13190558,
+  "formal_submit_overwritten": false,
+  "formal_zip_overwritten": false,
+  "packaged_abc_sha256": "C21C9F2B28F2669D8F99D7587CBBC496672F5D01E45248D7D028B37FDFFF2E3F",
+  "packaged_r28_wrapper_present": true,
+  "packaged_r28_pipeline_present": true,
+  "logs": {
+    "scratch_root_cec": {
+      "path": "scratch\\r28_release_mt_submit_dryrun\\logs\\dryrun_reproduce_cec.log",
+      "passed_true": 30,
+      "equivalent": 30,
+      "bad": 0
+    },
+    "scratch_inside_cec": {
+      "path": "scratch\\r28_release_mt_submit_dryrun\\logs\\dryrun_reproduce_cec_inside.log",
+      "passed_true": 30,
+      "equivalent": 30,
+      "bad": 0
+    },
+    "zip_extract_cec": {
+      "path": "scratch\\r28_release_mt_zip_extract\\logs\\zip_extract_cec.log",
+      "passed_true": 30,
+      "equivalent": 30,
+      "bad": 0
+    },
+    "zip_extract_inside_cec": {
+      "path": "scratch\\r28_release_mt_zip_extract\\logs\\zip_extract_inside_cec.log",
+      "passed_true": 30,
+      "equivalent": 30,
+      "bad": 0
+    },
+    "zip_hidden_smoke_cec": {
+      "path": "scratch\\r28_release_mt_zip_extract\\logs\\zip_hidden_smoke_tc_public_14\\cec.log",
+      "passed_true": 0,
+      "equivalent": 1,
+      "bad": 0
+    }
+  },
+  "archived_logs": {
+    "scratch_root_cec": "logs\\r28_release_mt_package_dryrun_root_cec.log",
+    "scratch_inside_cec": "logs\\r28_release_mt_package_dryrun_inside_cec.log",
+    "zip_extract_cec": "logs\\r28_release_mt_package_dryrun_zip_extract_cec.log",
+    "zip_extract_inside_cec": "logs\\r28_release_mt_package_dryrun_zip_extract_inside_cec.log",
+    "zip_hidden_smoke_cec": "logs\\r28_release_mt_package_dryrun_zip_hidden_smoke_tc_public_14_cec.log",
+    "zip_hidden_smoke_metrics": "reports\\r28_release_mt_package_dryrun_zip_hidden_smoke_tc_public_14_metrics.json"
+  },
+  "hidden_smoke": {
+    "case": "tc_public_14",
+    "status": "accepted",
+    "selected_nodes": 2073,
+    "selected_levels": 15,
+    "cec_pass": true,
+    "postpass": "r28_r27_mfs_fraig_dc2_bal",
+    "node_delta_vs_v5": -83,
+    "level_delta_vs_v5": -1
+  }
+}

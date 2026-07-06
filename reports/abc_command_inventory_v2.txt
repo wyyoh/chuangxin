@@ -1,0 +1,33 @@
+# ABC Command Inventory V2
+
+Failure categories: unavailable, context_failed, timeout, crash.
+Context-dependent failures are not permanent disables for commands that require special network types.
+
+| command | available | generation_status | failure_category | context_note | failure_reason |
+| --- | --- | --- | --- | --- | --- |
+| rewrite | true | enabled |  | AIG context |  |
+| rewrite -z | true | enabled |  | AIG context |  |
+| refactor | true | enabled |  | AIG context |  |
+| refactor -z | true | enabled |  | AIG context |  |
+| resub | true | enabled |  | AIG context |  |
+| resub -z | true | enabled |  | AIG context |  |
+| dc2 | true | enabled |  | AIG context |  |
+| dch | true | enabled |  | AIG context |  |
+| dch -f | true | enabled |  | AIG context |  |
+| fraig | true | enabled |  | AIG context |  |
+| ifraig | true | enabled |  | AIG context |  |
+| compress2rs | false | disabled | unavailable | AIG context | ABC reported unknown or invalid command |
+| sweep | true | enabled |  | SOP/network context |  |
+| bdd | true | enabled |  | BDD-capable network context |  |
+| sop | true | enabled |  | SOP requires BDD-derived context |  |
+| fx | true | enabled |  | SOP/network context |  |
+| if -K 4 | true | enabled |  | mapped LUT context |  |
+| if -K 5 | true | enabled |  | mapped LUT context |  |
+| if -K 6 | true | enabled |  | mapped LUT context |  |
+| mfs2 | false | disabled | crash | post-mapping context | ABC exited abnormally with returncode 3221226505 |
+| mfs3 | true | enabled |  | post-mapping context |  |
+| st | true | enabled |  | post-mapping context |  |
+| &get | true | enabled |  | GIA manager context |  |
+| &put | true | enabled |  | GIA manager context |  |
+| &syn2 | true | enabled |  | GIA manager context |  |
+| &dc2 | true | enabled |  | GIA manager context |  |

@@ -1,0 +1,13 @@
+$ submit\bin\abc.exe -c read_blif "results_release/r25d_formal_entry/full_public_v1/tc_public_18/work/variant_inputs/outputs/input.blif"; strash; balance; rewrite; rewrite -z; refactor; refactor -z; balance; write_blif "results_release/r25d_formal_entry/full_public_v1/tc_public_18/work/variants/outputs/baseline.blif"
+returncode=0
+runtime_sec=0.350106
+peak_mem_mb=14.215
+timed_out=False
+
+STDOUT
+======== ABC command line "read_blif "results_release/r25d_formal_entry/full_public_v1/tc_public_18/work/variant_inputs/outputs/input.blif"; strash; balance; rewrite; rewrite -z; refactor; refactor -z; balance; write_blif "results_release/r25d_formal_entry/full_public_v1/tc_public_18/work/variants/outputs/baseline.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+
+STDERR

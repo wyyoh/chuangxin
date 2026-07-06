@@ -1,0 +1,17 @@
+# Final selector for public reproducibility.
+# Coarse rules only: no file names, hashes, exact line counts, exact public-case
+# PI/PO/names combinations, or directory-based decisions.
+default_pipeline: dc2_fast
+
+rules:
+  - name: tiny_high_fanin_sop
+    when:
+      scale_grade_in: [tiny, small]
+      high_fanin_sop: true
+    pipeline: sop_fx
+
+  - name: medium_rewrite_cleanup
+    when:
+      scale_grade_in: [medium]
+      near_two_input_aig: false
+    pipeline: rewrite2

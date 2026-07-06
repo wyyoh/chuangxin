@@ -1,0 +1,8 @@
+candidate,family,nodes,raw_nodes,max_level,runtime,RSS,fallback_count,CEC_status,strictly_better_than_current_final,node_better_but_level_worse,node_better_but_runtime_costly,robust_candidate,research_only
+aig_resyn_resub_zero,aig_resyn_family,47031,47095,25,17.321505,31.355,2,30/30,False,False,False,False,True
+choice_fraig_clean,choice_perturb_family,45850,45916,21,17.362396,33.09,2,30/30,False,False,False,False,True
+choice_fraig_ifraig_recover,choice_perturb_family,45462,46233,21,16.741992,31.141,2,30/30,False,False,False,False,True
+choice_ifraig_clean,choice_perturb_family,45850,45916,21,17.242439,31.047,2,30/30,False,False,False,False,True
+dc2_fraig_cleanup,dc2_dch_family,45462,46233,21,16.925561,31.016,2,30/30,False,False,False,False,True
+dc2_ifraig_cleanup,dc2_dch_family,45462,46233,21,17.012928,31.344,2,30/30,False,False,False,False,True
+high_aig_three_round,high_effort_small_case_family,45884,45919,25,20.199417,30.996,1,30/30,False,False,False,True,False

@@ -1,0 +1,14 @@
+$ C:\Users\yy257\abc_r7b_candidate_ninja_build2\abc.exe -c cec "cases/tc_public_22/input.blif" "C:/Users/yy257/cpipc_r8_integration/results_candidate/r8_entrypoint_isolation/outputs/tc_public_22/work/variants/clean/baseline.blif"
+returncode=0
+runtime_sec=2.434663
+peak_mem_mb=33.809
+timed_out=False
+
+STDOUT
+======== ABC command line "cec "cases/tc_public_22/input.blif" "C:/Users/yy257/cpipc_r8_integration/results_candidate/r8_entrypoint_isolation/outputs/tc_public_22/work/variants/clean/baseline.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     2.17 sec
+
+STDERR

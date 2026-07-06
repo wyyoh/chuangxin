@@ -1,0 +1,13 @@
+$ submit\bin\abc.exe -c read_blif "results_candidate/r29_postpass_entry_full_public_candidate_config/tc_public_27/work/v6/work/v5/work/variant_inputs/outputs/input.blif"; strash; balance; rewrite -z; refactor -z; dc2; balance; write_blif "results_candidate/r29_postpass_entry_full_public_candidate_config/tc_public_27/work/v6/work/v5/work/variants/outputs/output.candidate.blif"
+returncode=0
+runtime_sec=0.098455
+peak_mem_mb=7.719
+timed_out=False
+
+STDOUT
+======== ABC command line "read_blif "results_candidate/r29_postpass_entry_full_public_candidate_config/tc_public_27/work/v6/work/v5/work/variant_inputs/outputs/input.blif"; strash; balance; rewrite -z; refactor -z; dc2; balance; write_blif "results_candidate/r29_postpass_entry_full_public_candidate_config/tc_public_27/work/v6/work/v5/work/variants/outputs/output.candidate.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+
+STDERR

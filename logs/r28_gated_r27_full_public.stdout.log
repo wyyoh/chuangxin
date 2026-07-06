@@ -1,0 +1,61 @@
+[tc_public_1] running optimize_one entry
+[tc_public_1] chosen=both nodes=85 levels=8 cec=True
+[tc_public_10] running optimize_one entry
+[tc_public_10] chosen=clean nodes=101 levels=4 cec=True
+[tc_public_11] running optimize_one entry
+[tc_public_11] chosen=clean nodes=328 levels=7 cec=True
+[tc_public_12] running optimize_one entry
+[tc_public_12] chosen=clean nodes=1370 levels=14 cec=True
+[tc_public_13] running optimize_one entry
+[tc_public_13] chosen=clean nodes=1043 levels=13 cec=True
+[tc_public_14] running optimize_one entry
+[tc_public_14] chosen=outputs nodes=2073 levels=15 cec=True
+[tc_public_15] running optimize_one entry
+[tc_public_15] chosen=clean nodes=913 levels=11 cec=True
+[tc_public_16] running optimize_one entry
+[tc_public_16] chosen=clean nodes=45 levels=6 cec=True
+[tc_public_17] running optimize_one entry
+[tc_public_17] chosen=clean nodes=93 levels=6 cec=True
+[tc_public_18] running optimize_one entry
+[tc_public_18] chosen=both nodes=486 levels=12 cec=True
+[tc_public_19] running optimize_one entry
+[tc_public_19] chosen=inputs nodes=5184 levels=18 cec=True
+[tc_public_2] running optimize_one entry
+[tc_public_2] chosen=clean nodes=19 levels=4 cec=True
+[tc_public_20] running optimize_one entry
+[tc_public_20] chosen=inputs nodes=5445 levels=20 cec=True
+[tc_public_21] running optimize_one entry
+[tc_public_21] chosen=inputs nodes=5448 levels=20 cec=True
+[tc_public_22] running optimize_one entry
+[tc_public_22] chosen=both nodes=10740 levels=20 cec=True
+[tc_public_23] running optimize_one entry
+[tc_public_23] chosen=clean nodes=1458 levels=14 cec=True
+[tc_public_24] running optimize_one entry
+[tc_public_24] chosen=clean nodes=215 levels=8 cec=True
+[tc_public_25] running optimize_one entry
+[tc_public_25] chosen=clean nodes=26 levels=4 cec=True
+[tc_public_26] running optimize_one entry
+[tc_public_26] chosen=inputs nodes=449 levels=10 cec=True
+[tc_public_27] running optimize_one entry
+[tc_public_27] chosen=clean nodes=376 levels=7 cec=True
+[tc_public_28] running optimize_one entry
+[tc_public_28] chosen=clean nodes=258 levels=8 cec=True
+[tc_public_29] running optimize_one entry
+[tc_public_29] chosen=inputs nodes=97 levels=6 cec=True
+[tc_public_3] running optimize_one entry
+[tc_public_3] chosen=clean nodes=94 levels=8 cec=True
+[tc_public_30] running optimize_one entry
+[tc_public_30] chosen=inputs nodes=392 levels=12 cec=True
+[tc_public_4] running optimize_one entry
+[tc_public_4] chosen=inputs nodes=61 levels=8 cec=True
+[tc_public_5] running optimize_one entry
+[tc_public_5] chosen=clean nodes=65 levels=2 cec=True
+[tc_public_6] running optimize_one entry
+[tc_public_6] chosen=clean nodes=162 levels=4 cec=True
+[tc_public_7] running optimize_one entry
+[tc_public_7] chosen=clean nodes=191 levels=3 cec=True
+[tc_public_8] running optimize_one entry
+[tc_public_8] chosen=clean nodes=193 levels=3 cec=True
+[tc_public_9] running optimize_one entry
+[tc_public_9] chosen=clean nodes=194 levels=4 cec=True
+wrote reports\r28_gated_r27_full_public_metrics.csv; nodes=37604; max_level=20; cec=30/30; fallback=0; inner_fallback=0; bad_entry=0; r28_accepted=4; r28_gain_vs_v5=104

@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+node_modules/
+results/
+data/
+third_party/
+abc.history
+third_party/abc/abc.exe
+third_party/abc/abc
+third_party/abc/**/*.o
+third_party/abc/**/*.d
+third_party/abc/**/*.a

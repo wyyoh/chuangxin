@@ -1,0 +1,95 @@
+# Benchmark "r7b_port_order_stress_input" written by ABC on Mon Jun 22 17:14:23 2026
+.model r7b_port_order_stress_input
+.inputs n33 n18 n3 n1 n0 n28 n17 n27
+.outputs n14 n37 n91 n41 n73
+.names n1 n0 new_n14_1
+10 1
+.names n1 n0 new_n15
+01 1
+.names new_n14_1 new_n15 new_n16
+00 1
+.names n28 n27 new_n17_1
+10 1
+.names n28 n27 new_n18_1
+01 1
+.names new_n17_1 new_n18_1 new_n19
+00 1
+.names n3 new_n19 new_n20
+10 1
+.names n3 new_n19 new_n21
+01 1
+.names new_n20 new_n21 new_n22
+00 1
+.names new_n16 new_n22 new_n23
+00 1
+.names new_n16 new_n22 new_n24
+11 1
+.names new_n23 new_n24 n14
+00 0
+.names n18 n17 new_n26
+10 1
+.names n18 n17 new_n27_1
+01 1
+.names new_n26 new_n27_1 new_n28_1
+00 1
+.names new_n19 new_n28_1 new_n29
+10 1
+.names new_n19 new_n28_1 new_n30
+01 1
+.names new_n29 new_n30 n37
+00 0
+.names n1 n17 new_n32
+10 1
+.names n1 n17 new_n33_1
+01 1
+.names new_n32 new_n33_1 new_n34
+00 1
+.names n33 n3 new_n35
+10 1
+.names n33 n3 new_n36
+01 1
+.names new_n35 new_n36 new_n37_1
+00 1
+.names n28 new_n37_1 new_n38
+10 1
+.names n28 new_n37_1 new_n39
+01 1
+.names new_n38 new_n39 new_n40
+00 1
+.names new_n34 new_n40 new_n41_1
+00 1
+.names new_n34 new_n40 new_n42
+11 1
+.names new_n41_1 new_n42 n91
+00 0
+.names n33 new_n16 new_n44
+10 1
+.names n33 new_n16 new_n45
+01 1
+.names new_n44 new_n45 new_n46
+00 1
+.names new_n28_1 new_n46 new_n47
+00 1
+.names new_n28_1 new_n46 new_n48
+11 1
+.names new_n47 new_n48 n41
+00 0
+.names n0 n27 new_n50
+10 1
+.names n0 n27 new_n51
+01 1
+.names new_n50 new_n51 new_n52
+00 1
+.names n18 new_n37_1 new_n53
+10 1
+.names n18 new_n37_1 new_n54
+01 1
+.names new_n53 new_n54 new_n55
+00 1
+.names new_n52 new_n55 new_n56
+00 1
+.names new_n52 new_n55 new_n57
+11 1
+.names new_n56 new_n57 n73
+00 0
+.end

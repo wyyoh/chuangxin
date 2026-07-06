@@ -1,0 +1,14 @@
+$ submit\bin\abc.exe -c read_blif "results_candidate/r29_postpass_entry_full_public_candidate_config/tc_public_13/work/r29_postpass/r29_mfs_strash_dc2_rwz_bal/output.blif"; strash; ps
+returncode=0
+runtime_sec=0.035272
+peak_mem_mb=1.891
+timed_out=False
+
+STDOUT
+======== ABC command line "read_blif "results_candidate/r29_postpass_entry_full_public_candidate_config/tc_public_13/work/r29_postpass/r29_mfs_strash_dc2_rwz_bal/output.blif"; strash; ps"
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+netlist                       : i/o =  335/   20  lat =    0  and =   1043  lev = 13
+
+STDERR

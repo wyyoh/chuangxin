@@ -1,0 +1,35 @@
+pipelines:
+  identity:
+    description: "No optimization; copy input to output. Last-resort fallback only."
+    steps: ""
+
+  baseline:
+    description: "Conservative verified ABC baseline for Phase 2."
+    steps: "strash; balance; rewrite; rewrite -z; refactor; refactor -z; balance"
+    final_candidate: true
+
+  aig_fast:
+    description: "Short AIG cleanup candidate. Evaluated offline and allowed in final selectors when selected by coarse features."
+    steps: "strash; balance; rewrite -z; refactor -z; balance"
+    final_candidate: true
+
+  dc2_fast:
+    description: "AIG dc2 candidate. Final selector default for AIG-like structures."
+    steps: "strash; balance; rewrite -z; refactor -z; dc2; balance"
+    final_candidate: true
+
+  rewrite2:
+    description: "Repeated lightweight rewrite/refactor candidate. Used by final selector for medium non-AIG-like structures."
+    steps: "strash; balance; rewrite -z; refactor -z; balance; rewrite -z; refactor -z; balance"
+    final_candidate: true
+
+  sop_fx:
+    description: "Logic-level extraction before AIG cleanup. Used by final selector for tiny/small high-fanin SOP structures."
+    steps: "sweep; fx; strash; balance; rewrite -z; refactor -z; balance"
+    final_candidate: true
+
+  high_aig_three_round:
+    description: "Pipeline Search 2.0 Phase 7 candidate only; high-effort AIG cleanup for coarse large near-two-input AIG-like buckets."
+    steps: "strash; balance; rewrite -z; refactor -z; balance; resub -z; rewrite -z; refactor -z; dc2; balance; rewrite -z; refactor -z; balance"
+    final_candidate: false
+    phase7_candidate_only: true

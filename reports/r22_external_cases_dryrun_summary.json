@@ -1,0 +1,30 @@
+{
+    "cases_path":  "C:\\Users\\yy257\\cpipc_r9_large_smallpo\\local_data\\tc_public",
+    "case_dirs":  30,
+    "nodes":  41004,
+    "max_level":  20,
+    "total_levels":  285,
+    "cec_pass":  30,
+    "fallback":  0,
+    "inner_fallback":  0,
+    "bad_entry":  0,
+    "dryrun_zip_sha256":  "410C6D249A34F6B65062A430DC1D3F936990D816BEEB0838D66226A77071A11A",
+    "formal_zip_sha256_after":  "4B6236AF057009318EA50E39FFC43FFA3A74708B49A07C2F08FD386AB6D1AF8A",
+    "logs":  {
+                 "final_cec":  {
+                                   "path":  "logs\\r22_external_cases_dryrun_full_cec.log",
+                                   "passed_true":  30,
+                                   "bad_markers":  0
+                               },
+                 "zip_extract_cec":  {
+                                         "path":  "logs\\r22_external_cases_dryrun_zip_extract_cec.log",
+                                         "passed_true":  30,
+                                         "bad_markers":  0
+                                     },
+                 "zip_extract_inside_cec":  {
+                                                "path":  "logs\\r22_external_cases_dryrun_zip_extract_inside_cec.log",
+                                                "passed_true":  30,
+                                                "bad_markers":  0
+                                            }
+             }
+}

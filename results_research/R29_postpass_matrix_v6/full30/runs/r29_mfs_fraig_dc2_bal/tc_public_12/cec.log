@@ -1,0 +1,14 @@
+$ submit\bin\abc.exe -c cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_12/input.blif" "results_research/R29_postpass_matrix_v6/full30/runs/r29_mfs_fraig_dc2_bal/tc_public_12/output.blif"
+returncode=0
+runtime_sec=0.067548
+peak_mem_mb=8.719
+timed_out=False
+
+STDOUT
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_12/input.blif" "results_research/R29_postpass_matrix_v6/full30/runs/r29_mfs_fraig_dc2_bal/tc_public_12/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+
+STDERR

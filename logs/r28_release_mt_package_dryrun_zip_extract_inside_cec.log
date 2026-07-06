@@ -1,0 +1,240 @@
+===== tc_public_1 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_1/input.blif" "results/final_public/tc_public_1/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.110696
+
+===== tc_public_10 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_10/input.blif" "results/final_public/tc_public_10/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.052656
+
+===== tc_public_11 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_11/input.blif" "results/final_public/tc_public_11/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.076072
+
+===== tc_public_12 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_12/input.blif" "results/final_public/tc_public_12/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.04 sec
+passed=True returncode=0 runtime_sec=0.094919
+
+===== tc_public_13 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_13/input.blif" "results/final_public/tc_public_13/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.14 sec
+passed=True returncode=0 runtime_sec=0.277589
+
+===== tc_public_14 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_14/input.blif" "results/final_public/tc_public_14/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.07 sec
+passed=True returncode=0 runtime_sec=0.146220
+
+===== tc_public_15 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_15/input.blif" "results/final_public/tc_public_15/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.04 sec
+passed=True returncode=0 runtime_sec=0.084516
+
+===== tc_public_16 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_16/input.blif" "results/final_public/tc_public_16/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.072460
+
+===== tc_public_17 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_17/input.blif" "results/final_public/tc_public_17/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.052871
+
+===== tc_public_18 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_18/input.blif" "results/final_public/tc_public_18/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.12 sec
+passed=True returncode=0 runtime_sec=0.171009
+
+===== tc_public_19 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_19/input.blif" "results/final_public/tc_public_19/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.52 sec
+passed=True returncode=0 runtime_sec=0.599548
+
+===== tc_public_2 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_2/input.blif" "results/final_public/tc_public_2/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.103929
+
+===== tc_public_20 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_20/input.blif" "results/final_public/tc_public_20/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.51 sec
+passed=True returncode=0 runtime_sec=0.576410
+
+===== tc_public_21 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_21/input.blif" "results/final_public/tc_public_21/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.71 sec
+passed=True returncode=0 runtime_sec=0.792415
+
+===== tc_public_22 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_22/input.blif" "results/final_public/tc_public_22/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     1.36 sec
+passed=True returncode=0 runtime_sec=1.491272
+
+===== tc_public_23 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_23/input.blif" "results/final_public/tc_public_23/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.04 sec
+passed=True returncode=0 runtime_sec=0.126912
+
+===== tc_public_24 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_24/input.blif" "results/final_public/tc_public_24/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.050849
+
+===== tc_public_25 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_25/input.blif" "results/final_public/tc_public_25/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.050243
+
+===== tc_public_26 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_26/input.blif" "results/final_public/tc_public_26/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.077536
+
+===== tc_public_27 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_27/input.blif" "results/final_public/tc_public_27/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.052319
+
+===== tc_public_28 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_28/input.blif" "results/final_public/tc_public_28/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.071593
+
+===== tc_public_29 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_29/input.blif" "results/final_public/tc_public_29/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.075892
+
+===== tc_public_3 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_3/input.blif" "results/final_public/tc_public_3/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.135997
+
+===== tc_public_30 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_30/input.blif" "results/final_public/tc_public_30/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     2.66 sec
+passed=True returncode=0 runtime_sec=2.756673
+
+===== tc_public_4 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_4/input.blif" "results/final_public/tc_public_4/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.100340
+
+===== tc_public_5 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_5/input.blif" "results/final_public/tc_public_5/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.051070
+
+===== tc_public_6 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_6/input.blif" "results/final_public/tc_public_6/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.153761
+
+===== tc_public_7 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_7/input.blif" "results/final_public/tc_public_7/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.146899
+
+===== tc_public_8 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_8/input.blif" "results/final_public/tc_public_8/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.149213
+
+===== tc_public_9 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_9/input.blif" "results/final_public/tc_public_9/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.147167
+

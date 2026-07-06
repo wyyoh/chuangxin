@@ -1,0 +1,46 @@
+# Benchmark "r7b_port_order_stress_input" written by ABC on Mon Jun 22 19:56:51 2026
+.model r7b_port_order_stress_input
+.inputs r7pi_12_0001_lbi1wjj8m9 r7pi_12_0005_2shytlqho5 \
+ r7pi_12_0000_o4e96686b8 r7pi_12_0004_7jg59timx4 r7pi_12_0003_7bt50jeadv \
+ r7pi_12_0002_1xz5kck6b7
+.outputs r7po_12_0000_qnd3sa6skf r7po_12_0002_w9obly6acw \
+ r7po_12_0003_eqvp6la96u r7po_12_0001_3g9adisc1p r7po_12_0004_sxj0sc1s5e
+.names r7pi_12_0001_lbi1wjj8m9 r7pi_12_0000_o4e96686b8 new_n12
+11 1
+.names r7pi_12_0003_7bt50jeadv new_n12 new_n13
+11 1
+.names r7pi_12_0002_1xz5kck6b7 new_n13 r7po_12_0000_qnd3sa6skf
+11 1
+.names r7pi_12_0004_7jg59timx4 r7pi_12_0002_1xz5kck6b7 new_n15
+11 1
+.names r7pi_12_0004_7jg59timx4 r7pi_12_0002_1xz5kck6b7 new_n16
+00 1
+.names new_n15 new_n16 new_n17
+00 1
+.names r7pi_12_0001_lbi1wjj8m9 r7pi_12_0000_o4e96686b8 new_n18
+00 1
+.names new_n17 new_n18 new_n19
+10 1
+.names new_n12 new_n17 new_n20
+00 1
+.names new_n19 new_n20 r7po_12_0002_w9obly6acw
+00 1
+.names r7pi_12_0005_2shytlqho5 new_n12 new_n22
+10 1
+.names new_n13 new_n22 r7po_12_0003_eqvp6la96u
+00 0
+.names r7pi_12_0005_2shytlqho5 r7pi_12_0004_7jg59timx4 new_n24
+00 1
+.names new_n12 new_n24 r7po_12_0001_3g9adisc1p
+01 0
+.names r7pi_12_0002_1xz5kck6b7 new_n12 new_n26
+00 1
+.names r7pi_12_0003_7bt50jeadv new_n26 new_n27
+10 1
+.names r7pi_12_0005_2shytlqho5 new_n16 new_n28
+01 1
+.names new_n12 new_n28 new_n29
+10 1
+.names new_n27 new_n29 r7po_12_0004_sxj0sc1s5e
+00 0
+.end

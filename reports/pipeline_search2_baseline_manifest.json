@@ -1,0 +1,46 @@
+﻿{
+    "generated_at":  "2026-05-27T07:27:52",
+    "branch":  "codex/pipeline-search2",
+    "baseline_tag":  "phase_a_hardened_20260526",
+    "baseline_tag_commit":  "aa548431b9e852ab10561d6ef14af2ec046b1ec4",
+    "head_commit":  "aa548431b9e852ab10561d6ef14af2ec046b1ec4",
+    "baseline_commit_matches_head":  true,
+    "final_metrics":  {
+                          "cases":  30,
+                          "selected_nodes_sum":  47338,
+                          "max_selected_level":  25,
+                          "cec_pass":  30,
+                          "fallback_count":  0
+                      },
+    "protected_files_do_not_overwrite":  [
+                                             "reports/final_metrics.csv",
+                                             "logs/final_cec.log",
+                                             "configs/final_selector.yaml",
+                                             "configs/pipelines.yaml",
+                                             "submit_sharecone.zip"
+                                         ],
+    "restored_public_cases_for_probe":  true,
+    "restore_public_cases_command":  "powershell -ExecutionPolicy Bypass -File tools/fetch_tc_public.ps1",
+    "file_hashes":  [
+                        {
+                            "path":  ".\\reports\\final_metrics.csv",
+                            "sha256":  "439BBA25310B6B0CC2C4BBEE60EE91E19E18A2DA76B05B587948F1FFF2098177"
+                        },
+                        {
+                            "path":  ".\\logs\\final_cec.log",
+                            "sha256":  "D1A1BC7BCE322F2208CCB1A9D794297E7DB228E2E2F83EF9502A561328CE2706"
+                        },
+                        {
+                            "path":  ".\\configs\\final_selector.yaml",
+                            "sha256":  "698A64D998DC1A1D5563F36DE17B613F2D302862EC7AEF0B58744DF8157AEC1B"
+                        },
+                        {
+                            "path":  ".\\configs\\pipelines.yaml",
+                            "sha256":  "D4E6C2E38EC69A719261CE88F397AA24EDC6204098D60FA0679299E3CA99B43B"
+                        },
+                        {
+                            "path":  ".\\submit_sharecone.zip",
+                            "sha256":  "7B6C53463B2095B828DBCC1161FB403C737543448EA603F8AD6F7F8D60D151DA"
+                        }
+                    ]
+}

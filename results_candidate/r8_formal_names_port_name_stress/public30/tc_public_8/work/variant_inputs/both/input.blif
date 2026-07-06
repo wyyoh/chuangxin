@@ -1,0 +1,336 @@
+# R7b port-order stress generated from input
+# Only .inputs/.outputs declaration order is shuffled; names and logic are preserved.
+.model r7b_port_order_stress_input
+.inputs r7pi_29_0031_tgvgxpl8hv r7pi_29_0012_m1dcuk1hlp r7pi_29_0066_srehpjilbx \
+  r7pi_29_0030_m4z3dpqbhm r7pi_29_0001_yvnovzjoxo r7pi_29_0029_cr77u56j1m r7pi_29_0061_2uvmjma5sp \
+  r7pi_29_0052_h8qnbsg2rs r7pi_29_0059_f47y42h3d9 r7pi_29_0009_x594gl8ksn r7pi_29_0036_fmdorga2f2 \
+  r7pi_29_0035_lzgzx0e4nq r7pi_29_0022_bb6goct8jc r7pi_29_0014_7dkk8dyb59 r7pi_29_0004_bostfsvems \
+  r7pi_29_0050_i2k0kwufxl r7pi_29_0026_6tman73uex r7pi_29_0013_j4dnhg5dhb r7pi_29_0060_ug4tfvq2jm \
+  r7pi_29_0007_p7g90sehsx r7pi_29_0051_atasnrbaud r7pi_29_0023_l7hi4l44hy r7pi_29_0047_ltnd8sii3c \
+  r7pi_29_0055_c85vr9nnuz r7pi_29_0064_r1a2p51hlk r7pi_29_0043_3omeq0qdag r7pi_29_0015_nr1an5wud8 \
+  r7pi_29_0000_8g7gryhip2 r7pi_29_0025_qlg2cjb2pr r7pi_29_0054_bppfi373hx r7pi_29_0003_00fzn0lzm7 \
+  r7pi_29_0016_3nlauk18xz r7pi_29_0056_ccyu7o9a2n r7pi_29_0063_8jsalkj57n r7pi_29_0038_kx35468y96 \
+  r7pi_29_0021_d3uh5t7719 r7pi_29_0028_9pyjd8ugbq r7pi_29_0053_43i8q3ys75 r7pi_29_0065_0qc6tf2oj9 \
+  r7pi_29_0005_plpxk3qe4l r7pi_29_0044_mhzb4vmxko r7pi_29_0039_5ejsbz77u6 r7pi_29_0019_oyjsuye8d3 \
+  r7pi_29_0027_bgwprtcmzu r7pi_29_0032_cz70pncpgi r7pi_29_0042_jn8zwy6lrm r7pi_29_0008_exbr3lkv84 \
+  r7pi_29_0045_jh9w9rwl4m r7pi_29_0006_1gypc0qqjf r7pi_29_0020_m0lj069n5z r7pi_29_0048_lrwinheend \
+  r7pi_29_0018_w1bb6r3nne r7pi_29_0034_2y1e0doaj4 r7pi_29_0046_t0xvsvzcio r7pi_29_0017_4wmejvwuqi \
+  r7pi_29_0024_73x81lnl7o r7pi_29_0010_l462h3bb0j r7pi_29_0037_jy7eh4ew8t r7pi_29_0058_zgmpbj69mv \
+  r7pi_29_0033_in9xcc316g r7pi_29_0057_9lwrbfgtqm r7pi_29_0011_stx0pznrzl r7pi_29_0040_oqyy9k4lou \
+  r7pi_29_0002_59bkx8z966 r7pi_29_0062_n2j9fs0kxz r7pi_29_0049_z5ikv182md r7pi_29_0041_ibgzmtt0nu
+.outputs r7po_29_0063_7j66q5hh3y r7po_29_0085_myjxkg0ihe r7po_29_0069_f1xwqifjbf \
+  r7po_29_0043_zex0gelkpt r7po_29_0054_cnq9zu00j9 r7po_29_0088_567y205riq r7po_29_0094_ttcvdgl6eu \
+  r7po_29_0024_iir5osmlai r7po_29_0005_i6onpw2zyu r7po_29_0075_o21p4z4i6e r7po_29_0032_am0v3yyytr \
+  r7po_29_0092_k1qeyzxi6i r7po_29_0022_wlpyax3jz5 r7po_29_0064_zervowmjff r7po_29_0062_jhvhrtzirn \
+  r7po_29_0083_zi4khqlksx r7po_29_0089_q3ag8ln6rc r7po_29_0014_22r4m8mjft r7po_29_0071_5r0hay8r2m \
+  r7po_29_0072_6l2xq4nk5v r7po_29_0046_iqs67q9d5t r7po_29_0040_gp11mbslvt r7po_29_0074_jnf6dl3euj \
+  r7po_29_0038_50avz1d6jk r7po_29_0045_bh2ytfc4dl r7po_29_0049_9ab994tg5o r7po_29_0068_8s32betpv5 \
+  r7po_29_0017_heqmc6p0kh r7po_29_0006_xue6id3o6q r7po_29_0039_22lsod54h6 r7po_29_0033_ej0m3exex1 \
+  r7po_29_0042_z6pcmjwnau r7po_29_0077_nossdauuwh r7po_29_0056_pvceb6axn4 r7po_29_0070_zazgdxcl52 \
+  r7po_29_0078_bt3z7v8wk4 r7po_29_0061_kavnwvl0ao r7po_29_0035_jyqcag7xs0 r7po_29_0019_b8z578phnt \
+  r7po_29_0000_67c635e9yy r7po_29_0044_f5qs5qgrzw r7po_29_0015_sxz0f2kik3 r7po_29_0020_7zkdlh52h5 \
+  r7po_29_0050_dxjya075wz r7po_29_0010_cj2qwzeju5 r7po_29_0037_8spfizvsg5 r7po_29_0065_qubn8uj1wj \
+  r7po_29_0016_rw5wz3t7j9 r7po_29_0060_ydzxpmm4j5 r7po_29_0036_91hlljl5mo r7po_29_0051_w24bfbtf53 \
+  r7po_29_0082_6hdvosky8k r7po_29_0093_pm975fsj7x r7po_29_0026_y6w1ju5v2q r7po_29_0023_7278g29qvh \
+  r7po_29_0058_qkoa8okg2c r7po_29_0002_eybw62iwvl r7po_29_0028_c2swx3wugf r7po_29_0086_7djzkr52g1 \
+  r7po_29_0030_qscjclox9x r7po_29_0011_fng17gbrec r7po_29_0008_kejptnlvx0 r7po_29_0034_t5tn13p95s \
+  r7po_29_0095_x1gffa7ffd r7po_29_0053_kfr1abr73a r7po_29_0025_4o6vgw7vhg r7po_29_0021_2rvd56nb7w \
+  r7po_29_0013_mn0oomzh6m r7po_29_0012_5jdqzvc1ja r7po_29_0004_dewad4a64s r7po_29_0055_czaaozq1hj \
+  r7po_29_0018_wclx7zj6hg r7po_29_0067_473ybf9nbs r7po_29_0009_p26n4pvelq r7po_29_0052_gvj7k2lx04 \
+  r7po_29_0041_gytbvpppu4 r7po_29_0084_g45ejkb5vi r7po_29_0073_m2zsdglsde r7po_29_0027_q30lagwfbb \
+  r7po_29_0090_lb92zl6u51 r7po_29_0048_lm0xerrmw0 r7po_29_0079_nvgq0tqbzi r7po_29_0059_d74tmbxej2 \
+  r7po_29_0076_tx3vvsrv1b r7po_29_0091_3o5gaom02p r7po_29_0066_virw8h5q31 r7po_29_0031_p01bhysny7 \
+  r7po_29_0029_f4z3eo45tc r7po_29_0001_m9ald47vej r7po_29_0087_g1xsoh7zh6 r7po_29_0081_iu2nnxuvtg \
+  r7po_29_0057_25efpsvtiw r7po_29_0007_ngv73klk76 r7po_29_0003_fhsqse3739 r7po_29_0047_4jbhe17tsa \
+  r7po_29_0080_5odn34mt0v
+.names r7pi_29_0000_8g7gryhip2 r7pi_29_0001_yvnovzjoxo n2
+11 1
+.names r7pi_29_0002_59bkx8z966 r7pi_29_0003_00fzn0lzm7 r7pi_29_0004_bostfsvems n3
+1-0 1
+-11 1
+.names r7pi_29_0001_yvnovzjoxo n3 r7po_29_0000_67c635e9yy
+11 1
+.names r7pi_29_0000_8g7gryhip2 n3 r7po_29_0001_m9ald47vej
+11 1
+.names n2 n3 r7po_29_0002_eybw62iwvl
+11 1
+.names r7pi_29_0005_plpxk3qe4l r7pi_29_0006_1gypc0qqjf r7pi_29_0004_bostfsvems n10
+1-0 1
+-11 1
+.names n2 n10 r7po_29_0003_fhsqse3739
+11 1
+.names r7pi_29_0007_p7g90sehsx r7pi_29_0008_exbr3lkv84 r7pi_29_0004_bostfsvems n12
+1-0 1
+-11 1
+.names n2 n12 r7po_29_0004_dewad4a64s
+11 1
+.names r7pi_29_0009_x594gl8ksn r7pi_29_0010_l462h3bb0j r7pi_29_0004_bostfsvems n14
+1-0 1
+-11 1
+.names n2 n14 r7po_29_0005_i6onpw2zyu
+11 1
+.names r7pi_29_0011_stx0pznrzl r7pi_29_0012_m1dcuk1hlp r7pi_29_0004_bostfsvems n16
+1-0 1
+-11 1
+.names n2 n16 r7po_29_0006_xue6id3o6q
+11 1
+.names r7pi_29_0013_j4dnhg5dhb r7pi_29_0014_7dkk8dyb59 r7pi_29_0004_bostfsvems n18
+1-0 1
+-11 1
+.names n2 n18 r7po_29_0007_ngv73klk76
+11 1
+.names r7pi_29_0015_nr1an5wud8 r7pi_29_0016_3nlauk18xz r7pi_29_0004_bostfsvems n20
+1-0 1
+-11 1
+.names n2 n20 r7po_29_0008_kejptnlvx0
+11 1
+.names r7pi_29_0017_4wmejvwuqi r7pi_29_0018_w1bb6r3nne r7pi_29_0004_bostfsvems n22
+1-0 1
+-11 1
+.names n2 n22 r7po_29_0009_p26n4pvelq
+11 1
+.names r7pi_29_0019_oyjsuye8d3 r7pi_29_0020_m0lj069n5z r7pi_29_0004_bostfsvems n24
+1-0 1
+-11 1
+.names n2 n24 r7po_29_0010_cj2qwzeju5
+11 1
+.names r7pi_29_0021_d3uh5t7719 r7pi_29_0022_bb6goct8jc r7pi_29_0004_bostfsvems n26
+1-0 1
+-11 1
+.names n2 n26 r7po_29_0011_fng17gbrec
+11 1
+.names r7pi_29_0023_l7hi4l44hy r7pi_29_0024_73x81lnl7o r7pi_29_0004_bostfsvems n28
+1-0 1
+-11 1
+.names n2 n28 r7po_29_0012_5jdqzvc1ja
+11 1
+.names r7pi_29_0025_qlg2cjb2pr r7pi_29_0026_6tman73uex r7pi_29_0004_bostfsvems n30
+1-0 1
+-11 1
+.names n2 n30 r7po_29_0013_mn0oomzh6m
+11 1
+.names r7pi_29_0027_bgwprtcmzu r7pi_29_0028_9pyjd8ugbq r7pi_29_0004_bostfsvems n32
+1-0 1
+-11 1
+.names n2 n32 r7po_29_0014_22r4m8mjft
+11 1
+.names r7pi_29_0029_cr77u56j1m r7pi_29_0030_m4z3dpqbhm r7pi_29_0004_bostfsvems n34
+1-0 1
+-11 1
+.names n2 n34 r7po_29_0015_sxz0f2kik3
+11 1
+.names r7pi_29_0031_tgvgxpl8hv r7pi_29_0032_cz70pncpgi r7pi_29_0004_bostfsvems n36
+1-0 1
+-11 1
+.names n2 n36 r7po_29_0016_rw5wz3t7j9
+11 1
+.names r7pi_29_0033_in9xcc316g r7pi_29_0034_2y1e0doaj4 r7pi_29_0004_bostfsvems n38
+1-0 1
+-11 1
+.names n2 n38 r7po_29_0017_heqmc6p0kh
+11 1
+.names r7pi_29_0035_lzgzx0e4nq r7pi_29_0036_fmdorga2f2 r7pi_29_0004_bostfsvems n40
+1-0 1
+-11 1
+.names n2 n40 r7po_29_0018_wclx7zj6hg
+11 1
+.names r7pi_29_0037_jy7eh4ew8t r7pi_29_0038_kx35468y96 r7pi_29_0004_bostfsvems n42
+1-0 1
+-11 1
+.names n2 n42 r7po_29_0019_b8z578phnt
+11 1
+.names r7pi_29_0039_5ejsbz77u6 r7pi_29_0040_oqyy9k4lou r7pi_29_0004_bostfsvems n44
+1-0 1
+-11 1
+.names n2 n44 r7po_29_0020_7zkdlh52h5
+11 1
+.names r7pi_29_0041_ibgzmtt0nu r7pi_29_0042_jn8zwy6lrm r7pi_29_0004_bostfsvems n46
+1-0 1
+-11 1
+.names n2 n46 r7po_29_0021_2rvd56nb7w
+11 1
+.names r7pi_29_0043_3omeq0qdag r7pi_29_0044_mhzb4vmxko r7pi_29_0004_bostfsvems n48
+1-0 1
+-11 1
+.names n2 n48 r7po_29_0022_wlpyax3jz5
+11 1
+.names r7pi_29_0045_jh9w9rwl4m r7pi_29_0046_t0xvsvzcio r7pi_29_0004_bostfsvems n50
+1-0 1
+-11 1
+.names n2 n50 r7po_29_0023_7278g29qvh
+11 1
+.names r7pi_29_0047_ltnd8sii3c r7pi_29_0048_lrwinheend r7pi_29_0004_bostfsvems n52
+1-0 1
+-11 1
+.names n2 n52 r7po_29_0024_iir5osmlai
+11 1
+.names r7pi_29_0049_z5ikv182md r7pi_29_0050_i2k0kwufxl r7pi_29_0004_bostfsvems n54
+1-0 1
+-11 1
+.names n2 n54 r7po_29_0025_4o6vgw7vhg
+11 1
+.names r7pi_29_0051_atasnrbaud r7pi_29_0052_h8qnbsg2rs r7pi_29_0004_bostfsvems n56
+1-0 1
+-11 1
+.names n2 n56 r7po_29_0026_y6w1ju5v2q
+11 1
+.names r7pi_29_0053_43i8q3ys75 r7pi_29_0054_bppfi373hx r7pi_29_0004_bostfsvems n58
+1-0 1
+-11 1
+.names n2 n58 r7po_29_0027_q30lagwfbb
+11 1
+.names r7pi_29_0055_c85vr9nnuz r7pi_29_0056_ccyu7o9a2n r7pi_29_0004_bostfsvems n60
+1-0 1
+-11 1
+.names n2 n60 r7po_29_0028_c2swx3wugf
+11 1
+.names r7pi_29_0057_9lwrbfgtqm r7pi_29_0058_zgmpbj69mv r7pi_29_0004_bostfsvems n62
+1-0 1
+-11 1
+.names n2 n62 r7po_29_0029_f4z3eo45tc
+11 1
+.names r7pi_29_0059_f47y42h3d9 r7pi_29_0060_ug4tfvq2jm r7pi_29_0004_bostfsvems n64
+1-0 1
+-11 1
+.names n2 n64 r7po_29_0030_qscjclox9x
+11 1
+.names r7pi_29_0061_2uvmjma5sp r7pi_29_0062_n2j9fs0kxz r7pi_29_0004_bostfsvems n66
+1-0 1
+-11 1
+.names n2 n66 r7po_29_0031_p01bhysny7
+11 1
+.names r7pi_29_0063_8jsalkj57n r7pi_29_0064_r1a2p51hlk r7pi_29_0004_bostfsvems n68
+1-0 1
+-11 1
+.names n2 n68 r7po_29_0032_am0v3yyytr
+11 1
+.names r7pi_29_0065_0qc6tf2oj9 r7pi_29_0066_srehpjilbx r7pi_29_0004_bostfsvems n70
+1-0 1
+-11 1
+.names n2 n70 r7po_29_0033_ej0m3exex1
+11 1
+.names r7pi_29_0001_yvnovzjoxo n10 r7po_29_0034_t5tn13p95s
+11 1
+.names r7pi_29_0001_yvnovzjoxo n12 r7po_29_0035_jyqcag7xs0
+11 1
+.names r7pi_29_0001_yvnovzjoxo n14 r7po_29_0036_91hlljl5mo
+11 1
+.names r7pi_29_0001_yvnovzjoxo n16 r7po_29_0037_8spfizvsg5
+11 1
+.names r7pi_29_0001_yvnovzjoxo n18 r7po_29_0038_50avz1d6jk
+11 1
+.names r7pi_29_0001_yvnovzjoxo n20 r7po_29_0039_22lsod54h6
+11 1
+.names r7pi_29_0001_yvnovzjoxo n22 r7po_29_0040_gp11mbslvt
+11 1
+.names r7pi_29_0001_yvnovzjoxo n24 r7po_29_0041_gytbvpppu4
+11 1
+.names r7pi_29_0001_yvnovzjoxo n26 r7po_29_0042_z6pcmjwnau
+11 1
+.names r7pi_29_0001_yvnovzjoxo n28 r7po_29_0043_zex0gelkpt
+11 1
+.names r7pi_29_0001_yvnovzjoxo n30 r7po_29_0044_f5qs5qgrzw
+11 1
+.names r7pi_29_0001_yvnovzjoxo n32 r7po_29_0045_bh2ytfc4dl
+11 1
+.names r7pi_29_0001_yvnovzjoxo n34 r7po_29_0046_iqs67q9d5t
+11 1
+.names r7pi_29_0001_yvnovzjoxo n36 r7po_29_0047_4jbhe17tsa
+11 1
+.names r7pi_29_0001_yvnovzjoxo n38 r7po_29_0048_lm0xerrmw0
+11 1
+.names r7pi_29_0001_yvnovzjoxo n40 r7po_29_0049_9ab994tg5o
+11 1
+.names r7pi_29_0001_yvnovzjoxo n42 r7po_29_0050_dxjya075wz
+11 1
+.names r7pi_29_0001_yvnovzjoxo n44 r7po_29_0051_w24bfbtf53
+11 1
+.names r7pi_29_0001_yvnovzjoxo n46 r7po_29_0052_gvj7k2lx04
+11 1
+.names r7pi_29_0001_yvnovzjoxo n48 r7po_29_0053_kfr1abr73a
+11 1
+.names r7pi_29_0001_yvnovzjoxo n50 r7po_29_0054_cnq9zu00j9
+11 1
+.names r7pi_29_0001_yvnovzjoxo n52 r7po_29_0055_czaaozq1hj
+11 1
+.names r7pi_29_0001_yvnovzjoxo n54 r7po_29_0056_pvceb6axn4
+11 1
+.names r7pi_29_0001_yvnovzjoxo n56 r7po_29_0057_25efpsvtiw
+11 1
+.names r7pi_29_0001_yvnovzjoxo n58 r7po_29_0058_qkoa8okg2c
+11 1
+.names r7pi_29_0001_yvnovzjoxo n60 r7po_29_0059_d74tmbxej2
+11 1
+.names r7pi_29_0001_yvnovzjoxo n62 r7po_29_0060_ydzxpmm4j5
+11 1
+.names r7pi_29_0001_yvnovzjoxo n64 r7po_29_0061_kavnwvl0ao
+11 1
+.names r7pi_29_0001_yvnovzjoxo n66 r7po_29_0062_jhvhrtzirn
+11 1
+.names r7pi_29_0001_yvnovzjoxo n68 r7po_29_0063_7j66q5hh3y
+11 1
+.names r7pi_29_0001_yvnovzjoxo n70 r7po_29_0064_zervowmjff
+11 1
+.names r7pi_29_0000_8g7gryhip2 n10 r7po_29_0065_qubn8uj1wj
+11 1
+.names r7pi_29_0000_8g7gryhip2 n12 r7po_29_0066_virw8h5q31
+11 1
+.names r7pi_29_0000_8g7gryhip2 n14 r7po_29_0067_473ybf9nbs
+11 1
+.names r7pi_29_0000_8g7gryhip2 n16 r7po_29_0068_8s32betpv5
+11 1
+.names r7pi_29_0000_8g7gryhip2 n18 r7po_29_0069_f1xwqifjbf
+11 1
+.names r7pi_29_0000_8g7gryhip2 n20 r7po_29_0070_zazgdxcl52
+11 1
+.names r7pi_29_0000_8g7gryhip2 n22 r7po_29_0071_5r0hay8r2m
+11 1
+.names r7pi_29_0000_8g7gryhip2 n24 r7po_29_0072_6l2xq4nk5v
+11 1
+.names r7pi_29_0000_8g7gryhip2 n26 r7po_29_0073_m2zsdglsde
+11 1
+.names r7pi_29_0000_8g7gryhip2 n28 r7po_29_0074_jnf6dl3euj
+11 1
+.names r7pi_29_0000_8g7gryhip2 n30 r7po_29_0075_o21p4z4i6e
+11 1
+.names r7pi_29_0000_8g7gryhip2 n32 r7po_29_0076_tx3vvsrv1b
+11 1
+.names r7pi_29_0000_8g7gryhip2 n34 r7po_29_0077_nossdauuwh
+11 1
+.names r7pi_29_0000_8g7gryhip2 n36 r7po_29_0078_bt3z7v8wk4
+11 1
+.names r7pi_29_0000_8g7gryhip2 n38 r7po_29_0079_nvgq0tqbzi
+11 1
+.names r7pi_29_0000_8g7gryhip2 n40 r7po_29_0080_5odn34mt0v
+11 1
+.names r7pi_29_0000_8g7gryhip2 n42 r7po_29_0081_iu2nnxuvtg
+11 1
+.names r7pi_29_0000_8g7gryhip2 n44 r7po_29_0082_6hdvosky8k
+11 1
+.names r7pi_29_0000_8g7gryhip2 n46 r7po_29_0083_zi4khqlksx
+11 1
+.names r7pi_29_0000_8g7gryhip2 n48 r7po_29_0084_g45ejkb5vi
+11 1
+.names r7pi_29_0000_8g7gryhip2 n50 r7po_29_0085_myjxkg0ihe
+11 1
+.names r7pi_29_0000_8g7gryhip2 n52 r7po_29_0086_7djzkr52g1
+11 1
+.names r7pi_29_0000_8g7gryhip2 n54 r7po_29_0087_g1xsoh7zh6
+11 1
+.names r7pi_29_0000_8g7gryhip2 n56 r7po_29_0088_567y205riq
+11 1
+.names r7pi_29_0000_8g7gryhip2 n58 r7po_29_0089_q3ag8ln6rc
+11 1
+.names r7pi_29_0000_8g7gryhip2 n60 r7po_29_0090_lb92zl6u51
+11 1
+.names r7pi_29_0000_8g7gryhip2 n62 r7po_29_0091_3o5gaom02p
+11 1
+.names r7pi_29_0000_8g7gryhip2 n64 r7po_29_0092_k1qeyzxi6i
+11 1
+.names r7pi_29_0000_8g7gryhip2 n66 r7po_29_0093_pm975fsj7x
+11 1
+.names r7pi_29_0000_8g7gryhip2 n68 r7po_29_0094_ttcvdgl6eu
+11 1
+.names r7pi_29_0000_8g7gryhip2 n70 r7po_29_0095_x1gffa7ffd
+11 1
+.end

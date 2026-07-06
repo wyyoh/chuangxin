@@ -1,0 +1,4 @@
+case,cli_nodes,full_nodes,node_match,cli_levels,full_levels,level_match,cli_variant,full_variant,variant_match,cec_pass,independent_cec_equiv,status,fallback_reason
+tc_public_14,2156,2156,True,16,16,True,outputs,outputs,True,True,True,selected_candidate,
+tc_public_30,4806,4806,True,21,21,True,both,both,True,True,True,selected_candidate,
+tc_public_3,108,108,True,8,8,True,outputs,outputs,True,True,True,selected_candidate,

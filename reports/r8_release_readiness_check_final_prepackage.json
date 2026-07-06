@@ -1,0 +1,174 @@
+{
+  "abc_sha256": "85F59E6291A1C4B10B757BF163D14D2152EAA974B21BC6F4E13F44EC49969805",
+  "cec_log": {
+    "equivalent": 30,
+    "non_rc_cannot_open": 0,
+    "not_equivalent": 0
+  },
+  "checks": [
+    {
+      "detail": "C:\\Users\\yy257\\abc_r7b_candidate_ninja_build2\\abc.exe",
+      "name": "abc_exists",
+      "ok": true
+    },
+    {
+      "detail": "reports\\r8_formal_names_preflight_metrics.csv",
+      "name": "metrics_exists",
+      "ok": true
+    },
+    {
+      "detail": "logs\\r8_formal_names_preflight_cec.log",
+      "name": "cec_log_exists",
+      "ok": true
+    },
+    {
+      "detail": "logs\\r8_packaging_explicit_reports_cec.log",
+      "name": "explicit_cec_log_exists",
+      "ok": true
+    },
+    {
+      "detail": "reports\\r8_packaging_failure_cases.md",
+      "name": "failure_cases_exists",
+      "ok": true
+    },
+    {
+      "detail": "reports\\r8_packaging_final_scoreboard.xlsx",
+      "name": "scoreboard_exists",
+      "ok": true
+    },
+    {
+      "detail": "configs\\final_selector.yaml",
+      "name": "selector_exists",
+      "ok": true
+    },
+    {
+      "detail": "configs\\pipelines.yaml",
+      "name": "pipelines_exists",
+      "ok": true
+    },
+    {
+      "detail": "tools\\package_submit.py",
+      "name": "package_script_exists",
+      "ok": true
+    },
+    {
+      "detail": "30 expected 30",
+      "name": "metrics_rows",
+      "ok": true
+    },
+    {
+      "detail": "43775 expected 43775",
+      "name": "metrics_nodes",
+      "ok": true
+    },
+    {
+      "detail": "21 expected 21",
+      "name": "metrics_max_level",
+      "ok": true
+    },
+    {
+      "detail": "30 expected 30",
+      "name": "metrics_cec_pass",
+      "ok": true
+    },
+    {
+      "detail": "0 expected 0",
+      "name": "metrics_fallback",
+      "ok": true
+    },
+    {
+      "detail": "0 expected 0",
+      "name": "metrics_inner_fallback",
+      "ok": true
+    },
+    {
+      "detail": "{'equivalent': 30, 'not_equivalent': 0, 'non_rc_cannot_open': 0}",
+      "name": "formal_name_cec_30",
+      "ok": true
+    },
+    {
+      "detail": "{'equivalent': 30, 'not_equivalent': 0, 'non_rc_cannot_open': 0}",
+      "name": "explicit_package_cec_30",
+      "ok": true
+    },
+    {
+      "detail": "85F59E6291A1C4B10B757BF163D14D2152EAA974B21BC6F4E13F44EC49969805",
+      "name": "abc_hash",
+      "ok": true
+    },
+    {
+      "detail": "returncode=0; has_usage=True",
+      "name": "abc_r7win_help",
+      "ok": true
+    },
+    {
+      "detail": "unresolved=0 fallback=0",
+      "name": "failure_cases_clean",
+      "ok": true
+    },
+    {
+      "detail": "bytes=8916",
+      "name": "scoreboard_nonempty",
+      "ok": true
+    },
+    {
+      "detail": "active rules contain r7b_eligible and no tc_public/hash tokens",
+      "name": "selector_coarse_r8_rule",
+      "ok": true
+    },
+    {
+      "detail": "r7b_r7win_fraig_high present",
+      "name": "pipelines_r7win_present",
+      "ok": true
+    },
+    {
+      "detail": "all explicit report args present",
+      "name": "package_submit_explicit_args",
+      "ok": true
+    },
+    {
+      "detail": "F2D23DF5CE280304EA3C18F8C713AFBF06577A31E2BA8B3E11E5D2C2B00B8FAD",
+      "name": "release_preflight_old_zip_unchanged",
+      "ok": true
+    }
+  ],
+  "expected": {
+    "abc_sha256": "85F59E6291A1C4B10B757BF163D14D2152EAA974B21BC6F4E13F44EC49969805",
+    "cases": 30,
+    "cec_pass": 30,
+    "fallback": 0,
+    "inner_fallback": 0,
+    "max_level": 21,
+    "nodes": 43775,
+    "release_preflight_submit_sha256": "F2D23DF5CE280304EA3C18F8C713AFBF06577A31E2BA8B3E11E5D2C2B00B8FAD"
+  },
+  "explicit_package_cec_log": {
+    "equivalent": 30,
+    "non_rc_cannot_open": 0,
+    "not_equivalent": 0
+  },
+  "metrics": {
+    "cec_pass": 30,
+    "fallback": 0,
+    "inner_fallback": 0,
+    "max_level": 21,
+    "nodes": 43775,
+    "rows": 30
+  },
+  "paths": {
+    "abc": "C:\\Users\\yy257\\abc_r7b_candidate_ninja_build2\\abc.exe",
+    "cec_log": "logs\\r8_formal_names_preflight_cec.log",
+    "explicit_cec_log": "logs\\r8_packaging_explicit_reports_cec.log",
+    "failure_cases": "reports\\r8_packaging_failure_cases.md",
+    "json_out": "reports\\r8_release_readiness_check_final_prepackage.json",
+    "md_out": "reports\\r8_release_readiness_check_final_prepackage.md",
+    "metrics": "reports\\r8_formal_names_preflight_metrics.csv",
+    "package_script": "tools\\package_submit.py",
+    "pipelines": "configs\\pipelines.yaml",
+    "release_preflight_submit_zip": "submit_sharecone.zip",
+    "scoreboard": "reports\\r8_packaging_final_scoreboard.xlsx",
+    "selector": "configs\\final_selector.yaml"
+  },
+  "release_preflight_submit_zip_sha256": "F2D23DF5CE280304EA3C18F8C713AFBF06577A31E2BA8B3E11E5D2C2B00B8FAD",
+  "status": "pass"
+}

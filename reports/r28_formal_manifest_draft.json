@@ -1,0 +1,75 @@
+{
+  "draft": true,
+  "generated_at": "2026-06-25",
+  "phase": "r28_formal_release_draft",
+  "release_tag": "final_selector_v6_20260625",
+  "release_commit": "TBD_AFTER_FORMAL_PACKAGING",
+  "branch": "candidate/r28-gated-r27",
+  "worktree": "C:/Users/yy257/cpipc_r28_candidate",
+  "formal_previous_tag": "final_selector_v5_20260624",
+  "formal_previous_commit": "2722491e9079052e63073344c69eb5c2e10d50a4",
+  "formal_previous_metrics": {
+    "selected_total_nodes": 37708,
+    "max_selected_level": 20,
+    "cec": "30/30",
+    "fallback": 0,
+    "submit_sha256": "057963D73132E7752922C707F5348A184BE8D00256522D0C80CFC40061295D0C"
+  },
+  "candidate_metrics": {
+    "cases": 30,
+    "selected_total_nodes": 37464,
+    "max_selected_level": 20,
+    "total_selected_levels": 278,
+    "cec_passed": 30,
+    "fallback_count": 0,
+    "crash_timeout_cec_fail": "0/0/0",
+    "total_opt_time_sec": 76.225724,
+    "max_opt_time_sec": 20.505702,
+    "peak_RSS_MB": 47.309
+  },
+  "promotion_delta": {
+    "node_gain_vs_v5_debug_formal": 244,
+    "node_gain_vs_v5_release_same_binary": 104,
+    "max_level_delta_vs_v5_release": 0,
+    "wins_ties_losses_vs_v5_release": "4/26/0",
+    "gain_excluding_best_case_vs_v5_release": 21,
+    "gain_excluding_top2_cases_vs_v5_release": 10
+  },
+  "abc": {
+    "path": "C:/Users/yy257/abc_r7b_candidate_release_r28_20260625/abc.exe",
+    "sha256": "C21C9F2B28F2669D8F99D7587CBBC496672F5D01E45248D7D028B37FDFFF2E3F",
+    "build": "/MT Release",
+    "debug_crt_strings": [],
+    "dynamic_vc_crt_strings": [],
+    "r7win": true
+  },
+  "package": {
+    "path": "submit_sharecone.zip",
+    "sha256": "TBD_AFTER_FORMAL_PACKAGING",
+    "previous_sha256": "057963D73132E7752922C707F5348A184BE8D00256522D0C80CFC40061295D0C",
+    "dryrun_sha256": "EE8E970089B96B9F60EA6D6C1EFBEC8A674A9125B92F37DCA72746C77359DC7E",
+    "abc_sha256": "C21C9F2B28F2669D8F99D7587CBBC496672F5D01E45248D7D028B37FDFFF2E3F"
+  },
+  "verification": {
+    "candidate_release_report": "reports/r28_release_mt_abc_reproduction.md",
+    "preflight_checklist": "reports/r28_release_mt_release_preflight_checklist.md",
+    "formal_release_draft": "reports/r28_formal_release_draft.md",
+    "formal_helper": "tools/r28_release_package.py",
+    "formal_helper_plan": "reports/r28_release_package_helper_formal_plan.json",
+    "formal_helper_dryrun_summary": "reports/r28_release_package_helper_summary.json",
+    "formal_helper_refusal_audit": "reports/r28_release_helper_refusal_audit.md",
+    "formal_helper_refuse_no_token_log": "reports/r28_release_helper_refuse_no_token.log",
+    "formal_helper_refuse_dirty_log": "reports/r28_release_helper_refuse_dirty.log",
+    "package_cec_root": "TBD_AFTER_FORMAL_PACKAGING",
+    "package_cec_inside": "TBD_AFTER_FORMAL_PACKAGING",
+    "zip_extract_cec": "TBD_AFTER_FORMAL_PACKAGING",
+    "zip_extract_inside_cec": "TBD_AFTER_FORMAL_PACKAGING",
+    "hidden_entry_smoke": "TBD_AFTER_FORMAL_PACKAGING"
+  },
+  "release_management_notes": [
+    "This is a draft and must not be treated as a formal manifest.",
+    "The prepared release target is C:/Users/yy257/cpipc_r28_candidate.",
+    "The main workspace E:/\u7814\u7a76\u751f/\u521b\u82af\u5927\u8d5b currently has an older submit_sharecone.zip hash and should not be used for formal R28 packaging unless explicitly confirmed.",
+    "Formal mode requires confirmation token R28_RELEASE_MT_FORMAL_20260625."
+  ]
+}

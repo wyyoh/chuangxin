@@ -1,0 +1,58 @@
+﻿{
+    "generated_at":  "2026-05-27T14:44:22.6205749+08:00",
+    "phase":  "phase8_final",
+    "branch":  "codex/pipeline-search2",
+    "head_before_release_commit":  "aa548431b9e852ab10561d6ef14af2ec046b1ec4",
+    "baseline_tag":  "phase_a_hardened_20260526",
+    "baseline_tag_commit":  "aa548431b9e852ab10561d6ef14af2ec046b1ec4",
+    "release_tag":  "final_selector_v2_20260526",
+    "rollback":  {
+                     "selector_backup":  "configs/final_selector_phase_a_hardened.yaml",
+                     "package_backup":  "submit_sharecone_phase_a_hardened.zip",
+                     "package_backup_sha256":  "7b6c53463b2095b828dbcc1161fb403c737543448ea603f8ad6f7f8d60d151da"
+                 },
+    "final_metrics":  {
+                          "cases":  30,
+                          "selected_total_nodes":  45870,
+                          "max_selected_level":  25,
+                          "cec_passed":  30,
+                          "fallback_count":  0,
+                          "crash_timeout_cec_fail":  0,
+                          "total_opt_time_sec":  11.557381400256418,
+                          "total_cec_time_sec":  6.8787168001290411,
+                          "peak_RSS_MB":  30.796875
+                      },
+    "phase7_selector2":  {
+                             "current_final_nodes":  47338,
+                             "selected_total_nodes":  45870,
+                             "node_gain":  1468,
+                             "max_level":  25,
+                             "cec":  "30/30",
+                             "fallback":  0,
+                             "wins_ties_losses":  "6/24/0",
+                             "gain_excluding_best_case":  276,
+                             "gain_excluding_top2_cases":  87
+                         },
+    "selector_rule":  "scale_grade=large; high_fanin_sop=false; near_two_input_aig=true; runtime_size_bin=runtime_large -\u003e high_aig_three_round",
+    "package":  {
+                    "path":  "submit_sharecone.zip",
+                    "sha256":  "f2d23df5ce280304ea3c18f8c713afbf06577a31e2ba8b3e11e5d2c2b00b8fad"
+                },
+    "hashes":  {
+                   "configs/final_selector.yaml":  "8d9d64de461c392a2a97084fa46919d5f39e93b630b96504f3d5f5c37f5fa55b",
+                   "configs/final_selector_phase_a_hardened.yaml":  "698a64d998dc1a1d5563f36de17b613f2d302862ec7aef0b58744df8157aec1b",
+                   "configs/pipelines.yaml":  "bb1e5e7d4a384613f2f99b17c16114e58c4e56cd39b69cc0c963639ea50d25ba",
+                   "tools/extract_blif_features.py":  "d90213b6dbd109da005dbf9b91b67a0f15d8ee013afbf0a112c5480584c426c4",
+                   "tools/package_submit.py":  "269c33b714a5d28884ceeb2f42e5d8c9a145d4c3896c9e4ab2b604991c2fb447",
+                   "reports/features.csv":  "15a1b521be6e73ab8cff292063d003687123d25646857f9ddbbfa8164e98a31a",
+                   "reports/final_metrics.csv":  "492794ca4443cb6cd2f790dd75dd6abc446c87a48ee6b564b6d534361c4e976e",
+                   "reports/final_scoreboard.xlsx":  "8020f14646cde272cfc4c1009ff769bb8fe1703bbcca8e990cd381f8be99ef4d",
+                   "reports/failure_cases.md":  "51f0985bdab67f811d87fa4c04cfcc7a17ba0780b6029c3e300da0829aeb765f",
+                   "logs/final_cec.log":  "a075c656df2aaec13d58f1e67b8d95f2d4edced88eafceb1f814edaf2fd730de",
+                   "docs/final_selector_v2_decision.md":  "86e27deaba03ce4ff42b14b2494cb0150ab598920a1aed7abd3a98d59c9c2cba",
+                   "docs/reproduce.md":  "80446d2b5240ac91d580760e943e7fede7e2201bd4b513220950d1e337a9865a",
+                   "submit_sharecone.zip":  "f2d23df5ce280304ea3c18f8c713afbf06577a31e2ba8b3e11e5d2c2b00b8fad",
+                   "submit_sharecone.zip.sha256":  "d96fd075a15b7036bf0e41a96789a3322fee174db284cbea4a81ee68a6211ab5",
+                   "reports/phase8_preflight_manifest.json":  "2cd92da495df11fc35616539f40d4ed60c4f075fa2ca94e9c4b6f46d419d05cf"
+               }
+}

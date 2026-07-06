@@ -1,0 +1,4 @@
+variant,compare_csv,total_nodes,total_gain_vs_clean,max_level,wins,ties,losses,best_case_gain,second_case_gain,gain_excluding_best,gain_excluding_top2,node_mismatch_count,level_mismatch_count,level_regression_count,pipeline_mismatch_count,cec_fail_count,fallback_count
+both,reports\r7b_port_order_stress_compare.csv,44365,194,21,5,20,5,185,31,9,-22,10,3,0,0,0,0
+inputs,reports\r7b_port_order_inputs_stress_compare.csv,44395,164,21,6,23,1,77,39,87,48,7,1,0,0,0,0
+outputs,reports\r7b_port_order_outputs_stress_compare.csv,44453,106,20,4,22,4,138,35,-32,-67,8,2,0,0,0,0

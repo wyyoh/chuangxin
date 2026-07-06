@@ -1,0 +1,32 @@
+===== tc_public_10 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_10/input.blif" "results_candidate/r11s_release_smoke/tc_public_10/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.107086
+
+===== tc_public_12 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_12/input.blif" "results_candidate/r11s_release_smoke/tc_public_12/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.06 sec
+passed=True returncode=0 runtime_sec=0.187365
+
+===== tc_public_14 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_14/input.blif" "results_candidate/r11s_release_smoke/tc_public_14/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.15 sec
+passed=True returncode=0 runtime_sec=0.270320
+
+===== tc_public_22 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_22/input.blif" "results_candidate/r11s_release_smoke/tc_public_22/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     3.03 sec
+passed=True returncode=0 runtime_sec=3.254562
+

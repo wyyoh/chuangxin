@@ -1,0 +1,13 @@
+$ C:\Users\yy257\abc_r7b_candidate_ninja_build2\abc.exe -c read_blif "C:/Users/yy257/cpipc_r8_integration/results_candidate/r8_entrypoint_isolation/outputs/tc_public_22/work/variant_inputs/outputs/input.blif"; strash; balance; rewrite -z; refactor -z; balance; resub -z; rewrite -z; refactor -z; dc2; balance; rewrite -z; refactor -z; balance; write_blif "C:/Users/yy257/cpipc_r8_integration/results_candidate/r8_entrypoint_isolation/outputs/tc_public_22/work/variants/outputs/output.candidate.blif"
+returncode=0
+runtime_sec=30.811572
+peak_mem_mb=20.051
+timed_out=False
+
+STDOUT
+======== ABC command line "read_blif "C:/Users/yy257/cpipc_r8_integration/results_candidate/r8_entrypoint_isolation/outputs/tc_public_22/work/variant_inputs/outputs/input.blif"; strash; balance; rewrite -z; refactor -z; balance; resub -z; rewrite -z; refactor -z; dc2; balance; rewrite -z; refactor -z; balance; write_blif "C:/Users/yy257/cpipc_r8_integration/results_candidate/r8_entrypoint_isolation/outputs/tc_public_22/work/variants/outputs/output.candidate.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+
+STDERR

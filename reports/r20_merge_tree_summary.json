@@ -1,0 +1,32 @@
+[
+    {
+        "name":  "master_to_v3",
+        "left":  "master",
+        "right":  "final_selector_v3_20260622",
+        "exit_code":  1,
+        "output_bytes":  318402,
+        "conflict_markers":  317,
+        "changed_in_output_lines":  426,
+        "output_file":  "reports\\r20_merge_tree_master_to_v3.txt"
+    },
+    {
+        "name":  "v3_to_r11s",
+        "left":  "final_selector_v3_20260622",
+        "right":  "release/r11-preflight",
+        "exit_code":  0,
+        "output_bytes":  90,
+        "conflict_markers":  0,
+        "changed_in_output_lines":  1,
+        "output_file":  "reports\\r20_merge_tree_v3_to_r11s.txt"
+    },
+    {
+        "name":  "master_to_r11s_direct",
+        "left":  "master",
+        "right":  "release/r11-preflight",
+        "exit_code":  1,
+        "output_bytes":  316232,
+        "conflict_markers":  317,
+        "changed_in_output_lines":  426,
+        "output_file":  "reports\\r20_merge_tree_master_to_r11s_direct.txt"
+    }
+]

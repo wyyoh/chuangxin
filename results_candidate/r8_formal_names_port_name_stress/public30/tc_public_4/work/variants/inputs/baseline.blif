@@ -1,0 +1,246 @@
+# Benchmark "r7b_port_order_stress_input" written by ABC on Mon Jun 22 20:07:30 2026
+.model r7b_port_order_stress_input
+.inputs r7pi_25_0008_p47omf3c91 r7pi_25_0002_0p91xsq07d \
+ r7pi_25_0003_74p6suw7sq r7pi_25_0004_73jkse0lmb r7pi_25_0001_kc4pzqan8x \
+ r7pi_25_0009_s08rqo8m6r r7pi_25_0000_ks012rx14s r7pi_25_0007_4pyr8grnag \
+ r7pi_25_0006_s6tthife3c r7pi_25_0005_s86yasbyqc
+.outputs r7po_25_0000_trez82hqy9 r7po_25_0001_ktnawq120r \
+ r7po_25_0002_c4qwalojyl r7po_25_0003_bdre42gi3o r7po_25_0004_747875a2m9 \
+ r7po_25_0005_glt08f6ctr r7po_25_0006_myzq8u7fd1 r7po_25_0007_n2l0ju6jrf
+.names r7pi_25_0008_p47omf3c91 r7pi_25_0007_4pyr8grnag new_n19
+10 1
+.names r7pi_25_0006_s6tthife3c r7pi_25_0005_s86yasbyqc new_n20
+10 1
+.names r7pi_25_0003_74p6suw7sq new_n20 new_n21
+01 1
+.names r7pi_25_0001_kc4pzqan8x r7pi_25_0000_ks012rx14s new_n22
+10 1
+.names new_n21 new_n22 new_n23
+11 1
+.names r7pi_25_0003_74p6suw7sq r7pi_25_0001_kc4pzqan8x new_n24
+01 1
+.names r7pi_25_0006_s6tthife3c r7pi_25_0005_s86yasbyqc new_n25
+01 1
+.names r7pi_25_0001_kc4pzqan8x new_n25 new_n26
+11 1
+.names new_n21 new_n26 new_n27
+00 1
+.names r7pi_25_0000_ks012rx14s new_n24 new_n28
+10 1
+.names new_n27 new_n28 new_n29
+01 1
+.names new_n23 new_n29 new_n30
+00 1
+.names r7pi_25_0002_0p91xsq07d new_n30 new_n31
+10 1
+.names r7pi_25_0002_0p91xsq07d r7pi_25_0001_kc4pzqan8x new_n32
+01 1
+.names r7pi_25_0000_ks012rx14s new_n32 new_n33
+01 1
+.names r7pi_25_0003_74p6suw7sq new_n25 new_n34
+11 1
+.names new_n33 new_n34 new_n35
+11 1
+.names new_n31 new_n35 new_n36
+00 1
+.names r7pi_25_0004_73jkse0lmb new_n19 new_n37
+11 1
+.names new_n36 new_n37 r7po_25_0000_trez82hqy9
+01 1
+.names r7pi_25_0008_p47omf3c91 r7pi_25_0009_s08rqo8m6r new_n39
+01 1
+.names r7pi_25_0007_4pyr8grnag new_n39 new_n40
+11 1
+.names r7pi_25_0003_74p6suw7sq r7pi_25_0001_kc4pzqan8x new_n41
+10 1
+.names new_n24 new_n41 new_n42
+00 1
+.names r7pi_25_0000_ks012rx14s new_n42 new_n43
+10 1
+.names r7pi_25_0003_74p6suw7sq r7pi_25_0001_kc4pzqan8x new_n44
+11 1
+.names r7pi_25_0000_ks012rx14s new_n44 new_n45
+01 1
+.names new_n43 new_n45 new_n46
+00 1
+.names r7pi_25_0004_73jkse0lmb r7pi_25_0005_s86yasbyqc new_n47
+01 1
+.names r7pi_25_0002_0p91xsq07d new_n47 new_n48
+11 1
+.names new_n46 new_n48 new_n49
+01 1
+.names r7pi_25_0003_74p6suw7sq r7pi_25_0004_73jkse0lmb new_n50
+01 1
+.names r7pi_25_0005_s86yasbyqc new_n50 new_n51
+01 1
+.names new_n33 new_n51 new_n52
+11 1
+.names new_n49 new_n52 new_n53
+00 1
+.names new_n40 new_n53 r7po_25_0001_ktnawq120r
+10 1
+.names r7pi_25_0008_p47omf3c91 r7pi_25_0009_s08rqo8m6r new_n55
+10 1
+.names r7pi_25_0006_s6tthife3c new_n55 new_n56
+11 1
+.names r7pi_25_0004_73jkse0lmb new_n41 new_n57
+01 1
+.names r7pi_25_0007_4pyr8grnag new_n57 new_n58
+01 1
+.names r7pi_25_0007_4pyr8grnag r7pi_25_0005_s86yasbyqc new_n59
+10 1
+.names new_n24 new_n59 new_n60
+11 1
+.names new_n58 new_n60 new_n61
+00 1
+.names r7pi_25_0000_ks012rx14s new_n61 new_n62
+10 1
+.names r7pi_25_0004_73jkse0lmb r7pi_25_0007_4pyr8grnag new_n63
+00 1
+.names new_n45 new_n63 new_n64
+11 1
+.names new_n62 new_n64 new_n65
+00 1
+.names r7pi_25_0002_0p91xsq07d new_n65 new_n66
+10 1
+.names r7pi_25_0003_74p6suw7sq new_n59 new_n67
+01 1
+.names new_n33 new_n67 new_n68
+11 1
+.names new_n66 new_n68 new_n69
+00 1
+.names new_n56 new_n69 r7po_25_0002_c4qwalojyl
+10 1
+.names r7pi_25_0008_p47omf3c91 r7pi_25_0007_4pyr8grnag new_n71
+01 1
+.names r7pi_25_0006_s6tthife3c new_n71 new_n72
+01 1
+.names r7pi_25_0004_73jkse0lmb new_n44 new_n73
+01 1
+.names new_n72 new_n73 new_n74
+11 1
+.names r7pi_25_0001_kc4pzqan8x r7pi_25_0006_s6tthife3c new_n75
+01 1
+.names new_n19 new_n50 new_n76
+11 1
+.names new_n75 new_n76 new_n77
+11 1
+.names new_n74 new_n77 new_n78
+00 1
+.names r7pi_25_0000_ks012rx14s new_n78 new_n79
+10 1
+.names r7pi_25_0004_73jkse0lmb r7pi_25_0000_ks012rx14s new_n80
+10 1
+.names r7pi_25_0006_s6tthife3c new_n80 new_n81
+11 1
+.names new_n19 new_n24 new_n82
+11 1
+.names new_n81 new_n82 new_n83
+11 1
+.names new_n79 new_n83 new_n84
+00 1
+.names r7pi_25_0002_0p91xsq07d new_n84 new_n85
+10 1
+.names r7pi_25_0000_ks012rx14s new_n73 new_n86
+01 1
+.names r7pi_25_0002_0p91xsq07d new_n72 new_n87
+01 1
+.names new_n86 new_n87 new_n88
+11 1
+.names new_n85 new_n88 new_n89
+00 1
+.names r7pi_25_0009_s08rqo8m6r r7pi_25_0005_s86yasbyqc new_n90
+11 1
+.names new_n89 new_n90 r7po_25_0003_bdre42gi3o
+01 1
+.names r7pi_25_0006_s6tthife3c new_n33 new_n92
+11 1
+.names r7pi_25_0001_kc4pzqan8x r7pi_25_0006_s6tthife3c new_n93
+10 1
+.names r7pi_25_0000_ks012rx14s new_n93 new_n94
+10 1
+.names r7pi_25_0000_ks012rx14s new_n93 new_n95
+01 1
+.names new_n94 new_n95 new_n96
+00 1
+.names r7pi_25_0002_0p91xsq07d new_n75 new_n97
+10 1
+.names new_n96 new_n97 new_n98
+01 1
+.names new_n92 new_n98 new_n99
+00 1
+.names r7pi_25_0003_74p6suw7sq r7pi_25_0007_4pyr8grnag new_n100
+11 1
+.names new_n47 new_n100 new_n101
+11 1
+.names new_n55 new_n101 new_n102
+11 1
+.names new_n99 new_n102 r7po_25_0004_747875a2m9
+01 1
+.names new_n19 new_n20 new_n104
+11 1
+.names new_n57 new_n104 new_n105
+11 1
+.names new_n50 new_n71 new_n106
+11 1
+.names new_n26 new_n106 new_n107
+11 1
+.names new_n105 new_n107 new_n108
+00 1
+.names r7pi_25_0000_ks012rx14s new_n108 new_n109
+10 1
+.names new_n86 new_n104 new_n110
+11 1
+.names new_n109 new_n110 new_n111
+00 1
+.names r7pi_25_0002_0p91xsq07d new_n111 new_n112
+10 1
+.names r7pi_25_0005_s86yasbyqc new_n50 new_n113
+11 1
+.names new_n33 new_n113 new_n114
+11 1
+.names new_n72 new_n114 new_n115
+11 1
+.names new_n112 new_n115 new_n116
+00 1
+.names r7pi_25_0009_s08rqo8m6r new_n116 r7po_25_0005_glt08f6ctr
+10 1
+.names r7pi_25_0004_73jkse0lmb new_n40 new_n118
+11 1
+.names new_n36 new_n118 r7po_25_0006_myzq8u7fd1
+01 1
+.names r7pi_25_0007_4pyr8grnag r7pi_25_0005_s86yasbyqc new_n120
+01 1
+.names new_n56 new_n120 new_n121
+11 1
+.names new_n57 new_n121 new_n122
+11 1
+.names new_n50 new_n59 new_n123
+11 1
+.names new_n39 new_n93 new_n124
+11 1
+.names new_n123 new_n124 new_n125
+11 1
+.names new_n122 new_n125 new_n126
+00 1
+.names r7pi_25_0000_ks012rx14s new_n126 new_n127
+10 1
+.names new_n86 new_n121 new_n128
+11 1
+.names new_n127 new_n128 new_n129
+00 1
+.names r7pi_25_0002_0p91xsq07d new_n129 new_n130
+10 1
+.names r7pi_25_0002_0p91xsq07d r7pi_25_0006_s6tthife3c new_n131
+00 1
+.names new_n22 new_n131 new_n132
+11 1
+.names new_n39 new_n50 new_n133
+11 1
+.names new_n59 new_n133 new_n134
+11 1
+.names new_n132 new_n134 new_n135
+11 1
+.names new_n130 new_n135 r7po_25_0007_n2l0ju6jrf
+00 0
+.end

@@ -1,0 +1,8 @@
+COMMAND:
+C:\Users\yy257\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe tools/verify_all_cec.py --abc C:\Users\yy257\abc_r7b_candidate_ninja_build2\abc.exe --cases cases --outputs C:\Users\yy257\cpipc_r8_integration\results_candidate\r8_entrypoint_isolation\outputs --log C:\Users\yy257\cpipc_r8_integration\results_candidate\r8_entrypoint_isolation\logs\mini_runtime_cec.log --timeout 300
+
+STDOUT:
+all CEC checks passed; wrote C:\Users\yy257\cpipc_r8_integration\results_candidate\r8_entrypoint_isolation\logs\mini_runtime_cec.log
+
+
+STDERR:

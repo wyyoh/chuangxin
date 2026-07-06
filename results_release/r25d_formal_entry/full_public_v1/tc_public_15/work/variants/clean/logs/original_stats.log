@@ -1,0 +1,14 @@
+$ submit\bin\abc.exe -c read_blif "C:/Users/yy257/cpipc_r9_large_smallpo/local_data/tc_public/tc_public_15/input.blif"; strash; ps
+returncode=0
+runtime_sec=0.103283
+peak_mem_mb=7.230
+timed_out=False
+
+STDOUT
+======== ABC command line "read_blif "C:/Users/yy257/cpipc_r9_large_smallpo/local_data/tc_public/tc_public_15/input.blif"; strash; ps"
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+netlist                       : i/o =   31/   32  lat =    0  and =    931  lev = 12
+
+STDERR

@@ -1,0 +1,26 @@
+# Selector 2.0 candidate for Phase 7 validation only.
+# Do not copy into configs/final_selector.yaml without Phase 8 review.
+# Coarse structural rules only: no file names, paths, hashes, exact counts,
+# public-case ids, or single-case fingerprints.
+default_pipeline: dc2_fast
+
+rules:
+  - name: large_runtime_aig_high_effort
+    when:
+      scale_grade_in: [large]
+      high_fanin_sop: false
+      near_two_input_aig: true
+      runtime_size_bin_in: [runtime_large]
+    pipeline: high_aig_three_round
+
+  - name: tiny_high_fanin_sop
+    when:
+      scale_grade_in: [tiny, small]
+      high_fanin_sop: true
+    pipeline: sop_fx
+
+  - name: medium_rewrite_cleanup
+    when:
+      scale_grade_in: [medium]
+      near_two_input_aig: false
+    pipeline: rewrite2

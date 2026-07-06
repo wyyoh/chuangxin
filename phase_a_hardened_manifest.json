@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-05-26T11:33:32",
+  "phase": "phase_a_hardened_no_pthread",
+  "root_frozen_tag": "current_final_20260526",
+  "abc_current_final_tag": "current_final_20260526",
+  "abc_no_pthread_tag": "phase_a_no_pthread_20260526",
+  "abc_commit": "ab20517abcf2a2bc25f2bc689feaff6a456df145",
+  "submit_zip": "submit_sharecone.zip",
+  "submit_zip_sha256": "7b6c53463b2095b828dbcc1161fb403c737543448ea603f8ad6f7f8d60d151da",
+  "final_metrics": {
+    "cases": 30,
+    "selected_nodes_sum": 47338,
+    "max_selected_level": 25,
+    "cec_pass": 30,
+    "fallback_count": 0
+  },
+  "no_pthread_compare_log": "logs/no_pthread_compare.txt",
+  "coderabbit_status": "blocked_cli_not_found"
+}

@@ -1,0 +1,260 @@
+candidate,family,bucket_feature,bucket_value,cases,wins,ties,losses,total_node_delta,avg_node_delta,max_level_delta,avg_runtime_ratio,max_runtime_ratio,avg_RSS_ratio,max_RSS_ratio,recommended_pipeline,selector_rule_candidate,rule_safety_note
+aig_resyn_resub_zero,aig_resyn_family,scale_grade,large,6,2,4,0,-325,-54.167,0,0.918744,0.949813,0.989657,1.002662,aig_resyn_resub_zero,True,"coarse bucket, >=2 cases"
+aig_resyn_resub_zero,aig_resyn_family,scale_grade,medium,5,0,5,0,0,0.0,1,0.827776,0.864855,0.997412,1.113888,,False,not stable enough for selector rule
+aig_resyn_resub_zero,aig_resyn_family,scale_grade,small,13,1,12,0,-1,-0.077,1,0.817916,0.937556,1.002629,1.092539,aig_resyn_resub_zero,True,"coarse bucket, >=2 cases"
+aig_resyn_resub_zero,aig_resyn_family,scale_grade,tiny,6,0,3,3,83,13.833,2,0.772263,0.841727,1.002774,1.020046,,False,not stable enough for selector rule
+aig_resyn_resub_zero,aig_resyn_family,high_fanin_sop,false,22,2,20,0,-325,-14.773,1,0.84445,0.949813,1.000443,1.113888,aig_resyn_resub_zero,True,"coarse bucket, >=2 cases"
+aig_resyn_resub_zero,aig_resyn_family,high_fanin_sop,true,8,1,4,3,82,10.25,2,0.79249,0.870724,0.995758,1.020046,,False,not stable enough for selector rule
+aig_resyn_resub_zero,aig_resyn_family,near_two_input_aig,false,12,1,8,3,82,6.833,2,0.789556,0.870724,0.99032,1.020046,,False,not stable enough for selector rule
+aig_resyn_resub_zero,aig_resyn_family,near_two_input_aig,true,18,2,16,0,-325,-18.056,0,0.857953,0.949813,1.00511,1.113888,aig_resyn_resub_zero,True,"coarse bucket, >=2 cases"
+aig_resyn_resub_zero,aig_resyn_family,two_input_ratio_bin,two_ratio_high,5,0,5,0,0,0.0,0,0.821789,0.937556,0.999598,1.006455,,False,not stable enough for selector rule
+aig_resyn_resub_zero,aig_resyn_family,two_input_ratio_bin,two_ratio_low,8,0,5,3,83,10.375,2,0.778454,0.870724,1.001551,1.020046,,False,not stable enough for selector rule
+aig_resyn_resub_zero,aig_resyn_family,two_input_ratio_bin,two_ratio_mid,3,1,2,0,-1,-0.333,1,0.840277,0.868449,0.954992,0.99963,aig_resyn_resub_zero,True,"coarse bucket, >=2 cases"
+aig_resyn_resub_zero,aig_resyn_family,two_input_ratio_bin,two_ratio_near_one,12,1,11,0,-283,-23.583,0,0.864695,0.949813,1.00818,1.113888,aig_resyn_resub_zero,True,"coarse bucket, >=2 cases"
+aig_resyn_resub_zero,aig_resyn_family,two_input_ratio_bin,two_ratio_very_high,2,1,1,0,-42,-21.0,0,0.842043,0.86933,1.001138,1.002662,aig_resyn_resub_zero,True,"coarse bucket, >=2 cases"
+aig_resyn_resub_zero,aig_resyn_family,names_bin,names_large,6,2,4,0,-325,-54.167,0,0.918744,0.949813,0.989657,1.002662,aig_resyn_resub_zero,True,"coarse bucket, >=2 cases"
+aig_resyn_resub_zero,aig_resyn_family,names_bin,names_medium,5,0,5,0,0,0.0,1,0.827776,0.864855,0.997412,1.113888,,False,not stable enough for selector rule
+aig_resyn_resub_zero,aig_resyn_family,names_bin,names_small,13,1,12,0,-1,-0.077,1,0.817916,0.937556,1.002629,1.092539,aig_resyn_resub_zero,True,"coarse bucket, >=2 cases"
+aig_resyn_resub_zero,aig_resyn_family,names_bin,names_tiny,6,0,3,3,83,13.833,2,0.772263,0.841727,1.002774,1.020046,,False,not stable enough for selector rule
+aig_resyn_resub_zero,aig_resyn_family,cubes_bin,cubes_large,5,1,4,0,-283,-56.6,0,0.928627,0.949813,0.987056,1.001622,aig_resyn_resub_zero,True,"coarse bucket, >=2 cases"
+aig_resyn_resub_zero,aig_resyn_family,cubes_bin,cubes_medium,3,1,2,0,-42,-14.0,1,0.832617,0.86933,0.959779,1.002662,aig_resyn_resub_zero,True,"coarse bucket, >=2 cases"
+aig_resyn_resub_zero,aig_resyn_family,cubes_bin,cubes_small,10,0,10,0,0,0.0,0,0.822607,0.937556,1.020319,1.113888,,False,not stable enough for selector rule
+aig_resyn_resub_zero,aig_resyn_family,cubes_bin,cubes_tiny,12,1,8,3,82,6.833,2,0.795898,0.872462,0.996501,1.020046,,False,not stable enough for selector rule
+aig_resyn_resub_zero,aig_resyn_family,max_fanin_bin,fanin_3_4,5,1,4,0,-1,-0.2,1,0.816822,0.870724,0.991101,1.006455,aig_resyn_resub_zero,True,"coarse bucket, >=2 cases"
+aig_resyn_resub_zero,aig_resyn_family,max_fanin_bin,fanin_5_8,1,0,1,0,0,0.0,0,0.822043,0.822043,0.998096,0.998096,,False,not stable enough for selector rule
+aig_resyn_resub_zero,aig_resyn_family,max_fanin_bin,fanin_9p,3,0,0,3,83,27.667,2,0.719995,0.765498,1.006306,1.020046,,False,not stable enough for selector rule
+aig_resyn_resub_zero,aig_resyn_family,max_fanin_bin,fanin_le2,21,2,19,0,-325,-15.476,1,0.850081,0.949813,1.000157,1.113888,aig_resyn_resub_zero,True,"coarse bucket, >=2 cases"
+aig_resyn_resub_zero,aig_resyn_family,outputs_bin,po_large,1,0,1,0,0,0.0,1,0.84256,0.84256,0.914459,0.914459,,False,not stable enough for selector rule
+aig_resyn_resub_zero,aig_resyn_family,outputs_bin,po_medium,10,2,8,0,-43,-4.3,1,0.833302,0.872462,1.015588,1.113888,aig_resyn_resub_zero,True,"coarse bucket, >=2 cases"
+aig_resyn_resub_zero,aig_resyn_family,outputs_bin,po_small,15,1,11,3,-200,-13.333,2,0.837884,0.949813,0.996553,1.020046,,False,not stable enough for selector rule
+aig_resyn_resub_zero,aig_resyn_family,outputs_bin,po_tiny,4,0,4,0,0,0.0,0,0.793496,0.841727,0.989294,1.0,,False,not stable enough for selector rule
+aig_resyn_resub_zero,aig_resyn_family,level_bin,level_high,5,2,3,0,-325,-65.0,0,0.916998,0.949813,0.989659,1.002662,aig_resyn_resub_zero,True,"coarse bucket, >=2 cases"
+aig_resyn_resub_zero,aig_resyn_family,level_bin,level_medium,5,0,5,0,0,0.0,1,0.82473,0.927479,0.973854,1.006455,,False,not stable enough for selector rule
+aig_resyn_resub_zero,aig_resyn_family,level_bin,level_small,12,0,9,3,83,6.917,2,0.807079,0.937556,1.018005,1.113888,,False,not stable enough for selector rule
+aig_resyn_resub_zero,aig_resyn_family,level_bin,level_tiny,8,1,7,0,-1,-0.125,1,0.81553,0.872462,0.992774,1.000368,aig_resyn_resub_zero,True,"coarse bucket, >=2 cases"
+aig_resyn_resub_zero,aig_resyn_family,runtime_size_bin,runtime_large,6,2,4,0,-325,-54.167,0,0.918744,0.949813,0.989657,1.002662,aig_resyn_resub_zero,True,"coarse bucket, >=2 cases"
+aig_resyn_resub_zero,aig_resyn_family,runtime_size_bin,runtime_medium,6,0,6,0,0,0.0,1,0.810849,0.864855,0.998919,1.113888,,False,not stable enough for selector rule
+aig_resyn_resub_zero,aig_resyn_family,runtime_size_bin,runtime_small,12,1,11,0,-1,-0.083,1,0.825558,0.937556,1.00231,1.092539,aig_resyn_resub_zero,True,"coarse bucket, >=2 cases"
+aig_resyn_resub_zero,aig_resyn_family,runtime_size_bin,runtime_tiny,6,0,3,3,83,13.833,2,0.772263,0.841727,1.002774,1.020046,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,scale_grade,large,6,1,5,0,-1499,-249.833,0,0.944796,0.970165,1.01984,1.099324,choice_fraig_clean,True,"coarse bucket, >=2 cases"
+choice_fraig_clean,choice_perturb_family,scale_grade,medium,5,0,4,1,2,0.4,1,0.832091,0.902957,1.042513,1.2116,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,scale_grade,small,13,2,9,2,-8,-0.615,1,0.766316,0.926096,1.008004,1.093014,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,scale_grade,tiny,6,0,3,3,83,13.833,1,0.763897,0.812118,1.004598,1.020432,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,high_fanin_sop,false,22,2,17,3,-1504,-68.364,1,0.831692,0.970165,1.022428,1.2116,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,high_fanin_sop,true,8,1,4,3,82,10.25,1,0.759687,0.812118,0.996227,1.020432,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,near_two_input_aig,false,12,2,6,4,69,5.75,1,0.757555,0.812118,0.989202,1.020432,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,near_two_input_aig,true,18,1,15,2,-1491,-82.833,1,0.849114,0.970165,1.032934,1.2116,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,two_input_ratio_bin,two_ratio_high,5,1,2,2,-7,-1.4,1,0.791045,0.926096,1.010987,1.093014,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,two_input_ratio_bin,two_ratio_low,8,0,5,3,83,10.375,1,0.757807,0.812118,1.004425,1.020432,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,two_input_ratio_bin,two_ratio_mid,3,1,1,1,1,0.333,1,0.765216,0.790432,0.949807,0.99926,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,two_input_ratio_bin,two_ratio_near_one,12,0,12,0,0,0.0,0,0.863306,0.970165,1.034222,1.2116,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,two_input_ratio_bin,two_ratio_very_high,2,1,1,0,-1499,-749.5,0,0.850857,0.95207,1.056411,1.099324,choice_fraig_clean,True,"coarse bucket, >=2 cases"
+choice_fraig_clean,choice_perturb_family,names_bin,names_large,6,1,5,0,-1499,-249.833,0,0.944796,0.970165,1.01984,1.099324,choice_fraig_clean,True,"coarse bucket, >=2 cases"
+choice_fraig_clean,choice_perturb_family,names_bin,names_medium,5,0,4,1,2,0.4,1,0.832091,0.902957,1.042513,1.2116,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,names_bin,names_small,13,2,9,2,-8,-0.615,1,0.766316,0.926096,1.008004,1.093014,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,names_bin,names_tiny,6,0,3,3,83,13.833,1,0.763897,0.812118,1.004598,1.020432,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,cubes_bin,cubes_large,5,0,5,0,0,0.0,0,0.943341,0.970165,1.003943,1.057025,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,cubes_bin,cubes_medium,3,1,1,1,-1497,-499.0,1,0.85274,0.95207,1.00323,1.099324,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,cubes_bin,cubes_small,10,1,7,2,-7,-0.7,1,0.811101,0.926096,1.041336,1.2116,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,cubes_bin,cubes_tiny,12,1,8,3,82,6.833,1,0.749065,0.812118,1.001706,1.020432,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,max_fanin_bin,fanin_3_4,5,2,3,0,-16,-3.2,1,0.754525,0.790432,0.987149,1.0011,choice_fraig_clean,True,"coarse bucket, >=2 cases"
+choice_fraig_clean,choice_perturb_family,max_fanin_bin,fanin_5_8,1,0,1,0,0,0.0,0,0.812118,0.812118,0.999238,0.999238,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,max_fanin_bin,fanin_9p,3,0,0,3,83,27.667,1,0.741771,0.763985,1.006811,1.020432,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,max_fanin_bin,fanin_le2,21,1,17,3,-1489,-70.905,1,0.836412,0.970165,1.024182,1.2116,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,outputs_bin,po_large,1,0,0,1,2,2.0,1,0.755468,0.755468,0.898906,0.898906,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,outputs_bin,po_medium,10,2,8,0,-1500,-150.0,1,0.790865,0.95207,1.021735,1.099324,choice_fraig_clean,True,"coarse bucket, >=2 cases"
+choice_fraig_clean,choice_perturb_family,outputs_bin,po_small,15,1,9,5,76,5.067,1,0.834844,0.970165,1.021345,1.2116,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,outputs_bin,po_tiny,4,0,4,0,0,0.0,0,0.796986,0.850683,1.0067,1.011459,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,level_bin,level_high,5,1,4,0,-1499,-299.8,0,0.950002,0.970165,1.024947,1.099324,choice_fraig_clean,True,"coarse bucket, >=2 cases"
+choice_fraig_clean,choice_perturb_family,level_bin,level_medium,5,1,3,1,-13,-2.6,1,0.826649,0.918763,1.020374,1.2116,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,level_bin,level_small,12,0,7,5,91,7.583,1,0.792828,0.926096,1.021699,1.097465,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,level_bin,level_tiny,8,1,7,0,-1,-0.125,1,0.747191,0.812118,0.997031,1.01165,choice_fraig_clean,True,"coarse bucket, >=2 cases"
+choice_fraig_clean,choice_perturb_family,runtime_size_bin,runtime_large,6,1,5,0,-1499,-249.833,0,0.944796,0.970165,1.01984,1.099324,choice_fraig_clean,True,"coarse bucket, >=2 cases"
+choice_fraig_clean,choice_perturb_family,runtime_size_bin,runtime_medium,6,1,4,1,-13,-2.167,1,0.815502,0.902957,1.033027,1.2116,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,runtime_size_bin,runtime_small,12,1,9,2,7,0.583,1,0.769129,0.926096,1.009871,1.093014,,False,not stable enough for selector rule
+choice_fraig_clean,choice_perturb_family,runtime_size_bin,runtime_tiny,6,0,3,3,83,13.833,1,0.763897,0.812118,1.004598,1.020432,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,scale_grade,large,6,5,0,1,-1151,-191.833,0,0.911815,1.009492,1.002622,1.111407,choice_fraig_ifraig_recover,True,"coarse bucket, >=2 cases"
+choice_fraig_ifraig_recover,choice_perturb_family,scale_grade,medium,5,3,2,0,-33,-6.6,1,0.798014,0.859299,0.960785,1.064263,choice_fraig_ifraig_recover,True,"coarse bucket, >=2 cases"
+choice_fraig_ifraig_recover,choice_perturb_family,scale_grade,small,13,2,9,2,6,0.462,1,0.797725,1.003505,1.012689,1.107062,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,scale_grade,tiny,6,0,3,3,73,12.167,2,0.769493,0.857381,1.007506,1.028718,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,high_fanin_sop,false,22,9,10,3,-1177,-53.5,1,0.833188,1.009492,1.000505,1.111407,choice_fraig_ifraig_recover,True,"coarse bucket, >=2 cases"
+choice_fraig_ifraig_recover,choice_perturb_family,high_fanin_sop,true,8,1,4,3,72,9.0,2,0.764774,0.907171,1.002316,1.019661,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,near_two_input_aig,false,12,2,7,3,57,4.75,2,0.78812,0.907171,1.00249,1.059192,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,near_two_input_aig,true,18,8,7,3,-1162,-64.556,1,0.832827,1.009492,0.999987,1.111407,choice_fraig_ifraig_recover,True,"coarse bucket, >=2 cases"
+choice_fraig_ifraig_recover,choice_perturb_family,two_input_ratio_bin,two_ratio_high,5,0,3,2,8,1.6,1,0.840721,1.003505,1.047789,1.107062,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,two_input_ratio_bin,two_ratio_low,8,0,5,3,73,9.125,2,0.774596,0.907171,1.013259,1.059192,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,two_input_ratio_bin,two_ratio_mid,3,2,1,0,-16,-5.333,1,0.786085,0.857381,0.959127,1.002954,choice_fraig_ifraig_recover,True,"coarse bucket, >=2 cases"
+choice_fraig_ifraig_recover,choice_perturb_family,two_input_ratio_bin,two_ratio_near_one,12,7,4,1,262,21.833,0,0.827554,0.924421,0.973593,1.064263,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,two_input_ratio_bin,two_ratio_very_high,2,1,1,0,-1432,-716.0,0,0.879531,1.009492,1.062067,1.111407,choice_fraig_ifraig_recover,True,"coarse bucket, >=2 cases"
+choice_fraig_ifraig_recover,choice_perturb_family,names_bin,names_large,6,5,0,1,-1151,-191.833,0,0.911815,1.009492,1.002622,1.111407,choice_fraig_ifraig_recover,True,"coarse bucket, >=2 cases"
+choice_fraig_ifraig_recover,choice_perturb_family,names_bin,names_medium,5,3,2,0,-33,-6.6,1,0.798014,0.859299,0.960785,1.064263,choice_fraig_ifraig_recover,True,"coarse bucket, >=2 cases"
+choice_fraig_ifraig_recover,choice_perturb_family,names_bin,names_small,13,2,9,2,6,0.462,1,0.797725,1.003505,1.012689,1.107062,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,names_bin,names_tiny,6,0,3,3,73,12.167,2,0.769493,0.857381,1.007506,1.028718,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,cubes_bin,cubes_large,5,4,0,1,281,56.2,0,0.89228,0.924421,0.980865,0.995894,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,cubes_bin,cubes_medium,3,2,1,0,-1447,-482.333,1,0.876049,1.009492,0.992012,1.111407,choice_fraig_ifraig_recover,True,"coarse bucket, >=2 cases"
+choice_fraig_ifraig_recover,choice_perturb_family,cubes_bin,cubes_small,10,3,5,2,-11,-1.1,1,0.813762,1.003505,1.014335,1.107062,choice_fraig_ifraig_recover,True,"coarse bucket, >=2 cases"
+choice_fraig_ifraig_recover,choice_perturb_family,cubes_bin,cubes_tiny,12,1,8,3,72,6.0,2,0.768431,0.907171,1.000494,1.070676,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,max_fanin_bin,fanin_3_4,5,1,4,0,-1,-0.2,1,0.817473,0.907171,1.009208,1.046425,choice_fraig_ifraig_recover,True,"coarse bucket, >=2 cases"
+choice_fraig_ifraig_recover,choice_perturb_family,max_fanin_bin,fanin_5_8,1,0,1,0,0,0.0,0,0.754253,0.754253,1.0,1.0,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,max_fanin_bin,fanin_9p,3,0,0,3,73,24.333,2,0.726331,0.801885,1.006303,1.019661,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,max_fanin_bin,fanin_le2,21,9,9,3,-1177,-56.048,1,0.829892,1.009492,0.998319,1.111407,choice_fraig_ifraig_recover,True,"coarse bucket, >=2 cases"
+choice_fraig_ifraig_recover,choice_perturb_family,outputs_bin,po_large,1,1,0,0,-15,-15.0,1,0.759355,0.759355,0.877016,0.877016,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,outputs_bin,po_medium,10,4,6,0,-1446,-144.6,1,0.81205,1.009492,0.998633,1.111407,choice_fraig_ifraig_recover,True,"coarse bucket, >=2 cases"
+choice_fraig_ifraig_recover,choice_perturb_family,outputs_bin,po_small,15,5,4,6,356,23.733,2,0.818497,1.003505,1.006052,1.107062,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,outputs_bin,po_tiny,4,0,4,0,0,0.0,0,0.822757,0.859299,1.018881,1.059192,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,level_bin,level_high,5,4,0,1,-1085,-217.0,0,0.918823,1.009492,1.00577,1.111407,choice_fraig_ifraig_recover,True,"coarse bucket, >=2 cases"
+choice_fraig_ifraig_recover,choice_perturb_family,level_bin,level_medium,5,3,2,0,-87,-17.4,1,0.816347,0.902417,0.962761,1.046425,choice_fraig_ifraig_recover,True,"coarse bucket, >=2 cases"
+choice_fraig_ifraig_recover,choice_perturb_family,level_bin,level_small,12,2,5,5,68,5.667,2,0.798758,1.003505,1.025284,1.107062,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,level_bin,level_tiny,8,1,7,0,-1,-0.125,1,0.773424,0.907171,0.985448,1.04894,choice_fraig_ifraig_recover,True,"coarse bucket, >=2 cases"
+choice_fraig_ifraig_recover,choice_perturb_family,runtime_size_bin,runtime_large,6,5,0,1,-1151,-191.833,0,0.911815,1.009492,1.002622,1.111407,choice_fraig_ifraig_recover,True,"coarse bucket, >=2 cases"
+choice_fraig_ifraig_recover,choice_perturb_family,runtime_size_bin,runtime_medium,6,3,3,0,-33,-5.5,1,0.815414,0.902417,0.975058,1.064263,choice_fraig_ifraig_recover,True,"coarse bucket, >=2 cases"
+choice_fraig_ifraig_recover,choice_perturb_family,runtime_size_bin,runtime_small,12,2,8,2,6,0.5,1,0.789,1.003505,1.009877,1.107062,,False,not stable enough for selector rule
+choice_fraig_ifraig_recover,choice_perturb_family,runtime_size_bin,runtime_tiny,6,0,3,3,73,12.167,2,0.769493,0.857381,1.007506,1.028718,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,scale_grade,large,6,1,5,0,-1499,-249.833,0,0.944388,1.066752,0.991948,1.023314,choice_ifraig_clean,True,"coarse bucket, >=2 cases"
+choice_ifraig_clean,choice_perturb_family,scale_grade,medium,5,0,4,1,2,0.4,1,0.817077,0.868466,1.004681,1.098893,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,scale_grade,small,13,2,9,2,-8,-0.615,1,0.796647,0.98129,0.976014,1.010027,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,scale_grade,tiny,6,0,3,3,83,13.833,1,0.78111,0.869687,1.003291,1.021203,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,high_fanin_sop,false,22,2,17,3,-1504,-68.364,1,0.842302,1.066752,0.987174,1.098893,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,high_fanin_sop,true,8,1,4,3,82,10.25,1,0.783017,0.856331,0.995651,1.021203,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,near_two_input_aig,false,12,2,6,4,69,5.75,1,0.782278,0.869687,0.99141,1.021203,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,near_two_input_aig,true,18,1,15,2,-1491,-82.833,1,0.855969,1.066752,0.988117,1.098893,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,two_input_ratio_bin,two_ratio_high,5,1,2,2,-7,-1.4,1,0.832279,0.98129,0.977382,1.008352,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,two_input_ratio_bin,two_ratio_low,8,0,5,3,83,10.375,1,0.787454,0.869687,0.99759,1.021203,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,two_input_ratio_bin,two_ratio_mid,3,1,1,1,1,0.333,1,0.772687,0.789782,0.973638,1.004062,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,two_input_ratio_bin,two_ratio_near_one,12,0,12,0,0,0.0,0,0.854194,0.942013,0.992709,1.098893,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,two_input_ratio_bin,two_ratio_very_high,2,1,1,0,-1499,-749.5,0,0.882688,1.066752,0.990985,1.010027,choice_ifraig_clean,True,"coarse bucket, >=2 cases"
+choice_ifraig_clean,choice_perturb_family,names_bin,names_large,6,1,5,0,-1499,-249.833,0,0.944388,1.066752,0.991948,1.023314,choice_ifraig_clean,True,"coarse bucket, >=2 cases"
+choice_ifraig_clean,choice_perturb_family,names_bin,names_medium,5,0,4,1,2,0.4,1,0.817077,0.868466,1.004681,1.098893,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,names_bin,names_small,13,2,9,2,-8,-0.615,1,0.796647,0.98129,0.976014,1.010027,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,names_bin,names_tiny,6,0,3,3,83,13.833,1,0.78111,0.869687,1.003291,1.021203,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,cubes_bin,cubes_large,5,0,5,0,0,0.0,0,0.919915,0.942013,0.995949,1.023314,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,cubes_bin,cubes_medium,3,1,1,1,-1497,-499.0,1,0.905219,1.066752,0.955798,0.971943,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,cubes_bin,cubes_small,10,1,7,2,-7,-0.7,1,0.808835,0.98129,0.995456,1.098893,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,cubes_bin,cubes_tiny,12,1,8,3,82,6.833,1,0.7826,0.869687,0.99011,1.021203,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,max_fanin_bin,fanin_3_4,5,2,3,0,-16,-3.2,1,0.801317,0.856331,0.988086,1.004062,choice_ifraig_clean,True,"coarse bucket, >=2 cases"
+choice_ifraig_clean,choice_perturb_family,max_fanin_bin,fanin_5_8,1,0,1,0,0,0.0,0,0.765161,0.765161,0.998477,0.998477,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,max_fanin_bin,fanin_9p,3,0,0,3,83,27.667,1,0.75401,0.813942,1.007195,1.021203,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,max_fanin_bin,fanin_le2,21,1,17,3,-1489,-70.905,1,0.845762,1.066752,0.986787,1.098893,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,outputs_bin,po_large,1,0,0,1,2,2.0,1,0.780438,0.780438,0.924251,0.924251,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,outputs_bin,po_medium,10,2,8,0,-1500,-150.0,1,0.829307,1.066752,0.988248,1.098893,choice_ifraig_clean,True,"coarse bucket, >=2 cases"
+choice_ifraig_clean,choice_perturb_family,outputs_bin,po_small,15,1,9,5,76,5.067,1,0.834302,0.98129,0.992963,1.023314,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,outputs_bin,po_tiny,4,0,4,0,0,0.0,0,0.801687,0.869687,0.995463,1.007081,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,level_bin,level_high,5,1,4,0,-1499,-299.8,0,0.949176,1.066752,0.992616,1.023314,choice_ifraig_clean,True,"coarse bucket, >=2 cases"
+choice_ifraig_clean,choice_perturb_family,level_bin,level_medium,5,1,3,1,-13,-2.6,1,0.82638,0.92045,0.975103,0.996176,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,level_bin,level_small,12,0,7,5,91,7.583,1,0.796454,0.98129,1.004311,1.098893,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,level_bin,level_tiny,8,1,7,0,-1,-0.125,1,0.794946,0.856331,0.974087,1.007516,choice_ifraig_clean,True,"coarse bucket, >=2 cases"
+choice_ifraig_clean,choice_perturb_family,runtime_size_bin,runtime_large,6,1,5,0,-1499,-249.833,0,0.944388,1.066752,0.991948,1.023314,choice_ifraig_clean,True,"coarse bucket, >=2 cases"
+choice_ifraig_clean,choice_perturb_family,runtime_size_bin,runtime_medium,6,1,4,1,-13,-2.167,1,0.809171,0.868466,1.003115,1.098893,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,runtime_size_bin,runtime_small,12,1,9,2,7,0.583,1,0.798897,0.98129,0.974409,1.010027,,False,not stable enough for selector rule
+choice_ifraig_clean,choice_perturb_family,runtime_size_bin,runtime_tiny,6,0,3,3,83,13.833,1,0.78111,0.869687,1.003291,1.021203,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,scale_grade,large,6,5,0,1,-1151,-191.833,0,0.918136,0.958499,1.000494,1.108745,dc2_fraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_fraig_cleanup,dc2_dch_family,scale_grade,medium,5,3,2,0,-33,-6.6,1,0.798645,0.903978,0.975673,1.086737,dc2_fraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_fraig_cleanup,dc2_dch_family,scale_grade,small,13,2,9,2,6,0.462,1,0.789508,0.892528,1.016126,1.064037,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,scale_grade,tiny,6,0,3,3,73,12.167,2,0.769376,0.883848,1.00616,1.053108,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,high_fanin_sop,false,22,9,10,3,-1177,-53.5,1,0.831398,0.958499,1.006498,1.108745,dc2_fraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_fraig_cleanup,dc2_dch_family,high_fanin_sop,true,8,1,4,3,72,9.0,2,0.761393,0.843912,0.99812,1.021588,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,near_two_input_aig,false,12,2,7,3,57,4.75,2,0.77838,0.883848,0.998535,1.053108,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,near_two_input_aig,true,18,8,7,3,-1162,-64.556,1,0.83563,0.958499,1.008084,1.108745,dc2_fraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_fraig_cleanup,dc2_dch_family,two_input_ratio_bin,two_ratio_high,5,0,3,2,8,1.6,1,0.833647,0.892528,0.996797,1.064037,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,two_input_ratio_bin,two_ratio_low,8,0,5,3,73,9.125,2,0.759619,0.883848,1.010809,1.053108,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,two_input_ratio_bin,two_ratio_mid,3,2,1,0,-16,-5.333,1,0.793467,0.829736,0.957206,1.002954,dc2_fraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_fraig_cleanup,dc2_dch_family,two_input_ratio_bin,two_ratio_near_one,12,7,4,1,262,21.833,0,0.835858,0.934147,1.001573,1.086737,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,two_input_ratio_bin,two_ratio_very_high,2,1,1,0,-1432,-716.0,0,0.863004,0.958499,1.083489,1.108745,dc2_fraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_fraig_cleanup,dc2_dch_family,names_bin,names_large,6,5,0,1,-1151,-191.833,0,0.918136,0.958499,1.000494,1.108745,dc2_fraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_fraig_cleanup,dc2_dch_family,names_bin,names_medium,5,3,2,0,-33,-6.6,1,0.798645,0.903978,0.975673,1.086737,dc2_fraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_fraig_cleanup,dc2_dch_family,names_bin,names_small,13,2,9,2,6,0.462,1,0.789508,0.892528,1.016126,1.064037,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,names_bin,names_tiny,6,0,3,3,73,12.167,2,0.769376,0.883848,1.00616,1.053108,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,cubes_bin,cubes_large,5,4,0,1,281,56.2,0,0.910064,0.934147,0.978844,0.990766,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,cubes_bin,cubes_medium,3,2,1,0,-1447,-482.333,1,0.856871,0.958499,0.985347,1.108745,dc2_fraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_fraig_cleanup,dc2_dch_family,cubes_bin,cubes_small,10,3,5,2,-11,-1.1,1,0.796164,0.903978,1.006833,1.086737,dc2_fraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_fraig_cleanup,dc2_dch_family,cubes_bin,cubes_tiny,12,1,8,3,72,6.0,2,0.774944,0.883848,1.017445,1.064037,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,max_fanin_bin,fanin_3_4,5,1,4,0,-1,-0.2,1,0.814338,0.883211,1.005088,1.02433,dc2_fraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_fraig_cleanup,dc2_dch_family,max_fanin_bin,fanin_5_8,1,0,1,0,0,0.0,0,0.703322,0.703322,0.998096,0.998096,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,max_fanin_bin,fanin_9p,3,0,0,3,73,24.333,2,0.733116,0.777457,0.995252,1.021588,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,max_fanin_bin,fanin_le2,21,9,9,3,-1177,-56.048,1,0.82893,0.958499,1.005649,1.108745,dc2_fraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_fraig_cleanup,dc2_dch_family,outputs_bin,po_large,1,1,0,0,-15,-15.0,1,0.759474,0.759474,0.868664,0.868664,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,outputs_bin,po_medium,10,4,6,0,-1446,-144.6,1,0.808899,0.958499,1.036296,1.108745,dc2_fraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_fraig_cleanup,dc2_dch_family,outputs_bin,po_small,15,5,4,6,356,23.733,2,0.824716,0.934147,0.987674,1.064037,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,outputs_bin,po_tiny,4,0,4,0,0,0.0,0,0.790674,0.883848,1.020297,1.053108,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,level_bin,level_high,5,4,0,1,-1085,-217.0,0,0.926068,0.958499,1.003147,1.108745,dc2_fraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_fraig_cleanup,dc2_dch_family,level_bin,level_medium,5,3,2,0,-87,-17.4,1,0.811826,0.883211,0.950355,1.02433,dc2_fraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_fraig_cleanup,dc2_dch_family,level_bin,level_small,12,2,5,5,68,5.667,2,0.795454,0.903978,1.021379,1.086737,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,level_bin,level_tiny,8,1,7,0,-1,-0.125,1,0.768372,0.843912,1.012983,1.054115,dc2_fraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_fraig_cleanup,dc2_dch_family,runtime_size_bin,runtime_large,6,5,0,1,-1151,-191.833,0,0.918136,0.958499,1.000494,1.108745,dc2_fraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_fraig_cleanup,dc2_dch_family,runtime_size_bin,runtime_medium,6,3,3,0,-33,-5.5,1,0.812739,0.903978,0.983783,1.086737,dc2_fraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_fraig_cleanup,dc2_dch_family,runtime_size_bin,runtime_small,12,2,8,2,6,0.5,1,0.781699,0.892528,1.015442,1.064037,,False,not stable enough for selector rule
+dc2_fraig_cleanup,dc2_dch_family,runtime_size_bin,runtime_tiny,6,0,3,3,73,12.167,2,0.769376,0.883848,1.00616,1.053108,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,scale_grade,large,6,5,0,1,-1151,-191.833,0,0.923679,1.065591,0.981971,1.001524,dc2_ifraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_ifraig_cleanup,dc2_dch_family,scale_grade,medium,5,3,2,0,-33,-6.6,1,0.818062,0.909708,0.958384,1.051053,dc2_ifraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_ifraig_cleanup,dc2_dch_family,scale_grade,small,13,2,9,2,6,0.462,1,0.817694,0.959548,1.033532,1.228929,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,scale_grade,tiny,6,0,3,3,73,12.167,2,0.807642,0.863173,0.993747,1.038159,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,high_fanin_sop,false,22,9,10,3,-1177,-53.5,1,0.84376,1.065591,1.009573,1.228929,dc2_ifraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_ifraig_cleanup,dc2_dch_family,high_fanin_sop,true,8,1,4,3,72,9.0,2,0.818191,0.920792,0.983943,1.0,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,near_two_input_aig,false,12,2,7,3,57,4.75,2,0.824988,0.920792,0.987763,1.059831,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,near_two_input_aig,true,18,8,7,3,-1162,-64.556,1,0.844911,1.065591,1.012721,1.228929,dc2_ifraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_ifraig_cleanup,dc2_dch_family,two_input_ratio_bin,two_ratio_high,5,0,3,2,8,1.6,1,0.850155,0.959548,1.073491,1.228929,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,two_input_ratio_bin,two_ratio_low,8,0,5,3,73,9.125,2,0.811053,0.920792,1.00208,1.038159,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,two_input_ratio_bin,two_ratio_mid,3,2,1,0,-16,-5.333,1,0.835469,0.861354,0.92556,0.951994,dc2_ifraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_ifraig_cleanup,dc2_dch_family,two_input_ratio_bin,two_ratio_near_one,12,7,4,1,262,21.833,0,0.832942,0.932594,0.996643,1.055242,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,two_input_ratio_bin,two_ratio_very_high,2,1,1,0,-1432,-716.0,0,0.933669,1.065591,0.980826,1.017354,dc2_ifraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_ifraig_cleanup,dc2_dch_family,names_bin,names_large,6,5,0,1,-1151,-191.833,0,0.923679,1.065591,0.981971,1.001524,dc2_ifraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_ifraig_cleanup,dc2_dch_family,names_bin,names_medium,5,3,2,0,-33,-6.6,1,0.818062,0.909708,0.958384,1.051053,dc2_ifraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_ifraig_cleanup,dc2_dch_family,names_bin,names_small,13,2,9,2,6,0.462,1,0.817694,0.959548,1.033532,1.228929,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,names_bin,names_tiny,6,0,3,3,73,12.167,2,0.807642,0.863173,0.993747,1.038159,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,cubes_bin,cubes_large,5,4,0,1,281,56.2,0,0.895297,0.932594,0.989506,1.001524,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,cubes_bin,cubes_medium,3,2,1,0,-1447,-482.333,1,0.932477,1.065591,0.929855,0.970269,dc2_ifraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_ifraig_cleanup,dc2_dch_family,cubes_bin,cubes_small,10,3,5,2,-11,-1.1,1,0.820406,0.959548,1.027776,1.228929,dc2_ifraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_ifraig_cleanup,dc2_dch_family,cubes_bin,cubes_tiny,12,1,8,3,72,6.0,2,0.802523,0.920792,1.005607,1.055242,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,max_fanin_bin,fanin_3_4,5,1,4,0,-1,-0.2,1,0.859979,0.920792,0.991347,1.059831,dc2_ifraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_ifraig_cleanup,dc2_dch_family,max_fanin_bin,fanin_5_8,1,0,1,0,0,0.0,0,0.763107,0.763107,0.997715,0.997715,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,max_fanin_bin,fanin_9p,3,0,0,3,73,24.333,2,0.795849,0.863173,0.992307,1.0,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,max_fanin_bin,fanin_le2,21,9,9,3,-1177,-56.048,1,0.840843,1.065591,1.007179,1.228929,dc2_ifraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_ifraig_cleanup,dc2_dch_family,outputs_bin,po_large,1,1,0,0,-15,-15.0,1,0.822132,0.822132,0.875,0.875,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,outputs_bin,po_medium,10,4,6,0,-1446,-144.6,1,0.839509,1.065591,0.997776,1.055242,dc2_ifraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_ifraig_cleanup,dc2_dch_family,outputs_bin,po_small,15,5,4,6,356,23.733,2,0.839403,0.959548,1.014307,1.228929,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,outputs_bin,po_tiny,4,0,4,0,0,0.0,0,0.824996,0.909708,1.003692,1.038159,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,level_bin,level_high,5,4,0,1,-1085,-217.0,0,0.933342,1.065591,0.982888,1.001524,dc2_ifraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_ifraig_cleanup,dc2_dch_family,level_bin,level_medium,5,3,2,0,-87,-17.4,1,0.837343,0.909708,0.957568,1.059831,dc2_ifraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_ifraig_cleanup,dc2_dch_family,level_bin,level_small,12,2,5,5,68,5.667,2,0.817817,0.959548,1.028332,1.228929,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,level_bin,level_tiny,8,1,7,0,-1,-0.125,1,0.805128,0.920792,1.004984,1.055242,dc2_ifraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_ifraig_cleanup,dc2_dch_family,runtime_size_bin,runtime_large,6,5,0,1,-1151,-191.833,0,0.923679,1.065591,0.981971,1.001524,dc2_ifraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_ifraig_cleanup,dc2_dch_family,runtime_size_bin,runtime_medium,6,3,3,0,-33,-5.5,1,0.832555,0.909708,0.975291,1.059831,dc2_ifraig_cleanup,True,"coarse bucket, >=2 cases"
+dc2_ifraig_cleanup,dc2_dch_family,runtime_size_bin,runtime_small,12,2,8,2,6,0.5,1,0.810417,0.959548,1.03134,1.228929,,False,not stable enough for selector rule
+dc2_ifraig_cleanup,dc2_dch_family,runtime_size_bin,runtime_tiny,6,0,3,3,73,12.167,2,0.807642,0.863173,0.993747,1.038159,,False,not stable enough for selector rule
+high_aig_three_round,high_effort_small_case_family,scale_grade,large,6,6,0,0,-1468,-244.667,0,1.092215,1.281678,1.006967,1.027843,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,scale_grade,medium,5,2,2,1,-17,-3.4,0,0.914151,1.04559,1.073537,1.326322,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,scale_grade,small,13,2,11,0,-6,-0.462,1,0.868815,1.049599,1.027854,1.253587,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,scale_grade,tiny,6,1,2,3,72,12.0,1,0.789567,0.831601,1.003221,1.020432,,False,not stable enough for selector rule
+high_aig_three_round,high_effort_small_case_family,high_fanin_sop,false,22,9,12,1,-1490,-67.727,0,0.942742,1.281678,1.035223,1.326322,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,high_fanin_sop,true,8,2,3,3,71,8.875,1,0.801965,0.905444,1.002,1.020432,,False,not stable enough for selector rule
+high_aig_three_round,high_effort_small_case_family,near_two_input_aig,false,12,3,6,3,56,4.667,1,0.823585,0.98604,0.994273,1.020432,,False,not stable enough for selector rule
+high_aig_three_round,high_effort_small_case_family,near_two_input_aig,true,18,8,9,1,-1475,-81.944,0,0.959613,1.281678,1.047758,1.326322,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,two_input_ratio_bin,two_ratio_high,5,0,5,0,0,0.0,0,0.919202,1.049599,1.0239,1.118831,,False,not stable enough for selector rule
+high_aig_three_round,high_effort_small_case_family,two_input_ratio_bin,two_ratio_low,8,1,4,3,72,9.0,1,0.808206,0.905444,1.001658,1.020432,,False,not stable enough for selector rule
+high_aig_three_round,high_effort_small_case_family,two_input_ratio_bin,two_ratio_mid,3,2,1,0,-16,-5.333,1,0.810442,0.819141,0.971678,1.001108,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,two_input_ratio_bin,two_ratio_near_one,12,7,4,1,-1286,-107.167,0,0.989123,1.281678,1.063849,1.326322,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,two_input_ratio_bin,two_ratio_very_high,2,1,1,0,-189,-94.5,0,0.896788,0.959949,0.988465,0.998843,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,names_bin,names_large,6,6,0,0,-1468,-244.667,0,1.092215,1.281678,1.006967,1.027843,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,names_bin,names_medium,5,2,2,1,-17,-3.4,0,0.914151,1.04559,1.073537,1.326322,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,names_bin,names_small,13,2,11,0,-6,-0.462,1,0.868815,1.049599,1.027854,1.253587,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,names_bin,names_tiny,6,1,2,3,72,12.0,1,0.789567,0.831601,1.003221,1.020432,,False,not stable enough for selector rule
+high_aig_three_round,high_effort_small_case_family,cubes_bin,cubes_large,5,5,0,0,-1279,-255.8,0,1.118668,1.281678,1.012743,1.027843,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,cubes_bin,cubes_medium,3,2,1,0,-204,-68.0,0,0.915464,0.967303,0.978826,1.043357,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,cubes_bin,cubes_small,10,2,7,1,-7,-0.7,0,0.924461,1.049599,1.077818,1.326322,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,cubes_bin,cubes_tiny,12,2,7,3,71,5.917,1,0.797642,0.905444,1.001045,1.020432,,False,not stable enough for selector rule
+high_aig_three_round,high_effort_small_case_family,max_fanin_bin,fanin_3_4,5,1,4,0,-1,-0.2,1,0.860791,0.98604,0.999787,1.002979,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,max_fanin_bin,fanin_5_8,1,1,0,0,-1,-1.0,0,0.75724,0.75724,0.998477,0.998477,,False,not stable enough for selector rule
+high_aig_three_round,high_effort_small_case_family,max_fanin_bin,fanin_9p,3,0,0,3,73,24.333,1,0.780188,0.828608,1.007189,1.020432,,False,not stable enough for selector rule
+high_aig_three_round,high_effort_small_case_family,max_fanin_bin,fanin_le2,21,9,11,1,-1490,-70.952,0,0.94068,1.281678,1.036759,1.326322,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,outputs_bin,po_large,1,1,0,0,-15,-15.0,0,0.819141,0.819141,0.915035,0.915035,,False,not stable enough for selector rule
+high_aig_three_round,high_effort_small_case_family,outputs_bin,po_medium,10,3,6,1,-191,-19.1,1,0.873263,1.04559,1.030685,1.253587,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,outputs_bin,po_small,15,6,6,3,-1212,-80.8,1,0.947841,1.281678,1.03533,1.326322,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,outputs_bin,po_tiny,4,1,3,0,-1,-0.25,0,0.846664,0.967303,1.009773,1.043357,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,level_bin,level_high,5,5,0,0,-1441,-288.2,0,1.085801,1.281678,1.002836,1.027843,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,level_bin,level_medium,5,3,2,0,-48,-9.6,0,0.950169,1.124284,1.063063,1.326322,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,level_bin,level_small,12,1,7,4,72,6.0,1,0.877753,1.049599,1.039325,1.253587,,False,not stable enough for selector rule
+high_aig_three_round,high_effort_small_case_family,level_bin,level_tiny,8,2,6,0,-2,-0.25,1,0.805395,0.905444,0.99869,1.001108,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,runtime_size_bin,runtime_large,6,6,0,0,-1468,-244.667,0,1.092215,1.281678,1.006967,1.027843,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,runtime_size_bin,runtime_medium,6,2,3,1,-17,-2.833,0,0.926132,1.04559,1.061777,1.326322,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,runtime_size_bin,runtime_small,12,2,10,0,-6,-0.5,1,0.859047,1.049599,1.029927,1.253587,high_aig_three_round,True,"coarse bucket, >=2 cases"
+high_aig_three_round,high_effort_small_case_family,runtime_size_bin,runtime_tiny,6,1,2,3,72,12.0,1,0.789567,0.831601,1.003221,1.020432,,False,not stable enough for selector rule

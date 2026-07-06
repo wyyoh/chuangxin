@@ -1,0 +1,143 @@
+# Benchmark "r7b_port_order_stress_input" written by ABC on Mon Jun 22 16:24:55 2026
+.model r7b_port_order_stress_input
+.inputs I0 I1 I2 I3 I4 I5 I6 I7 I8 I9
+.outputs O7 O4 O2 O1 O0 O6 O3 O5
+.names I6 I8 new_n19
+11 1
+.names I7 new_n19 new_n20
+01 1
+.names I3 I4 new_n21
+10 1
+.names I0 I1 new_n22
+10 1
+.names I0 I1 new_n23
+01 1
+.names new_n22 new_n23 new_n24
+00 1
+.names I2 new_n24 new_n25
+10 1
+.names new_n21 new_n25 new_n26
+11 1
+.names I9 new_n26 new_n27
+01 1
+.names new_n20 new_n27 new_n28
+11 1
+.names I5 new_n28 new_n29
+11 1
+.names I3 I4 new_n30
+01 1
+.names I5 new_n30 new_n31
+01 1
+.names I7 I8 new_n32
+10 1
+.names I9 new_n32 new_n33
+11 1
+.names I1 new_n33 new_n34
+11 1
+.names new_n31 new_n34 new_n35
+11 1
+.names I0 I2 new_n36
+11 1
+.names I0 I2 new_n37
+00 1
+.names new_n36 new_n37 new_n38
+00 1
+.names I6 new_n38 new_n39
+00 1
+.names new_n35 new_n39 new_n40
+11 1
+.names new_n29 new_n40 O7
+00 0
+.names I1 I7 new_n42
+11 1
+.names I9 new_n42 new_n43
+01 1
+.names new_n19 new_n43 new_n44
+11 1
+.names new_n38 new_n44 new_n45
+01 1
+.names I5 new_n21 new_n46
+11 1
+.names new_n45 new_n46 new_n47
+11 1
+.names I5 I6 new_n48
+10 1
+.names I7 I8 new_n49
+11 1
+.names new_n48 new_n49 new_n50
+11 1
+.names new_n27 new_n50 new_n51
+11 1
+.names new_n47 new_n51 O4
+00 0
+.names I3 I5 new_n53
+00 1
+.names new_n45 new_n53 new_n54
+11 1
+.names new_n28 new_n54 O2
+00 0
+.names new_n26 new_n33 new_n56
+11 1
+.names I3 I4 new_n57
+00 1
+.names new_n36 new_n57 new_n58
+11 1
+.names new_n34 new_n58 new_n59
+11 1
+.names new_n56 new_n59 new_n60
+00 1
+.names I5 new_n60 new_n61
+10 1
+.names new_n35 new_n37 new_n62
+11 1
+.names new_n61 new_n62 O1
+00 0
+.names new_n25 new_n31 new_n64
+11 1
+.names new_n20 new_n64 new_n65
+11 1
+.names I5 new_n39 new_n66
+11 1
+.names I3 I4 new_n67
+11 1
+.names I1 I7 new_n68
+10 1
+.names I8 new_n68 new_n69
+11 1
+.names new_n67 new_n69 new_n70
+11 1
+.names new_n66 new_n70 new_n71
+11 1
+.names new_n65 new_n71 O0
+00 0
+.names new_n34 new_n66 new_n73
+11 1
+.names new_n67 new_n73 new_n74
+11 1
+.names I6 new_n33 new_n75
+11 1
+.names new_n64 new_n75 new_n76
+11 1
+.names new_n74 new_n76 O6
+00 0
+.names new_n21 new_n73 new_n78
+11 1
+.names I9 new_n20 new_n79
+11 1
+.names I5 new_n30 new_n80
+11 1
+.names new_n25 new_n80 new_n81
+11 1
+.names new_n79 new_n81 new_n82
+11 1
+.names new_n78 new_n82 O3
+00 0
+.names new_n30 new_n73 new_n84
+11 1
+.names I5 new_n79 new_n85
+01 1
+.names new_n26 new_n85 new_n86
+11 1
+.names new_n84 new_n86 O5
+00 0
+.end

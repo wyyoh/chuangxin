@@ -1,0 +1,8 @@
+pipeline_id,family,cases,raw_cec_passed,selected_total_nodes,raw_total_nodes,max_selected_level,max_raw_level,fallback_count,crash_count,timeout_count,cec_fail_count,metric_regression_count,wins,ties,losses,raw_gain_vs_final,gain_excluding_best_case,gain_excluding_top2_cases,total_time,peak_RSS,runtime_warning_count,rss_warning_count,beats_47338_selected,phase6_candidate
+aig_resyn_resub_zero,aig_resyn_family,30,30,47031,47095,25,25,2,0,0,0,2,3,24,3,243,-40,-82,17.321505,31.355,0,0,True,True
+choice_fraig_clean,choice_perturb_family,30,30,45850,45916,21,21,2,0,0,0,2,3,21,6,1422,-77,-92,17.362396,33.09,0,0,True,True
+choice_fraig_ifraig_recover,choice_perturb_family,30,30,45462,46233,21,21,2,0,0,0,2,10,14,6,1105,-327,-558,16.741992,31.141,0,0,True,True
+choice_ifraig_clean,choice_perturb_family,30,30,45850,45916,21,21,2,0,0,0,2,3,21,6,1422,-77,-92,17.242439,31.047,0,0,True,True
+dc2_fraig_cleanup,dc2_dch_family,30,30,45462,46233,21,21,2,0,0,0,2,10,14,6,1105,-327,-558,16.925561,31.016,0,0,True,True
+dc2_ifraig_cleanup,dc2_dch_family,30,30,45462,46233,21,21,2,0,0,0,2,10,14,6,1105,-327,-558,17.012928,31.344,0,0,True,True
+high_aig_three_round,high_effort_small_case_family,30,30,45884,45919,25,25,1,0,0,0,1,11,15,4,1419,227,38,20.199417,30.996,0,0,True,True

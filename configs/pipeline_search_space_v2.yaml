@@ -1,0 +1,301 @@
+version: 2
+description: "Pipeline Search 2.0 structured ABC built-in pipeline space. Offline search only until a candidate passes anti-overfit review."
+
+io_contract:
+  runner_wraps_steps_with: "read_blif <input>; <steps>; write_blif <output>"
+  force_read_blif_in_candidates: false
+  force_write_blif_in_candidates: false
+
+normalization_policy:
+  allowed:
+    - "trim whitespace around commands"
+    - "collapse repeated semicolons"
+    - "remove empty commands"
+  forbidden:
+    - "reorder commands"
+    - "remove repeated stateful commands"
+    - "deduplicate balance/rewrite/refactor/resub/dc2/dch/fraig/ifraig/if/mfs/st operations inside a pipeline"
+
+runner_result_schema:
+  version: "pipeline_search2_result_v1"
+  required_columns:
+    - "raw_nodes"
+    - "raw_levels"
+    - "raw_cec_status"
+    - "raw_status"
+    - "selected_nodes"
+    - "selected_levels"
+    - "selected_status"
+    - "fallback_used"
+    - "fallback_reason"
+  analysis_rule: "Use raw_* for pipeline quality analysis and selected_* for final candidate output."
+
+cache_policy:
+  version: "pipeline_search2_cache_v1"
+  key_fields:
+    - "normalized_pipeline_steps"
+    - "input_blif_sha256"
+    - "abc_binary_sha256"
+    - "runner_script_hash_or_version"
+    - "stats_parser_hash_or_version"
+    - "timeout_profile"
+
+metric_regression_policy:
+  name: "current_final_guard_v2"
+  compare_against: "reports/final_metrics.csv"
+  trigger_only_when_raw_cec_passed: true
+  raw_nodes_ratio_max_vs_final: 1.03
+  raw_nodes_abs_worse_min: 25
+  raw_level_delta_max_vs_final: 2
+  raw_runtime_ratio_max_vs_final: 2.50
+  raw_rss_ratio_max_vs_final: 2.00
+  mark_reason: "metric_regression"
+
+timeout_profiles:
+  default:
+    opt_timeout_sec_by_scale:
+      tiny: 60
+      small: 60
+      medium: 120
+      large: 240
+    cec_timeout_sec: 300
+    stats_timeout_sec: 120
+  small_medium_high_effort:
+    opt_timeout_sec_by_scale:
+      tiny: 120
+      small: 120
+      medium: 180
+      large: 0
+    cec_timeout_sec: 300
+    stats_timeout_sec: 120
+    large_case_policy: "skip"
+
+families:
+  aig_resyn_family:
+    goal: "Systematically explore AIG rewriting, refactoring, resubstitution, balance, dc2, and compress recovery."
+    generation_rules:
+      max_sequence_length: 10
+      allow_repeated_tokens: "limited cleanup rounds; preserve order and all configured repeats"
+      force_prefix: "strash"
+      force_suffix: "balance or equivalent cleanup"
+      timeout_profile: "default"
+      smoke_budget: 7
+      full_seed_budget: 10
+      final_selector_allowed: true
+      offline_only: false
+    candidates:
+      - id: "aig_resyn_baseline"
+        steps: ["strash", "balance", "rewrite", "rewrite -z", "refactor", "refactor -z", "balance"]
+        requires: ["rewrite", "rewrite -z", "refactor", "refactor -z"]
+      - id: "aig_resyn_dc2_tail"
+        steps: ["strash", "balance", "rewrite -z", "refactor -z", "dc2", "balance"]
+        requires: ["rewrite -z", "refactor -z", "dc2"]
+      - id: "aig_resyn_rewrite2"
+        steps: ["strash", "balance", "rewrite -z", "refactor -z", "balance", "rewrite -z", "refactor -z", "balance"]
+        requires: ["rewrite -z", "refactor -z"]
+      - id: "aig_resyn_resub_light"
+        steps: ["strash", "balance", "rewrite -z", "resub", "refactor -z", "balance"]
+        requires: ["rewrite -z", "resub", "refactor -z"]
+      - id: "aig_resyn_resub_zero"
+        steps: ["strash", "balance", "rewrite -z", "resub -z", "refactor -z", "dc2", "balance"]
+        requires: ["rewrite -z", "resub -z", "refactor -z", "dc2"]
+      - id: "aig_resyn_compress_tail"
+        steps: ["strash", "balance", "rewrite -z", "refactor -z", "compress2rs", "balance"]
+        requires: ["rewrite -z", "refactor -z", "compress2rs"]
+      - id: "aig_resyn_dc2_compress"
+        steps: ["strash", "balance", "rewrite -z", "refactor -z", "dc2", "compress2rs", "balance"]
+        requires: ["rewrite -z", "refactor -z", "dc2", "compress2rs"]
+      - id: "aig_resyn_refactor_first"
+        steps: ["strash", "balance", "refactor -z", "rewrite -z", "resub -z", "balance", "dc2", "balance"]
+        requires: ["refactor -z", "rewrite -z", "resub -z", "dc2"]
+      - id: "aig_resyn_balance_between_rounds"
+        steps: ["strash", "balance", "rewrite -z", "balance", "refactor -z", "balance", "dc2", "balance"]
+        requires: ["rewrite -z", "refactor -z", "dc2"]
+      - id: "aig_resyn_resub_two_round"
+        steps: ["strash", "balance", "rewrite -z", "resub -z", "refactor -z", "balance", "resub", "dc2", "balance"]
+        requires: ["rewrite -z", "resub -z", "refactor -z", "resub", "dc2"]
+
+  dc2_dch_family:
+    goal: "Explore dch/fraig/ifraig/dc2 perturbations followed by recovery cleanup."
+    generation_rules:
+      max_sequence_length: 9
+      allow_repeated_tokens: "no adjacent identical choice commands"
+      force_prefix: "strash"
+      force_suffix: "balance"
+      timeout_profile: "default"
+      smoke_budget: 6
+      full_seed_budget: 8
+      final_selector_allowed: true
+      offline_only: false
+    candidates:
+      - id: "dc2_dch_basic"
+        steps: ["strash", "dch", "dc2", "balance", "rewrite -z", "refactor -z", "balance"]
+        requires: ["dch", "dc2", "rewrite -z", "refactor -z"]
+      - id: "dc2_dch_force"
+        steps: ["strash", "dch -f", "dc2", "balance", "rewrite -z", "refactor -z", "balance"]
+        requires: ["dch -f", "dc2", "rewrite -z", "refactor -z"]
+      - id: "dc2_fraig_cleanup"
+        steps: ["strash", "fraig", "dc2", "balance", "rewrite -z", "refactor -z", "balance"]
+        requires: ["fraig", "dc2", "rewrite -z", "refactor -z"]
+      - id: "dc2_ifraig_cleanup"
+        steps: ["strash", "ifraig", "dc2", "balance", "rewrite -z", "refactor -z", "balance"]
+        requires: ["ifraig", "dc2", "rewrite -z", "refactor -z"]
+      - id: "dc2_dch_compress"
+        steps: ["strash", "dch", "dc2", "compress2rs", "balance", "rewrite -z", "refactor -z", "balance"]
+        requires: ["dch", "dc2", "compress2rs", "rewrite -z", "refactor -z"]
+      - id: "dc2_fraig_compress"
+        steps: ["strash", "fraig", "compress2rs", "dc2", "balance", "rewrite -z", "refactor -z", "balance"]
+        requires: ["fraig", "compress2rs", "dc2", "rewrite -z", "refactor -z"]
+      - id: "dc2_dch_double_recover"
+        steps: ["strash", "dch", "dc2", "dch", "balance", "rewrite -z", "refactor -z", "balance"]
+        requires: ["dch", "dc2", "rewrite -z", "refactor -z"]
+      - id: "dc2_recover_then_dch"
+        steps: ["strash", "dc2", "balance", "dch", "dc2", "rewrite -z", "refactor -z", "balance"]
+        requires: ["dc2", "dch", "rewrite -z", "refactor -z"]
+
+  sop_fx_family:
+    goal: "Target high-fanin SOP and PLA-like networks before returning to AIG cleanup."
+    generation_rules:
+      max_sequence_length: 9
+      allow_repeated_tokens: "bdd/sop/fx appear at most once unless explicitly configured"
+      force_prefix: "none; SOP commands may run before strash"
+      force_suffix: "strash plus AIG cleanup"
+      timeout_profile: "default"
+      smoke_budget: 5
+      full_seed_budget: 7
+      final_selector_allowed: true
+      offline_only: false
+    candidates:
+      - id: "sop_fx_current"
+        steps: ["sweep", "fx", "strash", "balance", "rewrite -z", "refactor -z", "balance"]
+        requires: ["sweep", "fx", "rewrite -z", "refactor -z"]
+      - id: "sop_fx_dc2"
+        steps: ["sweep", "fx", "strash", "balance", "rewrite -z", "refactor -z", "dc2", "balance"]
+        requires: ["sweep", "fx", "rewrite -z", "refactor -z", "dc2"]
+      - id: "sop_bdd_sop_fx"
+        steps: ["sweep", "bdd", "sop", "fx", "strash", "balance", "rewrite -z", "refactor -z", "balance"]
+        requires: ["sweep", "bdd", "sop", "fx", "rewrite -z", "refactor -z"]
+      - id: "sop_fx_compress"
+        steps: ["sweep", "fx", "strash", "balance", "rewrite -z", "refactor -z", "compress2rs", "balance"]
+        requires: ["sweep", "fx", "rewrite -z", "refactor -z", "compress2rs"]
+      - id: "sop_sweep_strash_dc2"
+        steps: ["sweep", "strash", "balance", "rewrite -z", "refactor -z", "dc2", "balance"]
+        requires: ["sweep", "rewrite -z", "refactor -z", "dc2"]
+      - id: "sop_bdd_fx_dc2"
+        steps: ["sweep", "bdd", "fx", "strash", "balance", "rewrite -z", "refactor -z", "dc2", "balance"]
+        requires: ["sweep", "bdd", "fx", "rewrite -z", "refactor -z", "dc2"]
+      - id: "sop_fx_resub"
+        steps: ["sweep", "fx", "strash", "balance", "rewrite -z", "resub -z", "refactor -z", "balance"]
+        requires: ["sweep", "fx", "rewrite -z", "resub -z", "refactor -z"]
+
+  lut_mfs_roundtrip_family:
+    goal: "Test LUT/mfs round-trips as an offline escape from local AIG optima."
+    generation_rules:
+      max_sequence_length: 11
+      allow_repeated_tokens: "one if round-trip per candidate"
+      force_prefix: "strash"
+      force_suffix: "strash plus AIG cleanup"
+      timeout_profile: "default"
+      smoke_budget: 5
+      full_seed_budget: 8
+      final_selector_allowed: false
+      offline_only: true
+    candidates:
+      - id: "lut_if4_mfs2"
+        steps: ["strash", "if -K 4", "mfs2", "strash", "balance", "rewrite -z", "refactor -z", "dc2", "balance"]
+        requires: ["if -K 4", "mfs2", "rewrite -z", "refactor -z", "dc2"]
+      - id: "lut_if4_mfs3"
+        steps: ["strash", "if -K 4", "mfs3", "strash", "balance", "rewrite -z", "refactor -z", "dc2", "balance"]
+        requires: ["if -K 4", "mfs3", "rewrite -z", "refactor -z", "dc2"]
+      - id: "lut_if5_mfs2"
+        steps: ["strash", "if -K 5", "mfs2", "strash", "balance", "rewrite -z", "refactor -z", "dc2", "balance"]
+        requires: ["if -K 5", "mfs2", "rewrite -z", "refactor -z", "dc2"]
+      - id: "lut_if5_st"
+        steps: ["strash", "if -K 5", "st", "strash", "balance", "rewrite -z", "refactor -z", "dc2", "balance"]
+        requires: ["if -K 5", "st", "rewrite -z", "refactor -z", "dc2"]
+      - id: "lut_if6_mfs3"
+        steps: ["strash", "if -K 6", "mfs3", "strash", "balance", "rewrite -z", "refactor -z", "dc2", "balance"]
+        requires: ["if -K 6", "mfs3", "rewrite -z", "refactor -z", "dc2"]
+      - id: "lut_if4_mfs2_compress"
+        steps: ["strash", "if -K 4", "mfs2", "strash", "balance", "rewrite -z", "refactor -z", "compress2rs", "dc2", "balance"]
+        requires: ["if -K 4", "mfs2", "rewrite -z", "refactor -z", "compress2rs", "dc2"]
+      - id: "lut_if5_mfs3_compress"
+        steps: ["strash", "if -K 5", "mfs3", "strash", "balance", "rewrite -z", "refactor -z", "compress2rs", "balance"]
+        requires: ["if -K 5", "mfs3", "rewrite -z", "refactor -z", "compress2rs"]
+      - id: "lut_if6_st_dc2"
+        steps: ["strash", "if -K 6", "st", "strash", "balance", "rewrite -z", "refactor -z", "dc2", "balance"]
+        requires: ["if -K 6", "st", "rewrite -z", "refactor -z", "dc2"]
+
+  choice_perturb_family:
+    goal: "Create alternate representations with dch/fraig/ifraig and recover with cleanup."
+    generation_rules:
+      max_sequence_length: 10
+      allow_repeated_tokens: "choice/perturb commands at most two per candidate"
+      force_prefix: "strash"
+      force_suffix: "balance"
+      timeout_profile: "default"
+      smoke_budget: 5
+      full_seed_budget: 7
+      final_selector_allowed: false
+      offline_only: true
+    candidates:
+      - id: "choice_dch_clean"
+        steps: ["strash", "dch", "balance", "rewrite -z", "refactor -z", "dc2", "balance"]
+        requires: ["dch", "rewrite -z", "refactor -z", "dc2"]
+      - id: "choice_fraig_clean"
+        steps: ["strash", "fraig", "balance", "rewrite -z", "refactor -z", "dc2", "balance"]
+        requires: ["fraig", "rewrite -z", "refactor -z", "dc2"]
+      - id: "choice_ifraig_clean"
+        steps: ["strash", "ifraig", "balance", "rewrite -z", "refactor -z", "dc2", "balance"]
+        requires: ["ifraig", "rewrite -z", "refactor -z", "dc2"]
+      - id: "choice_dch_fraig_recover"
+        steps: ["strash", "dch", "fraig", "dc2", "compress2rs", "balance", "rewrite -z", "refactor -z", "balance"]
+        requires: ["dch", "fraig", "dc2", "compress2rs", "rewrite -z", "refactor -z"]
+      - id: "choice_fraig_ifraig_recover"
+        steps: ["strash", "fraig", "ifraig", "dc2", "balance", "rewrite -z", "refactor -z", "balance"]
+        requires: ["fraig", "ifraig", "dc2", "rewrite -z", "refactor -z"]
+      - id: "choice_dch_compress_rewrite"
+        steps: ["strash", "dch", "compress2rs", "balance", "rewrite -z", "refactor -z", "dc2", "balance"]
+        requires: ["dch", "compress2rs", "rewrite -z", "refactor -z", "dc2"]
+      - id: "choice_ifraig_dch_recover"
+        steps: ["strash", "ifraig", "dch", "dc2", "balance", "rewrite -z", "refactor -z", "balance"]
+        requires: ["ifraig", "dch", "dc2", "rewrite -z", "refactor -z"]
+
+  high_effort_small_case_family:
+    goal: "Longer high-effort pipelines guarded to tiny/small/medium cases only."
+    generation_rules:
+      max_sequence_length: 16
+      allow_repeated_tokens: "up to three cleanup rounds, preserving configured order"
+      force_prefix: "family-specific"
+      force_suffix: "balance"
+      timeout_profile: "small_medium_high_effort"
+      allowed_case_scales: ["tiny", "small", "medium"]
+      smoke_budget: 4
+      full_seed_budget: 6
+      final_selector_allowed: false
+      offline_only: true
+    candidates:
+      - id: "high_aig_three_round"
+        steps: ["strash", "balance", "rewrite -z", "refactor -z", "balance", "resub -z", "rewrite -z", "refactor -z", "dc2", "balance", "rewrite -z", "refactor -z", "balance"]
+        requires: ["rewrite -z", "refactor -z", "resub -z", "dc2"]
+      - id: "high_dc2_dch_aig"
+        steps: ["strash", "dch", "dc2", "balance", "rewrite -z", "refactor -z", "compress2rs", "balance", "dc2", "balance"]
+        requires: ["dch", "dc2", "rewrite -z", "refactor -z", "compress2rs"]
+      - id: "high_sop_then_aig"
+        steps: ["sweep", "bdd", "sop", "fx", "strash", "balance", "rewrite -z", "resub -z", "refactor -z", "dc2", "balance"]
+        requires: ["sweep", "bdd", "sop", "fx", "rewrite -z", "resub -z", "refactor -z", "dc2"]
+      - id: "high_lut_if4_mfs_recover"
+        steps: ["strash", "if -K 4", "mfs2", "mfs3", "strash", "balance", "rewrite -z", "refactor -z", "dc2", "compress2rs", "balance"]
+        requires: ["if -K 4", "mfs2", "mfs3", "rewrite -z", "refactor -z", "dc2", "compress2rs"]
+      - id: "high_choice_double_recover"
+        steps: ["strash", "dch", "fraig", "dc2", "balance", "rewrite -z", "refactor -z", "ifraig", "dc2", "balance"]
+        requires: ["dch", "fraig", "dc2", "rewrite -z", "refactor -z", "ifraig"]
+      - id: "high_resub_compress_loop"
+        steps: ["strash", "balance", "rewrite -z", "resub -z", "refactor -z", "compress2rs", "balance", "resub", "dc2", "balance", "rewrite -z", "refactor -z", "balance"]
+        requires: ["rewrite -z", "resub -z", "refactor -z", "compress2rs", "resub", "dc2"]
+
+analysis_only_candidates:
+  - id: "best_family_per_case_oracle"
+    family: "oracle_analysis"
+    goal: "Upper-bound analysis only; choose the best family per public case after full search."
+    note: "ORACLE_ONLY_DO_NOT_SUBMIT"

@@ -1,0 +1,240 @@
+===== tc_public_1 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_1/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_1/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.04 sec
+passed=True returncode=0 runtime_sec=0.319040
+
+===== tc_public_10 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_10/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_10/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.189573
+
+===== tc_public_11 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_11/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_11/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.15 sec
+passed=True returncode=0 runtime_sec=0.373586
+
+===== tc_public_12 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_12/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_12/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.09 sec
+passed=True returncode=0 runtime_sec=0.401896
+
+===== tc_public_13 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_13/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_13/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.40 sec
+passed=True returncode=0 runtime_sec=0.667463
+
+===== tc_public_14 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_14/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_14/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.24 sec
+passed=True returncode=0 runtime_sec=0.452637
+
+===== tc_public_15 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_15/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_15/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.18 sec
+passed=True returncode=0 runtime_sec=0.411291
+
+===== tc_public_16 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_16/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_16/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.204735
+
+===== tc_public_17 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_17/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_17/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.283920
+
+===== tc_public_18 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_18/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_18/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.38 sec
+passed=True returncode=0 runtime_sec=0.581593
+
+===== tc_public_19 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_19/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_19/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     4.44 sec
+passed=True returncode=0 runtime_sec=4.789475
+
+===== tc_public_2 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_2/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_2/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.351955
+
+===== tc_public_20 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_20/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_20/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     2.63 sec
+passed=True returncode=0 runtime_sec=2.869210
+
+===== tc_public_21 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_21/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_21/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     4.27 sec
+passed=True returncode=0 runtime_sec=4.447980
+
+===== tc_public_22 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_22/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_22/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     5.79 sec
+passed=True returncode=0 runtime_sec=6.234491
+
+===== tc_public_23 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_23/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_23/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.189167
+
+===== tc_public_24 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_24/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_24/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.242044
+
+===== tc_public_25 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_25/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_25/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.201959
+
+===== tc_public_26 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_26/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_26/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.18 sec
+passed=True returncode=0 runtime_sec=0.381670
+
+===== tc_public_27 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_27/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_27/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.04 sec
+passed=True returncode=0 runtime_sec=0.299322
+
+===== tc_public_28 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_28/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_28/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.06 sec
+passed=True returncode=0 runtime_sec=0.238440
+
+===== tc_public_29 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_29/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_29/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.183663
+
+===== tc_public_3 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_3/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_3/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.390922
+
+===== tc_public_30 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_30/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_30/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     7.94 sec
+passed=True returncode=0 runtime_sec=8.314842
+
+===== tc_public_4 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_4/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_4/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.299507
+
+===== tc_public_5 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_5/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_5/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.240944
+
+===== tc_public_6 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_6/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_6/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.352948
+
+===== tc_public_7 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_7/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_7/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent after structural hashing.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.385046
+
+===== tc_public_8 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_8/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_8/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.326074
+
+===== tc_public_9 =====
+======== ABC command line "cec "stress_data/r8_port_name_stress/cases/tc_public_9/input.blif" "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_9/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.403495
+

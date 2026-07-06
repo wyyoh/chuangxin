@@ -1,0 +1,43 @@
+# Benchmark "netlist" written by ABC on Mon Jun 22 16:16:56 2026
+.model netlist
+.inputs I0 I1 I2 I3 I4 I5
+.outputs O0 O1 O2 O3 O4
+.names I0 I1 new_n12
+11 1
+.names I3 new_n12 new_n13
+11 1
+.names I2 new_n13 O0
+11 1
+.names I4 I5 new_n15
+00 1
+.names new_n12 new_n15 O1
+01 0
+.names I2 I4 new_n17
+11 1
+.names I2 I4 new_n18
+00 1
+.names new_n17 new_n18 new_n19
+00 1
+.names I0 I1 new_n20
+00 1
+.names new_n19 new_n20 new_n21
+10 1
+.names new_n12 new_n19 new_n22
+00 1
+.names new_n21 new_n22 O2
+00 1
+.names I5 new_n12 new_n24
+10 1
+.names new_n13 new_n24 O3
+00 0
+.names I2 I3 new_n26
+11 1
+.names new_n12 new_n26 new_n27
+00 1
+.names I2 I3 new_n28
+00 1
+.names new_n15 new_n28 new_n29
+11 1
+.names new_n27 new_n29 O4
+00 1
+.end

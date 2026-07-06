@@ -1,0 +1,152 @@
+{
+  "v5_debug": {
+    "name": "v5_debug",
+    "nodes": 37708,
+    "level_sum": 281,
+    "max_level": 20,
+    "cec_pass": 30,
+    "fallback": 0,
+    "inner_fallback": 0,
+    "bad_entry": 0,
+    "opt_runtime_sec": 350.330218,
+    "peak_rss_max_mb": 52.098
+  },
+  "v5_release": {
+    "name": "v5_release",
+    "nodes": 37568,
+    "level_sum": 280,
+    "max_level": 20,
+    "cec_pass": 30,
+    "fallback": 0,
+    "inner_fallback": 0,
+    "bad_entry": 0,
+    "opt_runtime_sec": 74.356008,
+    "peak_rss_max_mb": 47.227
+  },
+  "r28_debug": {
+    "name": "r28_debug",
+    "nodes": 37604,
+    "level_sum": 279,
+    "max_level": 20,
+    "cec_pass": 30,
+    "fallback": 0,
+    "inner_fallback": 0,
+    "bad_entry": 0,
+    "opt_runtime_sec": 344.568115,
+    "peak_rss_max_mb": 52.035
+  },
+  "r28_release": {
+    "name": "r28_release",
+    "nodes": 37464,
+    "level_sum": 278,
+    "max_level": 20,
+    "cec_pass": 30,
+    "fallback": 0,
+    "inner_fallback": 0,
+    "bad_entry": 0,
+    "opt_runtime_sec": 76.225724,
+    "peak_rss_max_mb": 47.309
+  },
+  "comparisons": {
+    "v5_release_vs_v5_debug": {
+      "total_gain": 140,
+      "wins": 1,
+      "ties": 29,
+      "losses": 0,
+      "gain_excluding_best": 0,
+      "gain_excluding_top2": 0,
+      "stable_gain_cases": 1,
+      "gains_by_case": [
+        [
+          "tc_public_23",
+          140
+        ]
+      ]
+    },
+    "r28_release_vs_v5_release": {
+      "total_gain": 104,
+      "wins": 4,
+      "ties": 26,
+      "losses": 0,
+      "gain_excluding_best": 21,
+      "gain_excluding_top2": 10,
+      "stable_gain_cases": 4,
+      "gains_by_case": [
+        [
+          "tc_public_14",
+          83
+        ],
+        [
+          "tc_public_15",
+          9
+        ],
+        [
+          "tc_public_26",
+          1
+        ],
+        [
+          "tc_public_30",
+          11
+        ]
+      ]
+    },
+    "r28_release_vs_v5_debug": {
+      "total_gain": 244,
+      "wins": 5,
+      "ties": 25,
+      "losses": 0,
+      "gain_excluding_best": 104,
+      "gain_excluding_top2": 21,
+      "stable_gain_cases": 5,
+      "gains_by_case": [
+        [
+          "tc_public_14",
+          83
+        ],
+        [
+          "tc_public_15",
+          9
+        ],
+        [
+          "tc_public_23",
+          140
+        ],
+        [
+          "tc_public_26",
+          1
+        ],
+        [
+          "tc_public_30",
+          11
+        ]
+      ]
+    },
+    "r28_release_vs_r28_debug": {
+      "total_gain": 140,
+      "wins": 1,
+      "ties": 29,
+      "losses": 0,
+      "gain_excluding_best": 0,
+      "gain_excluding_top2": 0,
+      "stable_gain_cases": 1,
+      "gains_by_case": [
+        [
+          "tc_public_23",
+          140
+        ]
+      ]
+    }
+  },
+  "release_abc": {
+    "path": "C:\\Users\\yy257\\abc_r7b_candidate_release_r28_20260625\\abc.exe",
+    "sha256": "C21C9F2B28F2669D8F99D7587CBBC496672F5D01E45248D7D028B37FDFFF2E3F",
+    "length": 11186176,
+    "debug_crt_strings": [],
+    "dynamic_vc_crt_strings": [],
+    "build_dir": "C:/Users/yy257/abc_r7b_candidate_release_r28_20260625",
+    "source_dir": "C:/Users/yy257/abc_r7b_candidate",
+    "source_commit": "9546db421c4f1b3d8736b6af2f9af875ddec8ec2",
+    "cmake_build_type": "Release",
+    "msvc_runtime": "/MT"
+  }
+}

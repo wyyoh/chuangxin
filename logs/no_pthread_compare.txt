@@ -1,0 +1,8 @@
+rows_current=30 rows_frozen=30
+current_nodes=47338
+frozen_nodes=47338
+current_max_level=25
+frozen_max_level=25
+current_cec_pass=30
+frozen_cec_pass=30
+diff_count=0

@@ -1,0 +1,69 @@
+# Benchmark "r7b_port_order_stress_input" written by ABC on Mon Jun 22 20:05:19 2026
+.model r7b_port_order_stress_input
+.inputs r7pi_18_0013_wlxbxqciqt r7pi_18_0011_qpcbgy2468 \
+ r7pi_18_0001_e7po5x6l1s r7pi_18_0014_sa8a6py2be r7pi_18_0004_r3v6h0nvk7 \
+ r7pi_18_0012_q9uq0pi9ss r7pi_18_0003_zkyodj73d0 r7pi_18_0009_j2d0n2o7bx \
+ r7pi_18_0008_1s2aeww0ql r7pi_18_0002_8z1sckrn1u r7pi_18_0010_alb6ziupz8 \
+ r7pi_18_0000_iix6gc9hqn r7pi_18_0007_xx6fevs48r r7pi_18_0006_ovj3q9vfw1 \
+ r7pi_18_0005_fs47ll0iqi
+.outputs r7po_18_0000_wx47jvfeqe r7po_18_0001_s01r27kskf \
+ r7po_18_0002_c96gkxhwdu r7po_18_0003_izl5tgzg6s r7po_18_0004_u9wgk10w9s \
+ r7po_18_0005_x0nykqnk15 r7po_18_0006_sny1fsbshh r7po_18_0007_sqnl235s4y \
+ r7po_18_0008_nfv9if6p58
+.names r7pi_18_0004_r3v6h0nvk7 r7pi_18_0002_8z1sckrn1u new_n25
+00 1
+.names r7pi_18_0005_fs47ll0iqi new_n25 new_n26
+01 1
+.names r7pi_18_0003_zkyodj73d0 new_n26 new_n27
+01 1
+.names r7pi_18_0001_e7po5x6l1s new_n27 new_n28
+01 1
+.names r7pi_18_0000_iix6gc9hqn r7pi_18_0006_ovj3q9vfw1 new_n29
+01 1
+.names new_n28 new_n29 r7po_18_0000_wx47jvfeqe
+11 1
+.names r7pi_18_0007_xx6fevs48r new_n28 r7po_18_0001_s01r27kskf
+11 1
+.names r7pi_18_0001_e7po5x6l1s r7pi_18_0000_iix6gc9hqn new_n32
+11 1
+.names r7pi_18_0008_1s2aeww0ql new_n32 new_n33
+10 1
+.names new_n27 new_n33 r7po_18_0002_c96gkxhwdu
+11 1
+.names r7pi_18_0009_j2d0n2o7bx new_n27 r7po_18_0003_izl5tgzg6s
+11 1
+.names r7pi_18_0003_zkyodj73d0 new_n26 new_n36
+11 1
+.names r7pi_18_0001_e7po5x6l1s r7pi_18_0000_iix6gc9hqn new_n37
+00 1
+.names new_n36 new_n37 new_n38
+11 1
+.names new_n27 new_n38 new_n39
+00 1
+.names r7pi_18_0010_alb6ziupz8 new_n39 r7po_18_0004_u9wgk10w9s
+10 1
+.names r7pi_18_0001_e7po5x6l1s new_n36 new_n41
+01 1
+.names new_n27 new_n41 new_n42
+00 1
+.names r7pi_18_0011_qpcbgy2468 new_n42 r7po_18_0005_x0nykqnk15
+10 1
+.names new_n32 new_n36 new_n44
+01 1
+.names new_n27 new_n44 new_n45
+00 1
+.names r7pi_18_0012_q9uq0pi9ss new_n45 r7po_18_0006_sny1fsbshh
+10 1
+.names r7pi_18_0013_wlxbxqciqt new_n26 r7po_18_0007_sqnl235s4y
+11 1
+.names r7pi_18_0003_zkyodj73d0 new_n37 new_n48
+01 1
+.names r7pi_18_0002_8z1sckrn1u new_n48 new_n49
+10 1
+.names r7pi_18_0014_sa8a6py2be r7pi_18_0004_r3v6h0nvk7 new_n50
+10 1
+.names r7pi_18_0005_fs47ll0iqi new_n50 new_n51
+01 1
+.names new_n49 new_n51 r7po_18_0008_nfv9if6p58
+01 1
+.end

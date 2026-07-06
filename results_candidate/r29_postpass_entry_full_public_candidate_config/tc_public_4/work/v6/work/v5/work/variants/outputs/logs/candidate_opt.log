@@ -1,0 +1,14 @@
+$ submit\bin\abc.exe -c read_blif "results_candidate/r29_postpass_entry_full_public_candidate_config/tc_public_4/work/v6/work/v5/work/variant_inputs/outputs/input.blif"; strash; &get -n; &deepsyn -I 1 -J 20 -T 5; &put; write_blif "results_candidate/r29_postpass_entry_full_public_candidate_config/tc_public_4/work/v6/work/v5/work/variants/outputs/output.candidate.blif"
+returncode=0
+runtime_sec=0.573190
+peak_mem_mb=12.727
+timed_out=False
+
+STDOUT
+======== ABC command line "read_blif "results_candidate/r29_postpass_entry_full_public_candidate_config/tc_public_4/work/v6/work/v5/work/variant_inputs/outputs/input.blif"; strash; &get -n; &deepsyn -I 1 -J 20 -T 5; &put; write_blif "results_candidate/r29_postpass_entry_full_public_candidate_config/tc_public_4/work/v6/work/v5/work/variants/outputs/output.candidate.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Completed 20 iterations without improvement in 0.49 seconds.
+
+STDERR

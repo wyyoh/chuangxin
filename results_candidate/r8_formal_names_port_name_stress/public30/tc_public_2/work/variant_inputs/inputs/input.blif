@@ -1,0 +1,32 @@
+# R7b port-order stress generated from input
+# Only .inputs/.outputs declaration order is shuffled; names and logic are preserved.
+.model r7b_port_order_stress_input
+.inputs r7pi_12_0001_lbi1wjj8m9 r7pi_12_0005_2shytlqho5 r7pi_12_0000_o4e96686b8 \
+  r7pi_12_0004_7jg59timx4 r7pi_12_0003_7bt50jeadv r7pi_12_0002_1xz5kck6b7
+.outputs r7po_12_0000_qnd3sa6skf r7po_12_0001_3g9adisc1p r7po_12_0002_w9obly6acw \
+  r7po_12_0003_eqvp6la96u r7po_12_0004_sxj0sc1s5e
+.names r7pi_12_0000_o4e96686b8 r7pi_12_0001_lbi1wjj8m9 r7pi_12_0002_1xz5kck6b7 r7pi_12_0003_7bt50jeadv r7po_12_0000_qnd3sa6skf
+1111 1
+.names r7pi_12_0000_o4e96686b8 r7pi_12_0001_lbi1wjj8m9 r7pi_12_0004_7jg59timx4 r7pi_12_0005_2shytlqho5 r7po_12_0001_3g9adisc1p
+11-- 1
+--1- 1
+--01 1
+.names r7pi_12_0000_o4e96686b8 r7pi_12_0001_lbi1wjj8m9 r7pi_12_0002_1xz5kck6b7 r7pi_12_0004_7jg59timx4 r7po_12_0002_w9obly6acw
+1100 1
+1111 1
+0001 1
+0010 1
+.names r7pi_12_0000_o4e96686b8 r7pi_12_0001_lbi1wjj8m9 r7pi_12_0003_7bt50jeadv r7pi_12_0005_2shytlqho5 r7po_12_0003_eqvp6la96u
+111- 1
+00-1 1
+01-1 1
+10-1 1
+.names r7pi_12_0000_o4e96686b8 r7pi_12_0001_lbi1wjj8m9 r7pi_12_0002_1xz5kck6b7 r7pi_12_0003_7bt50jeadv r7pi_12_0004_7jg59timx4 r7pi_12_0005_2shytlqho5 r7po_12_0004_sxj0sc1s5e
+111--- 1
+11-1-- 1
+11--1- 1
+11---1 1
+0011-- 1
+0111-- 1
+1011-- 1
+.end

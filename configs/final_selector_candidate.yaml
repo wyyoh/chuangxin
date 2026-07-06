@@ -1,0 +1,166 @@
+# R25D release-candidate selector.
+# Builds on final_selector_v4_20260623 and promotes the guarded Route D
+# DSD/DCH rules after C0-C9 candidate validation. No filenames, hashes, case
+# IDs, exact public fingerprints, port names, or directory names are used.
+default_pipeline: dc2_fast
+
+rules:
+  - name: r25_dsd_large_tiny_pi_small_po_shared
+    when:
+      scale_grade_in: [large]
+      runtime_size_bin_in: [runtime_large]
+      pi_bin_in: [pi_tiny]
+      po_bin_in: [po_small]
+      near_two_input_aig: true
+      high_fanin_sop: false
+      shared_node_count_min: 1000
+    pipeline: r25_dsd_dch_cleanup
+
+  - name: r25_dsd_medium_small_pi_medium_po_shared
+    when:
+      scale_grade_in: [medium]
+      runtime_size_bin_in: [runtime_medium]
+      pi_bin_in: [pi_small]
+      po_bin_in: [po_medium]
+      near_two_input_aig: true
+      high_fanin_sop: false
+      shared_node_count_min: 50
+    pipeline: r25_dsd_dch_cleanup
+
+  - name: r25_dsd_small_small_pi_small_po_shared_dup
+    when:
+      scale_grade_in: [small]
+      runtime_size_bin_in: [runtime_small]
+      pi_bin_in: [pi_small]
+      po_bin_in: [po_small]
+      near_two_input_aig: true
+      high_fanin_sop: false
+      shared_node_count_min: 80
+      tfi_duplication_ratio_min: 2.0
+    pipeline: r25_dsd_dch_cleanup
+
+  - name: r11_deepsyn_large_low_pi_small_po
+    when:
+      scale_grade_in: [large]
+      runtime_size_bin_in: [runtime_large]
+      pi_bin_in: [pi_tiny]
+      po_bin_in: [po_small]
+      cubes_bin_in: [cubes_large]
+      near_two_input_aig: true
+      high_fanin_sop: false
+    pipeline: r11_gia_deepsyn_tiny
+
+  - name: r11_deepsyn_medium_tiny_po
+    when:
+      scale_grade_in: [medium]
+      runtime_size_bin_in: [runtime_medium]
+      po_bin_in: [po_tiny]
+      near_two_input_aig: true
+      high_fanin_sop: false
+    pipeline: r11_gia_deepsyn_tiny
+
+  - name: r11_deepsyn_medium_small_pi_medium_po
+    when:
+      scale_grade_in: [medium]
+      runtime_size_bin_in: [runtime_medium]
+      pi_bin_in: [pi_small]
+      po_bin_in: [po_medium]
+      near_two_input_aig: true
+      high_fanin_sop: false
+    pipeline: r11_gia_deepsyn_tiny
+
+  - name: r11_deepsyn_small_small_pi_medium_po
+    when:
+      scale_grade_in: [small]
+      runtime_size_bin_in: [runtime_small]
+      pi_bin_in: [pi_small]
+      po_bin_in: [po_medium]
+      cubes_bin_in: [cubes_tiny]
+      near_two_input_aig: true
+      high_fanin_sop: false
+    pipeline: r11_gia_deepsyn_tiny
+
+  - name: r11_deepsyn_small_high_sop_low_two
+    when:
+      scale_grade_in: [small]
+      pi_bin_in: [pi_medium]
+      po_bin_in: [po_medium]
+      cubes_bin_in: [cubes_tiny]
+      max_fanin_bin_in: [fanin_3_4]
+      two_input_ratio_bin_in: [two_ratio_low]
+      near_two_input_aig: false
+      high_fanin_sop: true
+    pipeline: r11_gia_deepsyn_tiny
+
+  - name: r11_deepsyn_small_small_pi_small_po
+    when:
+      scale_grade_in: [small]
+      pi_bin_in: [pi_small]
+      po_bin_in: [po_small]
+      cubes_bin_in: [cubes_tiny]
+      near_two_input_aig: true
+      high_fanin_sop: false
+    pipeline: r11_gia_deepsyn_tiny
+
+  - name: r11_deepsyn_tiny_high_sop_small_po
+    when:
+      scale_grade_in: [tiny]
+      pi_bin_in: [pi_tiny]
+      po_bin_in: [po_small]
+      max_fanin_bin_in: [fanin_9p]
+      near_two_input_aig: false
+      high_fanin_sop: true
+    pipeline: r11_gia_deepsyn_tiny
+
+  - name: r11_deepsyn_tiny_high_sop_medium_po
+    when:
+      scale_grade_in: [tiny]
+      pi_bin_in: [pi_medium]
+      po_bin_in: [po_medium]
+      max_fanin_bin_in: [fanin_3_4]
+      near_two_input_aig: false
+      high_fanin_sop: true
+    pipeline: r11_gia_deepsyn_tiny
+
+  - name: r7b_high_overlap_guarded_fraig
+    when:
+      r7b_eligible: true
+    pipeline: r7b_r7win_fraig_high
+
+  - name: medium_runtime_fraig_cleanup
+    when:
+      scale_grade_in: [medium]
+      high_fanin_sop: false
+      runtime_size_bin_in: [runtime_medium]
+    pipeline: r10_medium_fraig_cleanup
+
+  - name: large_smallpo_fraig_cleanup
+    when:
+      scale_grade_in: [large]
+      high_fanin_sop: false
+      near_two_input_aig: true
+      runtime_size_bin_in: [runtime_large]
+      pi_bin_in: [pi_large]
+      po_bin_in: [po_small]
+      cubes_bin_in: [cubes_large]
+    pipeline: r9_dc2_fraig_cleanup
+
+  - name: large_runtime_aig_high_effort
+    when:
+      scale_grade_in: [large]
+      high_fanin_sop: false
+      near_two_input_aig: true
+      runtime_size_bin_in: [runtime_large]
+    pipeline: high_aig_three_round
+
+  - name: tiny_high_fanin_sop
+    when:
+      scale_grade_in: [tiny, small]
+      high_fanin_sop: true
+    pipeline: sop_fx
+
+  - name: medium_rewrite_cleanup
+    when:
+      scale_grade_in: [medium]
+      near_two_input_aig: false
+    pipeline: rewrite2

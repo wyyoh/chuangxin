@@ -1,0 +1,13 @@
+$ bin\abc.exe -c read_blif "C:/Users/yy257/cpipc_r28_formal_release/logs/r28_formal_zip_hidden_smoke_tc_public_14/work/v5/work/variant_inputs/inputs/input.blif"; strash; balance; rewrite; rewrite -z; refactor; refactor -z; balance; write_blif "C:/Users/yy257/cpipc_r28_formal_release/logs/r28_formal_zip_hidden_smoke_tc_public_14/work/v5/work/variants/inputs/baseline.blif"
+returncode=0
+runtime_sec=0.263977
+peak_mem_mb=13.699
+timed_out=False
+
+STDOUT
+======== ABC command line "read_blif "C:/Users/yy257/cpipc_r28_formal_release/logs/r28_formal_zip_hidden_smoke_tc_public_14/work/v5/work/variant_inputs/inputs/input.blif"; strash; balance; rewrite; rewrite -z; refactor; refactor -z; balance; write_blif "C:/Users/yy257/cpipc_r28_formal_release/logs/r28_formal_zip_hidden_smoke_tc_public_14/work/v5/work/variants/inputs/baseline.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+
+STDERR

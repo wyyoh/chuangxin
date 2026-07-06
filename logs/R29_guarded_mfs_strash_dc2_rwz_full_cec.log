@@ -1,0 +1,240 @@
+===== tc_public_1 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_1/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_1/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.104611
+
+===== tc_public_10 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_10/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_10/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.062800
+
+===== tc_public_11 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_11/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_11/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.080333
+
+===== tc_public_12 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_12/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_12/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.104870
+
+===== tc_public_13 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_13/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_13/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.12 sec
+passed=True returncode=0 runtime_sec=0.234014
+
+===== tc_public_14 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_14/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_14/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.07 sec
+passed=True returncode=0 runtime_sec=0.143040
+
+===== tc_public_15 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_15/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_15/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.088150
+
+===== tc_public_16 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_16/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_16/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.049156
+
+===== tc_public_17 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_17/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_17/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.050280
+
+===== tc_public_18 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_18/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_18/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.13 sec
+passed=True returncode=0 runtime_sec=0.180864
+
+===== tc_public_19 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_19/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_19/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.68 sec
+passed=True returncode=0 runtime_sec=0.761531
+
+===== tc_public_2 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_2/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_2/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.098982
+
+===== tc_public_20 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_20/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_20/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.83 sec
+passed=True returncode=0 runtime_sec=0.910758
+
+===== tc_public_21 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_21/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_21/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.81 sec
+passed=True returncode=0 runtime_sec=0.899397
+
+===== tc_public_22 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_22/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_22/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     1.32 sec
+passed=True returncode=0 runtime_sec=1.429627
+
+===== tc_public_23 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_23/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_23/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.04 sec
+passed=True returncode=0 runtime_sec=0.116282
+
+===== tc_public_24 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_24/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_24/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.068884
+
+===== tc_public_25 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_25/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_25/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.051726
+
+===== tc_public_26 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_26/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_26/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.073016
+
+===== tc_public_27 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_27/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_27/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.071854
+
+===== tc_public_28 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_28/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_28/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.068921
+
+===== tc_public_29 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_29/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_29/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.048890
+
+===== tc_public_3 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_3/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_3/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.087465
+
+===== tc_public_30 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_30/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_30/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     1.73 sec
+passed=True returncode=0 runtime_sec=1.806352
+
+===== tc_public_4 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_4/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_4/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.106374
+
+===== tc_public_5 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_5/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_5/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.050788
+
+===== tc_public_6 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_6/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_6/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.110944
+
+===== tc_public_7 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_7/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_7/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.105723
+
+===== tc_public_8 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_8/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_8/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.103582
+
+===== tc_public_9 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_9/input.blif" "results_research/R29_postpass_matrix_v6/guarded_r29_mfs_strash_dc2_rwz_full_public/tc_public_9/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.104311
+

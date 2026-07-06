@@ -1,0 +1,240 @@
+===== hidden_00_d6x9ft32hq =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_00_d6x9ft32hq/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_00_d6x9ft32hq/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.191155
+
+===== hidden_01_2qt84rjgug =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_01_2qt84rjgug/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_01_2qt84rjgug/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.120313
+
+===== hidden_02_rzzk76qenc =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_02_rzzk76qenc/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_02_rzzk76qenc/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.04 sec
+passed=True returncode=0 runtime_sec=0.141893
+
+===== hidden_03_5bfyk8pyfj =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_03_5bfyk8pyfj/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_03_5bfyk8pyfj/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.06 sec
+passed=True returncode=0 runtime_sec=0.178154
+
+===== hidden_04_e3v8q7xtey =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_04_e3v8q7xtey/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_04_e3v8q7xtey/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.31 sec
+passed=True returncode=0 runtime_sec=0.498079
+
+===== hidden_05_tuetvjwkjb =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_05_tuetvjwkjb/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_05_tuetvjwkjb/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.17 sec
+passed=True returncode=0 runtime_sec=0.332702
+
+===== hidden_06_m7cktmu9gu =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_06_m7cktmu9gu/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_06_m7cktmu9gu/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.11 sec
+passed=True returncode=0 runtime_sec=0.232885
+
+===== hidden_07_85fpmyf45p =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_07_85fpmyf45p/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_07_85fpmyf45p/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.172518
+
+===== hidden_08_vn9kbvcc2m =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_08_vn9kbvcc2m/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_08_vn9kbvcc2m/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.147338
+
+===== hidden_09_52b654qvba =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_09_52b654qvba/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_09_52b654qvba/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.32 sec
+passed=True returncode=0 runtime_sec=0.436248
+
+===== hidden_10_4t5r5pbn7f =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_10_4t5r5pbn7f/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_10_4t5r5pbn7f/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     2.18 sec
+passed=True returncode=0 runtime_sec=2.392164
+
+===== hidden_11_f9yaer5zeq =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_11_f9yaer5zeq/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_11_f9yaer5zeq/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.197465
+
+===== hidden_12_6ushmyc5kr =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_12_6ushmyc5kr/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_12_6ushmyc5kr/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     2.06 sec
+passed=True returncode=0 runtime_sec=2.212711
+
+===== hidden_13_jdyh5m82qf =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_13_jdyh5m82qf/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_13_jdyh5m82qf/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     2.44 sec
+passed=True returncode=0 runtime_sec=2.586126
+
+===== hidden_14_z9gqqu7qq3 =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_14_z9gqqu7qq3/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_14_z9gqqu7qq3/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     4.18 sec
+passed=True returncode=0 runtime_sec=4.420159
+
+===== hidden_15_xezqyc56xy =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_15_xezqyc56xy/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_15_xezqyc56xy/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.147091
+
+===== hidden_16_jfdhuzfc2b =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_16_jfdhuzfc2b/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_16_jfdhuzfc2b/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.112851
+
+===== hidden_17_9dzyvumb86 =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_17_9dzyvumb86/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_17_9dzyvumb86/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.117263
+
+===== hidden_18_vrnkqn5swx =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_18_vrnkqn5swx/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_18_vrnkqn5swx/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.08 sec
+passed=True returncode=0 runtime_sec=0.200540
+
+===== hidden_19_artbu4xheu =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_19_artbu4xheu/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_19_artbu4xheu/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.134851
+
+===== hidden_20_uetxb38g2e =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_20_uetxb38g2e/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_20_uetxb38g2e/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.130196
+
+===== hidden_21_4vck5rt8wa =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_21_4vck5rt8wa/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_21_4vck5rt8wa/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.127610
+
+===== hidden_22_9x6jvusgk9 =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_22_9x6jvusgk9/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_22_9x6jvusgk9/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.190324
+
+===== hidden_23_y7kujdxwk2 =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_23_y7kujdxwk2/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_23_y7kujdxwk2/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     4.81 sec
+passed=True returncode=0 runtime_sec=4.966638
+
+===== hidden_24_9h7fpz5maz =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_24_9h7fpz5maz/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_24_9h7fpz5maz/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.183697
+
+===== hidden_25_s6nefc9ann =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_25_s6nefc9ann/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_25_s6nefc9ann/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.109275
+
+===== hidden_26_cybxnbgb2f =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_26_cybxnbgb2f/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_26_cybxnbgb2f/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.219378
+
+===== hidden_27_daje2bztg9 =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_27_daje2bztg9/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_27_daje2bztg9/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent after structural hashing.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.185289
+
+===== hidden_28_fd936a8m6g =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_28_fd936a8m6g/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_28_fd936a8m6g/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.184081
+
+===== hidden_29_f8hsza5pan =====
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_29_f8hsza5pan/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_29_f8hsza5pan/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.183303
+

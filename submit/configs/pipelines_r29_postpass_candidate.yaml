@@ -1,0 +1,4 @@
+pipelines:
+  r29_mfs_strash_dc2_rwz_bal:
+    description: "R29 guarded post-pass: MFS, strash, dc2, rewrite -z, and balance."
+    steps: "mfs; strash; dc2; rewrite -z; balance"

@@ -1,0 +1,13 @@
+{
+    "formal_plan_exit":  0,
+    "dryrun_plan_exit":  0,
+    "formal_without_confirm_exit":  1,
+    "formal_without_confirm_rejected":  true,
+    "formal_without_confirm_printed_plan_before_reject":  true,
+    "formal_without_confirm_stdout_sha256":  "9504E4EC3FB79586F89BFD172288B810DBF3DF54E8F6D80DF56361BA567E08C4",
+    "formal_without_confirm_stderr_contains":  "formal mode requires --confirm-overwrite-submit",
+    "protected_submit_hash_after":  "4B6236AF057009318EA50E39FFC43FFA3A74708B49A07C2F08FD386AB6D1AF8A",
+    "readiness_status":  "pass",
+    "readiness_passed":  32,
+    "readiness_total":  32
+}

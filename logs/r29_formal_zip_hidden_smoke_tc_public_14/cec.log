@@ -1,0 +1,5 @@
+======== ABC command line "cec C:\Users\yy257\cpipc_r28_v5_remeasure\local_data\tc_public\tc_public_14\input.blif C:\Users\yy257\cpipc_r29_formal_release\logs\r29_formal_zip_hidden_smoke_tc_public_14\output.blif"
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.06 sec

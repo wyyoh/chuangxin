@@ -1,0 +1,84 @@
+{
+  "release_tag": "final_selector_v8_20260626",
+  "previous_tag": "final_selector_v7_20260626",
+  "previous_commit": "08a42ff4678fc89b5880be3efea7d70e9c7690c9",
+  "metrics": {
+    "cases": 30,
+    "selected_total_nodes": 37097,
+    "total_selected_levels": 275,
+    "max_selected_level": 20,
+    "cec_passed": 30,
+    "fallback_count": 0,
+    "inner_fallback_count": 0,
+    "bad_returncode_count": 0,
+    "total_opt_time_sec": 113.025956,
+    "total_cec_time_sec": 83.69985,
+    "total_stats_time_sec": 16.20383,
+    "peak_RSS_MB": 47.273
+  },
+  "promotion_delta": {
+    "node_gain_vs_v7": 163,
+    "level_sum_delta_vs_v7": -2,
+    "max_level_delta_vs_v7": 0,
+    "gain_excluding_best_case": 103,
+    "gain_excluding_top2_cases": 70,
+    "r30b_accepted_cases": [
+      "tc_public_12",
+      "tc_public_15",
+      "tc_public_19",
+      "tc_public_20",
+      "tc_public_21",
+      "tc_public_22",
+      "tc_public_30"
+    ],
+    "r30b_rejected_cases": [
+      "tc_public_13:no_node_gain"
+    ],
+    "r30b_skipped_count": 22,
+    "opt_time_delta_vs_v7_sec": 7.984641,
+    "cec_time_delta_vs_v7_sec": 19.078485,
+    "stats_time_delta_vs_v7_sec": 2.378717
+  },
+  "package": {
+    "path": "submit_sharecone.zip",
+    "sha256": "D19E2732C825A0004A0C83F0A7C20475C364DD0127EC686DCFF4F6D7611A83A0",
+    "previous_sha256": "ECF4D8694F8DEDD8DF7599591565693683B2152A321381C1FFE8896CE216C3F3",
+    "abc_sha256": "C21C9F2B28F2669D8F99D7587CBBC496672F5D01E45248D7D028B37FDFFF2E3F",
+    "abc_build": "/MT Release",
+    "debug_crt_strings": "none",
+    "dynamic_vc_crt_strings": "none"
+  },
+  "verification": {
+    "final_cec_log": "logs/final_cec.log",
+    "package_cec_root_log": "submit/logs/reproduce_cec.log",
+    "package_cec_inside_log": "submit/logs/reproduce_cec_inside.log",
+    "zip_extract_cec_log": "logs/r30b_formal_zip_extract_cec.log",
+    "zip_extract_inside_cec_log": "logs/r30b_formal_zip_extract_inside_cec.log",
+    "hidden_entry_smoke_cec_log": "logs/r30b_formal_zip_hidden_smoke_tc_public_12_cec.log",
+    "hidden_entry_smoke_metrics": "logs/r30b_formal_zip_hidden_smoke_tc_public_12_metrics.json",
+    "final_cec": {
+      "equivalent": 30,
+      "bad": 0
+    },
+    "package_cec_root": {
+      "equivalent": 30,
+      "bad": 0
+    },
+    "package_cec_inside": {
+      "equivalent": 30,
+      "bad": 0
+    },
+    "zip_extract_cec": {
+      "equivalent": 30,
+      "bad": 0
+    },
+    "zip_extract_inside_cec": {
+      "equivalent": 30,
+      "bad": 0
+    },
+    "hidden_entry_smoke": {
+      "equivalent": 1,
+      "bad": 0
+    }
+  }
+}

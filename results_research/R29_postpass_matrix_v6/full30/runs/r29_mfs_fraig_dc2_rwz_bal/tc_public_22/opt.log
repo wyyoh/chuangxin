@@ -1,0 +1,13 @@
+$ submit\bin\abc.exe -c read_blif "submit/results/final_public/tc_public_22/output.blif"; mfs; fraig; dc2; rewrite -z; balance; write_blif "results_research/R29_postpass_matrix_v6/full30/runs/r29_mfs_fraig_dc2_rwz_bal/tc_public_22/output.blif"
+returncode=0
+runtime_sec=8.053676
+peak_mem_mb=17.672
+timed_out=False
+
+STDOUT
+======== ABC command line "read_blif "submit/results/final_public/tc_public_22/output.blif"; mfs; fraig; dc2; rewrite -z; balance; write_blif "results_research/R29_postpass_matrix_v6/full30/runs/r29_mfs_fraig_dc2_rwz_bal/tc_public_22/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+
+STDERR

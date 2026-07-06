@@ -1,0 +1,32 @@
+===== tc_public_1 =====
+======== ABC command line "cec "cases/tc_public_1/input.blif" "C:/Users/yy257/cpipc_r8_integration/results_candidate/r8_entrypoint_isolation/outputs/tc_public_1/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.185416
+
+===== tc_public_14 =====
+======== ABC command line "cec "cases/tc_public_14/input.blif" "C:/Users/yy257/cpipc_r8_integration/results_candidate/r8_entrypoint_isolation/outputs/tc_public_14/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.16 sec
+passed=True returncode=0 runtime_sec=0.293512
+
+===== tc_public_22 =====
+======== ABC command line "cec "cases/tc_public_22/input.blif" "C:/Users/yy257/cpipc_r8_integration/results_candidate/r8_entrypoint_isolation/outputs/tc_public_22/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     4.17 sec
+passed=True returncode=0 runtime_sec=4.414689
+
+===== tc_public_30 =====
+======== ABC command line "cec "cases/tc_public_30/input.blif" "C:/Users/yy257/cpipc_r8_integration/results_candidate/r8_entrypoint_isolation/outputs/tc_public_30/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     4.59 sec
+passed=True returncode=0 runtime_sec=4.748693
+

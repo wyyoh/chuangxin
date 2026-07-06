@@ -1,0 +1,2 @@
+cases,selected_total_nodes,raw_total_nodes,max_selected_level,max_raw_level,raw_cec_passed,fallback_count,crash_count,timeout_count,cec_fail_count,wins,ties,losses,gain_excluding_best_case,gain_excluding_top2_cases,total_opt_time,total_cec_time,total_time,peak_RSS,runtime_warning_count,rss_warning_count,current_final_nodes
+30,45870,45870,25,25,30,0,0,0,0,6,24,0,276,87,11.748826,6.801159,20.314991,30.605,0,0,47338

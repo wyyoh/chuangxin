@@ -1,0 +1,240 @@
+===== tc_public_1 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_1/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_1/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.344624
+
+===== tc_public_10 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_10/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_10/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.152467
+
+===== tc_public_11 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_11/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_11/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.04 sec
+passed=True returncode=0 runtime_sec=0.188320
+
+===== tc_public_12 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_12/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_12/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.06 sec
+passed=True returncode=0 runtime_sec=0.206840
+
+===== tc_public_13 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_13/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_13/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.28 sec
+passed=True returncode=0 runtime_sec=0.474368
+
+===== tc_public_14 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_14/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_14/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.15 sec
+passed=True returncode=0 runtime_sec=0.290951
+
+===== tc_public_15 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_15/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_15/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.09 sec
+passed=True returncode=0 runtime_sec=0.207981
+
+===== tc_public_16 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_16/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_16/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.127075
+
+===== tc_public_17 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_17/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_17/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.128077
+
+===== tc_public_18 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_18/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_18/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.21 sec
+passed=True returncode=0 runtime_sec=0.335933
+
+===== tc_public_19 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_19/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_19/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     1.36 sec
+passed=True returncode=0 runtime_sec=1.517075
+
+===== tc_public_2 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_2/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_2/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.188548
+
+===== tc_public_20 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_20/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_20/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     1.49 sec
+passed=True returncode=0 runtime_sec=1.660092
+
+===== tc_public_21 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_21/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_21/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     1.57 sec
+passed=True returncode=0 runtime_sec=1.737343
+
+===== tc_public_22 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_22/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_22/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     3.08 sec
+passed=True returncode=0 runtime_sec=3.310549
+
+===== tc_public_23 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_23/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_23/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.08 sec
+passed=True returncode=0 runtime_sec=0.208865
+
+===== tc_public_24 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_24/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_24/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.127088
+
+===== tc_public_25 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_25/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_25/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.106241
+
+===== tc_public_26 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_26/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_26/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.09 sec
+passed=True returncode=0 runtime_sec=0.210156
+
+===== tc_public_27 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_27/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_27/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.147336
+
+===== tc_public_28 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_28/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_28/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.146592
+
+===== tc_public_29 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_29/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_29/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.126939
+
+===== tc_public_3 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_3/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_3/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.188731
+
+===== tc_public_30 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_30/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_30/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     5.09 sec
+passed=True returncode=0 runtime_sec=5.265741
+
+===== tc_public_4 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_4/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_4/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.188414
+
+===== tc_public_5 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_5/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_5/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.106576
+
+===== tc_public_6 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_6/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_6/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.186722
+
+===== tc_public_7 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_7/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_7/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.188057
+
+===== tc_public_8 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_8/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_8/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.188719
+
+===== tc_public_9 =====
+======== ABC command line "cec "local_data/tc_public/tc_public_9/input.blif" "scratch/r11s_submit_dryrun_scoreboard/results/final_public/tc_public_9/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.192158
+

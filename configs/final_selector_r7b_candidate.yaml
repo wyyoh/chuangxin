@@ -1,0 +1,31 @@
+# R7b candidate selector for review only.
+# This file does not replace configs/final_selector.yaml.
+# Coarse structural rules only: no file names, hashes, tc_public IDs, exact
+# public-set fingerprints, or directory-based decisions.
+default_pipeline: dc2_fast
+
+rules:
+  - name: r7b_high_overlap_guarded_fraig
+    when:
+      r7b_eligible: true
+    pipeline: r7b_r7win_fraig_high
+
+  - name: large_runtime_aig_high_effort
+    when:
+      scale_grade_in: [large]
+      high_fanin_sop: false
+      near_two_input_aig: true
+      runtime_size_bin_in: [runtime_large]
+    pipeline: high_aig_three_round
+
+  - name: tiny_high_fanin_sop
+    when:
+      scale_grade_in: [tiny, small]
+      high_fanin_sop: true
+    pipeline: sop_fx
+
+  - name: medium_rewrite_cleanup
+    when:
+      scale_grade_in: [medium]
+      near_two_input_aig: false
+    pipeline: rewrite2

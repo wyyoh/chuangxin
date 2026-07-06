@@ -1,0 +1,235 @@
+{
+  "abc_sha256": "85F59E6291A1C4B10B757BF163D14D2152EAA974B21BC6F4E13F44EC49969805",
+  "checks": [
+    {
+      "detail": "submit\\bin\\abc.exe",
+      "name": "abc_exists",
+      "ok": true
+    },
+    {
+      "detail": "reports\\r11s_packaging_dryrun_full30_metrics.csv",
+      "name": "metrics_exists",
+      "ok": true
+    },
+    {
+      "detail": "logs\\r11s_packaging_dryrun_full30_cec.log",
+      "name": "cec_log_exists",
+      "ok": true
+    },
+    {
+      "detail": "logs\\r11s_packaging_dryrun_reproduce_cec.log",
+      "name": "packaged_cec_log_exists",
+      "ok": true
+    },
+    {
+      "detail": "logs\\r11s_packaging_dryrun_reproduce_cec_inside.log",
+      "name": "packaged_cec_inside_log_exists",
+      "ok": true
+    },
+    {
+      "detail": "logs\\r11s_packaged_tc10_cec.log",
+      "name": "packaged_singlecase_cec_log_exists",
+      "ok": true
+    },
+    {
+      "detail": "reports\\r11s_packaging_dryrun_failure_cases.md",
+      "name": "failure_cases_exists",
+      "ok": true
+    },
+    {
+      "detail": "reports\\final_scoreboard.xlsx",
+      "name": "scoreboard_exists",
+      "ok": true
+    },
+    {
+      "detail": "configs\\final_selector.yaml",
+      "name": "selector_exists",
+      "ok": true
+    },
+    {
+      "detail": "configs\\pipelines.yaml",
+      "name": "pipelines_exists",
+      "ok": true
+    },
+    {
+      "detail": "tools\\package_submit.py",
+      "name": "package_script_exists",
+      "ok": true
+    },
+    {
+      "detail": "30 expected 30",
+      "name": "metrics_rows",
+      "ok": true
+    },
+    {
+      "detail": "41004 expected 41004",
+      "name": "metrics_nodes",
+      "ok": true
+    },
+    {
+      "detail": "20 expected 20",
+      "name": "metrics_max_level",
+      "ok": true
+    },
+    {
+      "detail": "285 expected 285",
+      "name": "metrics_total_levels",
+      "ok": true
+    },
+    {
+      "detail": "30 expected 30",
+      "name": "metrics_cec_pass",
+      "ok": true
+    },
+    {
+      "detail": "0 expected 0",
+      "name": "metrics_fallback",
+      "ok": true
+    },
+    {
+      "detail": "0 expected 0",
+      "name": "metrics_inner_fallback",
+      "ok": true
+    },
+    {
+      "detail": "0 expected 0",
+      "name": "metrics_bad_entry",
+      "ok": true
+    },
+    {
+      "detail": "{'equivalent': 30, 'not_equivalent': 0, 'non_rc_cannot_open': 0, 'failed': 0, 'error': 0}",
+      "name": "full_cec_equivalent",
+      "ok": true
+    },
+    {
+      "detail": "{'equivalent': 30, 'not_equivalent': 0, 'non_rc_cannot_open': 0, 'failed': 0, 'error': 0}",
+      "name": "packaged_cec_equivalent",
+      "ok": true
+    },
+    {
+      "detail": "{'equivalent': 30, 'not_equivalent': 0, 'non_rc_cannot_open': 0, 'failed': 0, 'error': 0}",
+      "name": "packaged_cec_inside_equivalent",
+      "ok": true
+    },
+    {
+      "detail": "{'equivalent': 1, 'not_equivalent': 0, 'non_rc_cannot_open': 0, 'failed': 0, 'error': 0}",
+      "name": "packaged_singlecase_cec_equivalent",
+      "ok": true
+    },
+    {
+      "detail": "85F59E6291A1C4B10B757BF163D14D2152EAA974B21BC6F4E13F44EC49969805",
+      "name": "abc_hash",
+      "ok": true
+    },
+    {
+      "detail": "returncode=0; has_expected=True",
+      "name": "abc_r7win_help",
+      "ok": true
+    },
+    {
+      "detail": "returncode=0; has_expected=True",
+      "name": "abc_deepsyn_help",
+      "ok": true
+    },
+    {
+      "detail": "unresolved=0 fallback=0",
+      "name": "failure_cases_clean",
+      "ok": true
+    },
+    {
+      "detail": "bytes=8916",
+      "name": "scoreboard_nonempty",
+      "ok": true
+    },
+    {
+      "detail": "missing=[]; forbidden=[]",
+      "name": "selector_r11s_rules",
+      "ok": true
+    },
+    {
+      "detail": "missing=[]",
+      "name": "pipelines_r11s_present",
+      "ok": true
+    },
+    {
+      "detail": "missing=[]",
+      "name": "package_submit_runtime_deps",
+      "ok": true
+    },
+    {
+      "detail": "4B6236AF057009318EA50E39FFC43FFA3A74708B49A07C2F08FD386AB6D1AF8A",
+      "name": "old_formal_zip_unchanged",
+      "ok": true
+    }
+  ],
+  "expected": {
+    "abc_sha256": "85F59E6291A1C4B10B757BF163D14D2152EAA974B21BC6F4E13F44EC49969805",
+    "bad_entry": 0,
+    "cases": 30,
+    "cec_pass": 30,
+    "fallback": 0,
+    "inner_fallback": 0,
+    "max_level": 20,
+    "nodes": 41004,
+    "old_formal_submit_sha256": "4B6236AF057009318EA50E39FFC43FFA3A74708B49A07C2F08FD386AB6D1AF8A",
+    "total_levels": 285
+  },
+  "logs": {
+    "full_cec": {
+      "equivalent": 30,
+      "error": 0,
+      "failed": 0,
+      "non_rc_cannot_open": 0,
+      "not_equivalent": 0
+    },
+    "packaged_cec": {
+      "equivalent": 30,
+      "error": 0,
+      "failed": 0,
+      "non_rc_cannot_open": 0,
+      "not_equivalent": 0
+    },
+    "packaged_cec_inside": {
+      "equivalent": 30,
+      "error": 0,
+      "failed": 0,
+      "non_rc_cannot_open": 0,
+      "not_equivalent": 0
+    },
+    "packaged_singlecase_cec": {
+      "equivalent": 1,
+      "error": 0,
+      "failed": 0,
+      "non_rc_cannot_open": 0,
+      "not_equivalent": 0
+    }
+  },
+  "metrics": {
+    "bad_entry": 0,
+    "cec_pass": 30,
+    "fallback": 0,
+    "inner_fallback": 0,
+    "max_level": 20,
+    "nodes": 41004,
+    "rows": 30,
+    "total_levels": 285
+  },
+  "old_submit_zip_sha256": "4B6236AF057009318EA50E39FFC43FFA3A74708B49A07C2F08FD386AB6D1AF8A",
+  "paths": {
+    "abc": "submit\\bin\\abc.exe",
+    "cec_log": "logs\\r11s_packaging_dryrun_full30_cec.log",
+    "failure_cases": "reports\\r11s_packaging_dryrun_failure_cases.md",
+    "json_out": "reports\\r11s_release_readiness_check.json",
+    "md_out": "reports\\r11s_release_readiness_check.md",
+    "metrics": "reports\\r11s_packaging_dryrun_full30_metrics.csv",
+    "old_submit_zip": "submit_sharecone.zip",
+    "package_script": "tools\\package_submit.py",
+    "packaged_cec_inside_log": "logs\\r11s_packaging_dryrun_reproduce_cec_inside.log",
+    "packaged_cec_log": "logs\\r11s_packaging_dryrun_reproduce_cec.log",
+    "packaged_singlecase_cec_log": "logs\\r11s_packaged_tc10_cec.log",
+    "pipelines": "configs\\pipelines.yaml",
+    "scoreboard": "reports\\final_scoreboard.xlsx",
+    "selector": "configs\\final_selector.yaml"
+  },
+  "status": "pass"
+}

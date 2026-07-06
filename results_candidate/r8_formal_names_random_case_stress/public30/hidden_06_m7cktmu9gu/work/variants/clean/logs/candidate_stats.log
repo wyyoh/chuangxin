@@ -1,0 +1,14 @@
+$ C:\Users\yy257\abc_r7b_candidate_ninja_build2\abc.exe -c read_blif "results_candidate/r8_formal_names_random_case_stress/public30/hidden_06_m7cktmu9gu/work/variants/clean/output.candidate.blif"; strash; ps
+returncode=0
+runtime_sec=0.110885
+peak_mem_mb=7.254
+timed_out=False
+
+STDOUT
+======== ABC command line "read_blif "results_candidate/r8_formal_names_random_case_stress/public30/hidden_06_m7cktmu9gu/work/variants/clean/output.candidate.blif"; strash; ps"
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+netlist                       : i/o =   31/   32  lat =    0  and =    922  lev = 11
+
+STDERR

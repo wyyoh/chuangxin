@@ -1,0 +1,14 @@
+$ C:\Users\yy257\abc_r7b_candidate_ninja_build2\abc.exe -c cec "stress_data/r8_random_case_names/cases/hidden_28_fd936a8m6g/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_28_fd936a8m6g/output.blif"
+returncode=0
+runtime_sec=0.184081
+peak_mem_mb=9.590
+timed_out=False
+
+STDOUT
+======== ABC command line "cec "stress_data/r8_random_case_names/cases/hidden_28_fd936a8m6g/input.blif" "results_candidate/r8_formal_names_random_case_stress/public30/hidden_28_fd936a8m6g/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+
+STDERR

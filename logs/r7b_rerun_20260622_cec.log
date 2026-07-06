@@ -1,0 +1,239 @@
+===== tc_public_1 =====
+======== ABC command line "cec "data/tc_public/tc_public_1/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_1/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.196874
+
+===== tc_public_10 =====
+======== ABC command line "cec "data/tc_public/tc_public_10/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_10/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.128920
+
+===== tc_public_11 =====
+======== ABC command line "cec "data/tc_public/tc_public_11/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_11/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.04 sec
+passed=True returncode=0 runtime_sec=0.140544
+
+===== tc_public_12 =====
+======== ABC command line "cec "data/tc_public/tc_public_12/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_12/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.06 sec
+passed=True returncode=0 runtime_sec=0.183284
+
+===== tc_public_13 =====
+======== ABC command line "cec "data/tc_public/tc_public_13/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_13/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.28 sec
+passed=True returncode=0 runtime_sec=0.457695
+
+===== tc_public_14 =====
+======== ABC command line "cec "data/tc_public/tc_public_14/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_14/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.18 sec
+passed=True returncode=0 runtime_sec=0.318340
+
+===== tc_public_15 =====
+======== ABC command line "cec "data/tc_public/tc_public_15/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_15/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.10 sec
+passed=True returncode=0 runtime_sec=0.221737
+
+===== tc_public_16 =====
+======== ABC command line "cec "data/tc_public/tc_public_16/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_16/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.122737
+
+===== tc_public_17 =====
+======== ABC command line "cec "data/tc_public/tc_public_17/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_17/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.121526
+
+===== tc_public_18 =====
+======== ABC command line "cec "data/tc_public/tc_public_18/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_18/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.28 sec
+passed=True returncode=0 runtime_sec=0.390410
+
+===== tc_public_19 =====
+======== ABC command line "cec "data/tc_public/tc_public_19/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_19/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     1.78 sec
+passed=True returncode=0 runtime_sec=1.956698
+
+===== tc_public_2 =====
+======== ABC command line "cec "data/tc_public/tc_public_2/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_2/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.252285
+
+===== tc_public_20 =====
+======== ABC command line "cec "data/tc_public/tc_public_20/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_20/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     1.80 sec
+passed=True returncode=0 runtime_sec=1.971184
+
+===== tc_public_21 =====
+======== ABC command line "cec "data/tc_public/tc_public_21/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_21/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     1.92 sec
+passed=True returncode=0 runtime_sec=2.090961
+
+===== tc_public_22 =====
+======== ABC command line "cec "data/tc_public/tc_public_22/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_22/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     4.20 sec
+passed=True returncode=0 runtime_sec=4.425265
+
+===== tc_public_23 =====
+======== ABC command line "cec "data/tc_public/tc_public_23/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_23/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.149033
+
+===== tc_public_24 =====
+======== ABC command line "cec "data/tc_public/tc_public_24/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_24/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.121977
+
+===== tc_public_25 =====
+======== ABC command line "cec "data/tc_public/tc_public_25/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_25/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.113881
+
+===== tc_public_26 =====
+======== ABC command line "cec "data/tc_public/tc_public_26/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_26/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.08 sec
+passed=True returncode=0 runtime_sec=0.184931
+
+===== tc_public_27 =====
+======== ABC command line "cec "data/tc_public/tc_public_27/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_27/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.129370
+
+===== tc_public_28 =====
+======== ABC command line "cec "data/tc_public/tc_public_28/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_28/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.129220
+
+===== tc_public_29 =====
+======== ABC command line "cec "data/tc_public/tc_public_29/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_29/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.114569
+
+===== tc_public_3 =====
+======== ABC command line "cec "data/tc_public/tc_public_3/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_3/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.190184
+
+===== tc_public_30 =====
+======== ABC command line "cec "data/tc_public/tc_public_30/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_30/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     4.85 sec
+passed=True returncode=0 runtime_sec=5.008151
+
+===== tc_public_4 =====
+======== ABC command line "cec "data/tc_public/tc_public_4/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_4/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.186054
+
+===== tc_public_5 =====
+======== ABC command line "cec "data/tc_public/tc_public_5/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_5/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.113840
+
+===== tc_public_6 =====
+======== ABC command line "cec "data/tc_public/tc_public_6/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_6/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.182978
+
+===== tc_public_7 =====
+======== ABC command line "cec "data/tc_public/tc_public_7/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_7/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent after structural hashing.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.179964
+
+===== tc_public_8 =====
+======== ABC command line "cec "data/tc_public/tc_public_8/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_8/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.182561
+
+===== tc_public_9 =====
+======== ABC command line "cec "data/tc_public/tc_public_9/input.blif" "results_candidate/r7b_rerun_20260622/public30/tc_public_9/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.181270

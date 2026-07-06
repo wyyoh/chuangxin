@@ -1,0 +1,5 @@
+======== ABC command line "cec ..\..\local_data\tc_public\tc_public_10\input.blif logs\dryrun_tc10_output.blif"
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec

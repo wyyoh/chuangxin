@@ -1,0 +1,14 @@
+$ C:\Users\yy257\abc_r7b_candidate_ninja_build2\abc.exe -c read_blif "local_data/tc_public/tc_public_26/input.blif"; strash; r7win -profile -F fraig -G 0 -diag -case input
+returncode=0
+runtime_sec=0.110128
+peak_mem_mb=7.242
+timed_out=False
+
+STDOUT
+======== ABC command line "read_blif "local_data/tc_public/tc_public_26/input.blif"; strash; r7win -profile -F fraig -G 0 -diag -case input"
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+r7win_diag,case=input,stage=gate2_guarded_fraig,mode=profile,proof=fraig,growth_budget=0,seed=1,rewrite_enabled=0,rewrite_status=profile_noop,network_changed=0,before_nodes=1064,before_levels=32,after_nodes=1064,after_levels=32,num_inputs=33,num_outputs=32,aig_nodes=1064,aig_levels=32,total_tfi_ids=2013,max_containment=0.800000,avg_top5_containment=0.800000,max_jaccard=0.444444,avg_top5_jaccard=0.362163,max_shared_nodes=53,num_high_overlap_pairs=217,clusters_seen=1,clusters_attempted=0,clusters_accepted=0,num_eligible_clusters=0,largest_cluster_size=24,cluster_potential_score=69.875585,eligible_for_future_rewrite=0,skip_reason=cluster_potential_lt_70,targets_seen=0,divisors_seen=0,candidates_simulated=0,candidates_signature_pass=0,truth_attempt_count=0,truth_pass_count=0,sat_attempt_count=0,odc_attempt_count=0,odc_pass_count=0,rejected_by_signature=0,rejected_by_truth_budget=0,rejected_by_truth=0,rejected_by_gain=0,rejected_by_level=0,rollback_count=0,mffc_status=OK,mffc_size_avg=10.712,mffc_size_p50=1,mffc_size_p90=35,mffc_size_max=56,runtime_sec=0.001000
+
+STDERR

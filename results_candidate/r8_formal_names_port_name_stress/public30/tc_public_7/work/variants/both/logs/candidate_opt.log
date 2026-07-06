@@ -1,0 +1,13 @@
+$ C:\Users\yy257\abc_r7b_candidate_ninja_build2\abc.exe -c read_blif "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_7/work/variant_inputs/both/input.blif"; sop; fx; strash; balance; rewrite -z; refactor -z; balance; write_blif "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_7/work/variants/both/output.candidate.blif"
+returncode=0
+runtime_sec=0.184972
+peak_mem_mb=9.270
+timed_out=False
+
+STDOUT
+======== ABC command line "read_blif "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_7/work/variant_inputs/both/input.blif"; sop; fx; strash; balance; rewrite -z; refactor -z; balance; write_blif "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_7/work/variants/both/output.candidate.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+
+STDERR

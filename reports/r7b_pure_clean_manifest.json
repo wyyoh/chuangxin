@@ -1,0 +1,85 @@
+{
+  "candidate": "r7b_pure",
+  "status": "candidate-ready",
+  "baseline": {
+    "tag": "final_selector_v2_20260526",
+    "commit": "0b0edf4890283e36fac943166a8c84a148c120b8",
+    "nodes": 45870,
+    "max_level": 25,
+    "cec": "30/30",
+    "fallback": 0
+  },
+  "root_worktree": "C:\\Users\\yy257\\cpipc_r7b_candidate",
+  "root_branch": "candidate/r7b-pure",
+  "abc_worktree": "C:\\Users\\yy257\\abc_r7b_candidate",
+  "abc_branch": "candidate/r7b-pure",
+  "abc_commit": "9546db421c4f1b3d8736b6af2f9af875ddec8ec2",
+  "abc_exe": "C:\\Users\\yy257\\abc_r7b_candidate_ninja_build2\\abc.exe",
+  "abc_exe_sha256": "85F59E6291A1C4B10B757BF163D14D2152EAA974B21BC6F4E13F44EC49969805",
+  "commands": [
+    "python tools\\extract_blif_features.py --cases data\\tc_public --csv results_candidate\\r7b_pure_clean\\base_features.csv",
+    "python tools\\extract_r7b_features.py --abc C:\\Users\\yy257\\abc_r7b_candidate_ninja_build2\\abc.exe --cases data\\tc_public --base-features results_candidate\\r7b_pure_clean\\base_features.csv --csv results_candidate\\r7b_pure_clean\\features.csv --work-dir results_candidate\\r7b_pure_clean\\feature_profile --timeout 120",
+    "python tools\\eval_public.py --abc C:\\Users\\yy257\\abc_r7b_candidate_ninja_build2\\abc.exe --cases data\\tc_public --selector configs\\final_selector_r7b_candidate.yaml --features results_candidate\\r7b_pure_clean\\features.csv --pipelines configs\\pipelines_r7b_pure_candidate.yaml --out results_candidate\\r7b_pure_clean\\public30 --csv reports\\r7b_pure_clean_metrics.csv --opt-timeout 300 --cec-timeout 300 --stats-timeout 120",
+    "python tools\\verify_all_cec.py --abc C:\\Users\\yy257\\abc_r7b_candidate_ninja_build2\\abc.exe --cases data\\tc_public --outputs results_candidate\\r7b_pure_clean\\public30 --log logs\\r7b_pure_clean_cec.log --timeout 300"
+  ],
+  "results": {
+    "nodes": 44559,
+    "node_delta_vs_baseline": -1311,
+    "max_level": 21,
+    "cec": "30/30",
+    "fallback": 0,
+    "crash_timeout_cec_fail": "0/0/0",
+    "wins_ties_losses": "3/27/0",
+    "gain_excluding_best_case": 20,
+    "gain_excluding_top2_cases": 5,
+    "local_level_regressions": 0,
+    "max_opt_runtime_sec": 31.27,
+    "max_peak_rss_mb": 34.92
+  },
+  "evidence": {
+    "metrics_csv": "reports/r7b_pure_clean_metrics.csv",
+    "diff_csv": "reports/r7b_pure_clean_diff.csv",
+    "cec_log": "logs/r7b_pure_clean_cec.log",
+    "report": "reports/r7b_pure_clean_reproduction.md"
+  },
+  "release_notes": {
+    "formal_final_affected": false,
+    "submit_generated": false,
+    "requires_user_approval_before_formal_merge": true,
+    "requires_user_approval_before_submit_packaging": true
+  },
+  "stress_tests": {
+    "anonymized_case_names": {
+      "status": "passed",
+      "cases": 30,
+      "pipeline_mismatches": 0,
+      "node_mismatches": 0,
+      "level_mismatches": 0,
+      "nodes": 44559,
+      "max_level": 21,
+      "cec": "30/30",
+      "fallback": 0,
+      "mapping_csv": "results_candidate/r7b_anon_stress/anon_case_map.csv",
+      "metrics_csv": "reports/r7b_anon_stress_metrics.csv",
+      "compare_csv": "reports/r7b_anon_stress_compare.csv",
+      "cec_log": "logs/r7b_anon_stress_cec.log",
+      "summary": "reports/r7b_anon_stress_summary.md"
+    },
+    "randomized_case_names": {
+      "status": "passed",
+      "cases": 30,
+      "pipeline_mismatches": 0,
+      "node_mismatches": 0,
+      "level_mismatches": 0,
+      "nodes": 44559,
+      "max_level": 21,
+      "cec": "30/30",
+      "fallback": 0,
+      "mapping_csv": "results_candidate/r7b_random_name_stress/random_case_map.csv",
+      "metrics_csv": "reports/r7b_random_name_stress_metrics.csv",
+      "compare_csv": "reports/r7b_random_name_stress_compare.csv",
+      "cec_log": "logs/r7b_random_name_stress_cec.log",
+      "summary": "reports/r7b_random_name_stress_summary.md"
+    }
+  }
+}

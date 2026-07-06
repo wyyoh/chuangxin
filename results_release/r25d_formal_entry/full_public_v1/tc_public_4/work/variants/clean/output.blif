@@ -1,0 +1,131 @@
+# Benchmark "netlist" written by ABC on Wed Jun 24 17:32:45 2026
+.model netlist
+.inputs I0 I1 I2 I3 I4 I5 I6 I7 I8 I9
+.outputs O0 O1 O2 O3 O4 O5 O6 O7
+.names I0 I1 new_n19
+11 1
+.names I0 I1 new_n20
+00 1
+.names new_n19 new_n20 new_n21
+00 1
+.names I6 new_n21 new_n22
+11 1
+.names I3 I5 new_n23
+00 1
+.names I2 new_n23 new_n24
+11 1
+.names new_n22 new_n24 new_n25
+11 1
+.names I0 I2 new_n26
+10 1
+.names I0 I2 new_n27
+01 1
+.names I1 new_n27 new_n28
+10 1
+.names new_n26 new_n28 new_n29
+01 1
+.names I5 I6 new_n30
+10 1
+.names I3 new_n30 new_n31
+11 1
+.names new_n29 new_n31 new_n32
+11 1
+.names new_n25 new_n32 new_n33
+00 1
+.names I4 new_n33 new_n34
+10 1
+.names I7 I8 new_n35
+01 1
+.names new_n34 new_n35 O0
+11 1
+.names I7 I8 new_n37
+10 1
+.names I9 new_n37 new_n38
+11 1
+.names new_n29 new_n38 new_n39
+11 1
+.names I3 I4 new_n40
+01 1
+.names new_n39 new_n40 new_n41
+11 1
+.names I5 new_n41 new_n42
+01 1
+.names I0 new_n42 new_n43
+01 1
+.names I3 I4 new_n44
+10 1
+.names new_n21 new_n44 new_n45
+11 1
+.names I3 I4 new_n46
+00 1
+.names new_n19 new_n46 new_n47
+11 1
+.names new_n45 new_n47 new_n48
+00 1
+.names I2 I5 new_n49
+11 1
+.names new_n38 new_n49 new_n50
+11 1
+.names new_n48 new_n50 new_n51
+01 1
+.names new_n43 new_n51 O1
+00 0
+.names I2 new_n48 new_n53
+10 1
+.names new_n22 new_n35 new_n54
+11 1
+.names new_n53 new_n54 new_n55
+11 1
+.names I6 new_n29 new_n56
+11 1
+.names I7 I8 new_n57
+11 1
+.names new_n23 new_n57 new_n58
+11 1
+.names new_n56 new_n58 new_n59
+11 1
+.names new_n55 new_n59 new_n60
+00 1
+.names I9 new_n60 O2
+00 1
+.names new_n30 new_n44 new_n62
+11 1
+.names new_n39 new_n62 new_n63
+11 1
+.names I9 new_n54 new_n64
+11 1
+.names new_n40 new_n49 new_n65
+11 1
+.names new_n64 new_n65 new_n66
+11 1
+.names new_n63 new_n66 O3
+00 0
+.names I6 new_n53 new_n68
+01 1
+.names new_n56 new_n68 new_n69
+00 1
+.names I5 I9 new_n70
+10 1
+.names new_n44 new_n57 new_n71
+11 1
+.names new_n70 new_n71 new_n72
+11 1
+.names new_n69 new_n72 O4
+01 1
+.names new_n30 new_n41 new_n74
+11 1
+.names I5 new_n53 new_n75
+01 1
+.names new_n64 new_n75 new_n76
+11 1
+.names new_n74 new_n76 O5
+00 0
+.names new_n34 new_n38 O6
+11 1
+.names new_n55 new_n70 new_n79
+11 1
+.names I6 new_n42 new_n80
+01 1
+.names new_n79 new_n80 O7
+00 0
+.end

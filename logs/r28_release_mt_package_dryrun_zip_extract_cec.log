@@ -1,0 +1,240 @@
+===== tc_public_1 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_1/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_1/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.170234
+
+===== tc_public_10 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_10/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_10/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.054943
+
+===== tc_public_11 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_11/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_11/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.074731
+
+===== tc_public_12 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_12/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_12/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.074738
+
+===== tc_public_13 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_13/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_13/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.15 sec
+passed=True returncode=0 runtime_sec=0.309360
+
+===== tc_public_14 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_14/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_14/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.08 sec
+passed=True returncode=0 runtime_sec=0.141429
+
+===== tc_public_15 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_15/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_15/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.04 sec
+passed=True returncode=0 runtime_sec=0.082646
+
+===== tc_public_16 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_16/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_16/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.052575
+
+===== tc_public_17 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_17/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_17/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.051670
+
+===== tc_public_18 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_18/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_18/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.12 sec
+passed=True returncode=0 runtime_sec=0.170224
+
+===== tc_public_19 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_19/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_19/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.51 sec
+passed=True returncode=0 runtime_sec=0.593324
+
+===== tc_public_2 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_2/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_2/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.119623
+
+===== tc_public_20 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_20/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_20/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.51 sec
+passed=True returncode=0 runtime_sec=0.579394
+
+===== tc_public_21 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_21/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_21/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.64 sec
+passed=True returncode=0 runtime_sec=0.721990
+
+===== tc_public_22 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_22/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_22/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     1.32 sec
+passed=True returncode=0 runtime_sec=1.494129
+
+===== tc_public_23 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_23/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_23/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.04 sec
+passed=True returncode=0 runtime_sec=0.113483
+
+===== tc_public_24 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_24/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_24/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.078564
+
+===== tc_public_25 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_25/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_25/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.053607
+
+===== tc_public_26 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_26/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_26/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.070098
+
+===== tc_public_27 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_27/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_27/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.072299
+
+===== tc_public_28 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_28/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_28/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.071966
+
+===== tc_public_29 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_29/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_29/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.051505
+
+===== tc_public_3 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_3/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_3/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.145822
+
+===== tc_public_30 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_30/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_30/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     2.68 sec
+passed=True returncode=0 runtime_sec=2.750027
+
+===== tc_public_4 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_4/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_4/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.102036
+
+===== tc_public_5 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_5/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_5/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.048417
+
+===== tc_public_6 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_6/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_6/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.101002
+
+===== tc_public_7 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_7/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_7/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.144050
+
+===== tc_public_8 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_8/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_8/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.120427
+
+===== tc_public_9 =====
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_v5_remeasure/local_data/tc_public/tc_public_9/input.blif" "scratch/r28_release_mt_zip_extract/results/final_public/tc_public_9/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.124359
+

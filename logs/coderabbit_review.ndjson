@@ -1,0 +1,1 @@
+﻿{"status":"blocked","reason":"coderabbit CLI not found in PATH","checked_with":"Get-Command coderabbit -ErrorAction SilentlyContinue","review_completed":false}

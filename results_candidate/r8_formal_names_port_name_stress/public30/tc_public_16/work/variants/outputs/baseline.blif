@@ -1,0 +1,98 @@
+# Benchmark "r7b_port_order_stress_input" written by ABC on Mon Jun 22 19:54:16 2026
+.model r7b_port_order_stress_input
+.inputs r7pi_08_0000_lxnjk9zyoc r7pi_08_0001_7va42sknkd \
+ r7pi_08_0002_pvv1widoga r7pi_08_0003_x8fjur1t71 r7pi_08_0004_qwr8ahxn8v \
+ r7pi_08_0005_opftki5s20 r7pi_08_0006_f6vwwys69f r7pi_08_0007_d5goi0qvy2
+.outputs r7po_08_0004_sl7mli4gpv r7po_08_0000_xlgkreujf8 \
+ r7po_08_0001_p36y0lblco r7po_08_0003_u3q87qf22w r7po_08_0002_kwgy193fkn
+.names r7pi_08_0001_7va42sknkd r7pi_08_0003_x8fjur1t71 new_n14
+10 1
+.names r7pi_08_0001_7va42sknkd r7pi_08_0003_x8fjur1t71 new_n15
+01 1
+.names new_n14 new_n15 new_n16
+00 1
+.names r7pi_08_0002_pvv1widoga r7pi_08_0007_d5goi0qvy2 new_n17
+10 1
+.names r7pi_08_0002_pvv1widoga r7pi_08_0007_d5goi0qvy2 new_n18
+01 1
+.names new_n17 new_n18 new_n19
+00 1
+.names r7pi_08_0006_f6vwwys69f new_n19 new_n20
+10 1
+.names r7pi_08_0006_f6vwwys69f new_n19 new_n21
+01 1
+.names new_n20 new_n21 new_n22
+00 1
+.names new_n16 new_n22 new_n23
+00 1
+.names new_n16 new_n22 new_n24
+11 1
+.names new_n23 new_n24 r7po_08_0004_sl7mli4gpv
+00 0
+.names r7pi_08_0000_lxnjk9zyoc r7pi_08_0001_7va42sknkd new_n26
+10 1
+.names r7pi_08_0000_lxnjk9zyoc r7pi_08_0001_7va42sknkd new_n27
+01 1
+.names new_n26 new_n27 new_n28
+00 1
+.names r7pi_08_0005_opftki5s20 r7pi_08_0006_f6vwwys69f new_n29
+10 1
+.names r7pi_08_0005_opftki5s20 r7pi_08_0006_f6vwwys69f new_n30
+01 1
+.names new_n29 new_n30 new_n31
+00 1
+.names r7pi_08_0002_pvv1widoga new_n31 new_n32
+10 1
+.names r7pi_08_0002_pvv1widoga new_n31 new_n33
+01 1
+.names new_n32 new_n33 new_n34
+00 1
+.names new_n28 new_n34 new_n35
+00 1
+.names new_n28 new_n34 new_n36
+11 1
+.names new_n35 new_n36 r7po_08_0000_xlgkreujf8
+00 0
+.names r7pi_08_0003_x8fjur1t71 r7pi_08_0004_qwr8ahxn8v new_n38
+10 1
+.names r7pi_08_0003_x8fjur1t71 r7pi_08_0004_qwr8ahxn8v new_n39
+01 1
+.names new_n38 new_n39 new_n40
+00 1
+.names new_n31 new_n40 new_n41
+10 1
+.names new_n31 new_n40 new_n42
+01 1
+.names new_n41 new_n42 r7po_08_0001_p36y0lblco
+00 0
+.names r7pi_08_0000_lxnjk9zyoc r7pi_08_0005_opftki5s20 new_n44
+10 1
+.names r7pi_08_0000_lxnjk9zyoc r7pi_08_0005_opftki5s20 new_n45
+01 1
+.names new_n44 new_n45 new_n46
+00 1
+.names r7pi_08_0004_qwr8ahxn8v new_n19 new_n47
+10 1
+.names r7pi_08_0004_qwr8ahxn8v new_n19 new_n48
+01 1
+.names new_n47 new_n48 new_n49
+00 1
+.names new_n46 new_n49 new_n50
+00 1
+.names new_n46 new_n49 new_n51
+11 1
+.names new_n50 new_n51 r7po_08_0003_u3q87qf22w
+00 0
+.names r7pi_08_0007_d5goi0qvy2 new_n28 new_n53
+10 1
+.names r7pi_08_0007_d5goi0qvy2 new_n28 new_n54
+01 1
+.names new_n53 new_n54 new_n55
+00 1
+.names new_n40 new_n55 new_n56
+00 1
+.names new_n40 new_n55 new_n57
+11 1
+.names new_n56 new_n57 r7po_08_0002_kwgy193fkn
+00 0
+.end

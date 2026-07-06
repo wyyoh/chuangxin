@@ -1,0 +1,14 @@
+$ submit\bin\abc.exe -c read_blif "results_release/r25d_formal_entry/full_public_v1/tc_public_14/work/variant_inputs/inputs/input.blif"; strash; r7win -mode rewrite -F fraig -G 0 -diag; balance; rewrite -z; refactor -z; balance; resub -z; rewrite -z; refactor -z; dc2; balance; rewrite -z; refactor -z; balance; write_blif "results_release/r25d_formal_entry/full_public_v1/tc_public_14/work/variants/inputs/output.candidate.blif"
+returncode=0
+runtime_sec=1.089053
+peak_mem_mb=23.824
+timed_out=False
+
+STDOUT
+======== ABC command line "read_blif "results_release/r25d_formal_entry/full_public_v1/tc_public_14/work/variant_inputs/inputs/input.blif"; strash; r7win -mode rewrite -F fraig -G 0 -diag; balance; rewrite -z; refactor -z; balance; resub -z; rewrite -z; refactor -z; dc2; balance; rewrite -z; refactor -z; balance; write_blif "results_release/r25d_formal_entry/full_public_v1/tc_public_14/work/variants/inputs/output.candidate.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+r7win_diag,case=input,stage=gate2_guarded_fraig,mode=rewrite,proof=fraig,growth_budget=0,seed=1,rewrite_enabled=1,rewrite_status=accepted_fraig,network_changed=1,before_nodes=6388,before_levels=29,after_nodes=3020,after_levels=20,num_inputs=928,num_outputs=77,aig_nodes=6388,aig_levels=29,total_tfi_ids=33070,max_containment=1.000000,avg_top5_containment=1.000000,max_jaccard=0.916667,avg_top5_jaccard=0.793779,max_shared_nodes=1144,num_high_overlap_pairs=2198,clusters_seen=1,clusters_attempted=1,clusters_accepted=1,num_eligible_clusters=1,largest_cluster_size=75,cluster_potential_score=95.875584,eligible_for_future_rewrite=1,skip_reason=,targets_seen=0,divisors_seen=0,candidates_simulated=0,candidates_signature_pass=0,truth_attempt_count=0,truth_pass_count=0,sat_attempt_count=0,odc_attempt_count=0,odc_pass_count=0,rejected_by_signature=0,rejected_by_truth_budget=0,rejected_by_truth=0,rejected_by_gain=0,rejected_by_level=0,rollback_count=0,mffc_status=OK,mffc_size_avg=9.688,mffc_size_p50=3,mffc_size_p90=22,mffc_size_max=302,runtime_sec=0.391000
+
+STDERR

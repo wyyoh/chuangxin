@@ -1,0 +1,43 @@
+# Benchmark "r7b_port_order_stress_input" written by ABC on Mon Jun 22 16:17:01 2026
+.model r7b_port_order_stress_input
+.inputs I1 I5 I0 I4 I3 I2
+.outputs O0 O2 O3 O1 O4
+.names I1 I0 new_n12
+11 1
+.names I3 new_n12 new_n13
+11 1
+.names I2 new_n13 O0
+11 1
+.names I1 I0 new_n15
+00 1
+.names I4 I2 new_n16
+10 1
+.names I4 I2 new_n17
+01 1
+.names new_n16 new_n17 new_n18
+00 1
+.names new_n15 new_n18 new_n19
+00 1
+.names new_n12 new_n18 new_n20
+01 1
+.names new_n19 new_n20 O2
+00 1
+.names I5 new_n12 new_n22
+10 1
+.names new_n13 new_n22 O3
+00 0
+.names I5 I4 new_n24
+00 1
+.names new_n12 new_n24 O1
+01 0
+.names I3 I2 new_n26
+00 1
+.names new_n24 new_n26 new_n27
+11 1
+.names I3 I2 new_n28
+11 1
+.names new_n12 new_n28 new_n29
+00 1
+.names new_n27 new_n29 O4
+00 1
+.end

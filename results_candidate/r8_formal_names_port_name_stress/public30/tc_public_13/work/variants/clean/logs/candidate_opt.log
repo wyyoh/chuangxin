@@ -1,0 +1,14 @@
+$ C:\Users\yy257\abc_r7b_candidate_ninja_build2\abc.exe -c read_blif "stress_data/r8_port_name_stress/cases/tc_public_13/input.blif"; strash; r7win -mode rewrite -F fraig -G 0 -diag; balance; rewrite -z; refactor -z; balance; resub -z; rewrite -z; refactor -z; dc2; balance; rewrite -z; refactor -z; balance; write_blif "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_13/work/variants/clean/output.candidate.blif"
+returncode=0
+runtime_sec=0.545031
+peak_mem_mb=16.727
+timed_out=False
+
+STDOUT
+======== ABC command line "read_blif "stress_data/r8_port_name_stress/cases/tc_public_13/input.blif"; strash; r7win -mode rewrite -F fraig -G 0 -diag; balance; rewrite -z; refactor -z; balance; resub -z; rewrite -z; refactor -z; dc2; balance; rewrite -z; refactor -z; balance; write_blif "results_candidate/r8_formal_names_port_name_stress/public30/tc_public_13/work/variants/clean/output.candidate.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+r7win_diag,case=input,stage=gate2_guarded_fraig,mode=rewrite,proof=fraig,growth_budget=0,seed=1,rewrite_enabled=1,rewrite_status=accepted_fraig,network_changed=1,before_nodes=1284,before_levels=17,after_nodes=1250,after_levels=17,num_inputs=335,num_outputs=20,aig_nodes=1284,aig_levels=17,total_tfi_ids=6924,max_containment=0.870370,avg_top5_containment=0.870370,max_jaccard=0.770492,avg_top5_jaccard=0.770492,max_shared_nodes=376,num_high_overlap_pairs=120,clusters_seen=1,clusters_attempted=1,clusters_accepted=1,num_eligible_clusters=1,largest_cluster_size=16,cluster_potential_score=86.117838,eligible_for_future_rewrite=1,skip_reason=,targets_seen=0,divisors_seen=0,candidates_simulated=0,candidates_signature_pass=0,truth_attempt_count=0,truth_pass_count=0,sat_attempt_count=0,odc_attempt_count=0,odc_pass_count=0,rejected_by_signature=0,rejected_by_truth_budget=0,rejected_by_truth=0,rejected_by_gain=0,rejected_by_level=0,rollback_count=0,mffc_status=OK,mffc_size_avg=8.174,mffc_size_p50=2,mffc_size_p90=27,mffc_size_max=273,runtime_sec=0.023000
+
+STDERR

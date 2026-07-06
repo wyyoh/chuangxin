@@ -1,0 +1,107 @@
+{
+  "cases": 30,
+  "nodes": 37260,
+  "level_sum": 277,
+  "max_level": 20,
+  "cec_pass": 30,
+  "fallback": 0,
+  "bad_entry": 0,
+  "inner_fallback": 0,
+  "r28_accepted": 4,
+  "r29_accepted": 9,
+  "r29_skipped": 19,
+  "r29_rejected": 2,
+  "r29_gain_vs_v6": 204,
+  "total_opt_time_sec": 105.041315,
+  "total_cec_time_sec": 64.621365,
+  "total_stats_time_sec": 13.825113,
+  "peak_RSS_MB": 47.184,
+  "v6_nodes": 37464,
+  "v6_level_sum": 278,
+  "v6_max_level": 20,
+  "v6_total_opt_time_sec": 76.225724,
+  "v6_total_cec_time_sec": 55.51771,
+  "v6_total_stats_time_sec": 12.622708,
+  "v6_peak_RSS_MB": 47.309,
+  "node_gain_vs_v6": 204,
+  "level_sum_delta_vs_v6": -1,
+  "opt_time_delta_vs_v6_sec": 28.815591,
+  "cec_time_delta_vs_v6_sec": 9.103655,
+  "stats_time_delta_vs_v6_sec": 1.202405,
+  "peak_RSS_delta_vs_v6_MB": -0.125,
+  "wins_ties_losses_vs_v6": "9/21/0",
+  "gain_excluding_best_case": 147,
+  "gain_excluding_top2_cases": 111,
+  "accepted_cases": [
+    {
+      "case": "tc_public_12",
+      "node_delta": -3,
+      "level_delta": 0,
+      "reason": "medium_runtime_fraig_cleanup"
+    },
+    {
+      "case": "tc_public_14",
+      "node_delta": -29,
+      "level_delta": -1,
+      "reason": "r7b_high_overlap_guarded_fraig"
+    },
+    {
+      "case": "tc_public_15",
+      "node_delta": -9,
+      "level_delta": 0,
+      "reason": "r7b_high_overlap_guarded_fraig"
+    },
+    {
+      "case": "tc_public_18",
+      "node_delta": -3,
+      "level_delta": 0,
+      "reason": "medium_runtime_fraig_cleanup"
+    },
+    {
+      "case": "tc_public_19",
+      "node_delta": -27,
+      "level_delta": 0,
+      "reason": "large_smallpo_fraig_cleanup"
+    },
+    {
+      "case": "tc_public_20",
+      "node_delta": -33,
+      "level_delta": 0,
+      "reason": "large_smallpo_fraig_cleanup"
+    },
+    {
+      "case": "tc_public_21",
+      "node_delta": -36,
+      "level_delta": 0,
+      "reason": "large_smallpo_fraig_cleanup"
+    },
+    {
+      "case": "tc_public_22",
+      "node_delta": -57,
+      "level_delta": 0,
+      "reason": "large_smallpo_fraig_cleanup"
+    },
+    {
+      "case": "tc_public_23",
+      "node_delta": -7,
+      "level_delta": 0,
+      "reason": "r11_deepsyn_medium_tiny_po"
+    }
+  ],
+  "rejected_cases": [
+    {
+      "case": "tc_public_11",
+      "node_delta": 0,
+      "level_delta": 0,
+      "reason": "medium_runtime_fraig_cleanup",
+      "reject": "no_node_gain"
+    },
+    {
+      "case": "tc_public_13",
+      "node_delta": 0,
+      "level_delta": 0,
+      "reason": "r7b_high_overlap_guarded_fraig",
+      "reject": "no_node_gain"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+$ C:\Users\yy257\abc_r7b_candidate_ninja_build2\abc.exe -c r7win -mode
+returncode=0
+runtime_sec=0.150805
+peak_mem_mb=7.242
+timed_out=False
+
+STDOUT
+======== ABC command line "r7win -mode"
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+r7win: option '-mode' requires a value
+usage: r7win [-profile] [-mode profile|rewrite] [-F none|truth|fraig|odc] [-G 0|1] [-seed N] [-diag] [-case name] [-h]
+	R7b research-only ABC-native multi-output window command.
+	Gate 2 implementation runs guarded FRAIG only when coarse overlap gates pass.
+	-profile : alias for '-mode profile'
+	-mode value : profile or rewrite
+	-F value : planned proof backend metadata, one of none, truth, fraig, odc
+	-G value : planned growth budget, 0 or 1
+	-seed value : deterministic simulation seed metadata
+	-diag : print one machine-readable r7win_diag line
+	-case name : case name/id used only by diagnostics
+	-h : print the command usage
+
+STDERR

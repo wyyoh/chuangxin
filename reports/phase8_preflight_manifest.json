@@ -1,0 +1,68 @@
+﻿{
+    "generated_at":  "2026-05-27T14:32:46.0068206+08:00",
+    "phase":  "phase8_preflight",
+    "branch":  "codex/pipeline-search2",
+    "head":  "aa548431b9e852ab10561d6ef14af2ec046b1ec4",
+    "baseline_tag":  "phase_a_hardened_20260526",
+    "baseline_tag_commit":  "aa548431b9e852ab10561d6ef14af2ec046b1ec4",
+    "git_status":  [
+                       "## codex/pipeline-search2",
+                       "?? configs/final_selector_candidate_v2.yaml",
+                       "?? configs/pipeline_search_space_v2.yaml",
+                       "?? configs/pipelines_candidate_v2.yaml",
+                       "?? docs/current_pipeline_diagnosis.md",
+                       "?? docs/pipeline_search2_anti_overfit_report.md",
+                       "?? docs/selector2_findings.md",
+                       "?? reports/abc_command_inventory_v2.csv",
+                       "?? reports/abc_command_inventory_v2.txt",
+                       "?? reports/anti_overfit_pipeline_search2.csv",
+                       "?? reports/bucket_gain_pipeline_search2.csv",
+                       "?? reports/pipeline_search2_baseline_manifest.json",
+                       "?? reports/pipeline_search2_metrics.csv",
+                       "?? reports/pipeline_search2_pareto.csv",
+                       "?? reports/pipeline_search2_regression_cases.csv",
+                       "?? reports/pipeline_search2_scoreboard.xlsx",
+                       "?? reports/pipeline_search2_smoke_subset.csv",
+                       "?? reports/pipeline_search2_summary.csv",
+                       "?? reports/pipeline_search2_summary.md",
+                       "?? reports/selector2_choices.csv",
+                       "?? reports/selector2_scoreboard.xlsx",
+                       "?? reports/selector2_summary.csv",
+                       "?? reports/selector2_validation.csv",
+                       "?? reports/smoke_search2_metrics.csv",
+                       "?? reports/smoke_search2_summary.md",
+                       "?? tools/analyze_pipeline_search2_overfit.py",
+                       "?? tools/check_abc_capabilities.py",
+                       "?? tools/generate_pipeline_candidates.py",
+                       "?? tools/run_pipeline_search2_full.py",
+                       "?? tools/run_pipeline_search2_smoke.py",
+                       "?? tools/run_selector2_validation.py",
+                       "?? tools/select_smoke_subset.py"
+                   ],
+    "protected_files":  [
+                            "configs/final_selector.yaml",
+                            "configs/pipelines.yaml",
+                            "reports/final_metrics.csv",
+                            "logs/final_cec.log",
+                            "submit_sharecone.zip"
+                        ],
+    "forbidden_overwrite_without_backup":  [
+                                               "submit_sharecone.zip"
+                                           ],
+    "rollback_files":  {
+                           "package_backup":  "submit_sharecone_phase_a_hardened.zip",
+                           "final_selector":  "configs/final_selector_phase_a_hardened.yaml"
+                       },
+    "hashes":  {
+                   "configs/pipelines.yaml":  "d4e6c2e38ec69a719261ce88f397aa24edc6204098d60fa0679299e3ca99b43b",
+                   "reports/selector2_validation.csv":  "ff3639efc846eb8ec6877b1c3df857de3bc6d9a02615fd12af876f67ca1a6811",
+                   "configs/final_selector.yaml":  "698a64d998dc1a1d5563f36de17b613f2d302862ec7aef0b58744df8157aec1b",
+                   "configs/final_selector_candidate_v2.yaml":  "113eb97f93922ba6c5bf477ac2cf7e91592584de57693073dd68c5f28e7f8d10",
+                   "logs/final_cec.log":  "d1a1bc7bce322f2208ccb1a9d794297e7db228e2e2f83ef9502a561328ce2706",
+                   "submit_sharecone_phase_a_hardened.zip":  "7b6c53463b2095b828dbcc1161fb403c737543448ea603f8ad6f7f8d60d151da",
+                   "configs/pipelines_candidate_v2.yaml":  "b2400fab68453d69cf9ebba13eae43a26e08e508a013a9b4689ad331244359db",
+                   "submit_sharecone.zip":  "7b6c53463b2095b828dbcc1161fb403c737543448ea603f8ad6f7f8d60d151da",
+                   "reports/final_metrics.csv":  "439bba25310b6b0cc2c4bbee60ee91e19e18a2da76b05b587948f1fff2098177",
+                   "reports/selector2_summary.csv":  "d90e8350e7fa81b2fae1337a525afb9f272dd37014c299d435f3887794f960ac"
+               }
+}

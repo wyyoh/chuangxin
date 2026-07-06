@@ -1,0 +1,14 @@
+$ submit\bin\abc.exe -c read_blif "submit/results/final_public/tc_public_12/output.blif"; mfs; dc2; balance; write_blif "results_research/R29_postpass_matrix_v6/runs/r29_mfs_dc2_bal/tc_public_12/output.blif"
+returncode=0
+runtime_sec=0.716080
+peak_mem_mb=9.680
+timed_out=False
+
+STDOUT
+======== ABC command line "read_blif "submit/results/final_public/tc_public_12/output.blif"; mfs; dc2; balance; write_blif "results_research/R29_postpass_matrix_v6/runs/r29_mfs_dc2_bal/tc_public_12/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Error: This command works only for strashed networks.
+
+STDERR

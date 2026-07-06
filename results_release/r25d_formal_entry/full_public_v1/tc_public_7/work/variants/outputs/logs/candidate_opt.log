@@ -1,0 +1,14 @@
+$ submit\bin\abc.exe -c read_blif "results_release/r25d_formal_entry/full_public_v1/tc_public_7/work/variant_inputs/outputs/input.blif"; strash; &get -n; &deepsyn -I 1 -J 20 -T 5; &put; write_blif "results_release/r25d_formal_entry/full_public_v1/tc_public_7/work/variants/outputs/output.candidate.blif"
+returncode=0
+runtime_sec=1.083039
+peak_mem_mb=20.973
+timed_out=False
+
+STDOUT
+======== ABC command line "read_blif "results_release/r25d_formal_entry/full_public_v1/tc_public_7/work/variant_inputs/outputs/input.blif"; strash; &get -n; &deepsyn -I 1 -J 20 -T 5; &put; write_blif "results_release/r25d_formal_entry/full_public_v1/tc_public_7/work/variants/outputs/output.candidate.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Completed 20 iterations without improvement in 0.87 seconds.
+
+STDERR

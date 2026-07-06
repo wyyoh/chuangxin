@@ -1,0 +1,239 @@
+===== case_095oues3rg =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_095oues3rg/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_095oues3rg/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.187662
+
+===== case_3ycwlkaj3j =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_3ycwlkaj3j/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_3ycwlkaj3j/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent after structural hashing.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.190871
+
+===== case_5b37d8pj99 =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_5b37d8pj99/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_5b37d8pj99/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.06 sec
+passed=True returncode=0 runtime_sec=0.176603
+
+===== case_8tz3kmgxq8 =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_8tz3kmgxq8/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_8tz3kmgxq8/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     4.69 sec
+passed=True returncode=0 runtime_sec=4.841831
+
+===== case_9n3t1jxedl =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_9n3t1jxedl/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_9n3t1jxedl/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.188351
+
+===== case_bxwfcxdndl =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_bxwfcxdndl/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_bxwfcxdndl/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.142495
+
+===== case_d0sp3evjcu =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_d0sp3evjcu/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_d0sp3evjcu/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     2.08 sec
+passed=True returncode=0 runtime_sec=2.235237
+
+===== case_d4glr802e7 =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_d4glr802e7/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_d4glr802e7/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.07 sec
+passed=True returncode=0 runtime_sec=0.208056
+
+===== case_dg8vd3xs1x =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_dg8vd3xs1x/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_dg8vd3xs1x/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.04 sec
+passed=True returncode=0 runtime_sec=0.144748
+
+===== case_dqly6ciz1x =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_dqly6ciz1x/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_dqly6ciz1x/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     1.97 sec
+passed=True returncode=0 runtime_sec=2.130090
+
+===== case_gbqic6mlha =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_gbqic6mlha/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_gbqic6mlha/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.117406
+
+===== case_hl7p0063rn =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_hl7p0063rn/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_hl7p0063rn/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.191612
+
+===== case_i6qsqduet7 =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_i6qsqduet7/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_i6qsqduet7/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.196391
+
+===== case_j0eqkgp8lf =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_j0eqkgp8lf/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_j0eqkgp8lf/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.112099
+
+===== case_j7dnjet36a =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_j7dnjet36a/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_j7dnjet36a/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.29 sec
+passed=True returncode=0 runtime_sec=0.467101
+
+===== case_knyww3m7ta =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_knyww3m7ta/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_knyww3m7ta/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.118255
+
+===== case_o1v95jw2yn =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_o1v95jw2yn/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_o1v95jw2yn/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.141307
+
+===== case_ofbkzi81pj =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_ofbkzi81pj/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_ofbkzi81pj/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     3.81 sec
+passed=True returncode=0 runtime_sec=4.044360
+
+===== case_plzua5wike =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_plzua5wike/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_plzua5wike/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.08 sec
+passed=True returncode=0 runtime_sec=0.182269
+
+===== case_pu0lm11810 =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_pu0lm11810/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_pu0lm11810/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.187297
+
+===== case_pyg3694elp =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_pyg3694elp/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_pyg3694elp/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.156235
+
+===== case_q85mtt9qhs =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_q85mtt9qhs/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_q85mtt9qhs/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.15 sec
+passed=True returncode=0 runtime_sec=0.280238
+
+===== case_qo1zilrin4 =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_qo1zilrin4/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_qo1zilrin4/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.127905
+
+===== case_scefuc0ca6 =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_scefuc0ca6/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_scefuc0ca6/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.184194
+
+===== case_tofysbdmu2 =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_tofysbdmu2/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_tofysbdmu2/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     2.08 sec
+passed=True returncode=0 runtime_sec=2.245506
+
+===== case_tylrj06i68 =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_tylrj06i68/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_tylrj06i68/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.204319
+
+===== case_u9m9kzukyx =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_u9m9kzukyx/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_u9m9kzukyx/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.110315
+
+===== case_udxahl2zm5 =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_udxahl2zm5/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_udxahl2zm5/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.138616
+
+===== case_unko4bybxf =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_unko4bybxf/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_unko4bybxf/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.24 sec
+passed=True returncode=0 runtime_sec=0.351425
+
+===== case_y7gkf9k8m4 =====
+======== ABC command line "cec "data/tc_public_rand_r7b_stress/case_y7gkf9k8m4/input.blif" "results_candidate/r8_order_choosebest_singlecase_random/public30/case_y7gkf9k8m4/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.03 sec
+passed=True returncode=0 runtime_sec=0.141745

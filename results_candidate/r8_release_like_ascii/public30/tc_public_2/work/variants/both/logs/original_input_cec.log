@@ -1,0 +1,14 @@
+$ C:\Users\yy257\abc_r7b_candidate_ninja_build2\abc.exe -c cec "local_data/tc_public/tc_public_2/input.blif" "results_candidate/r8_release_like_ascii/public30/tc_public_2/work/variants/both/output.blif"
+returncode=0
+runtime_sec=0.192892
+peak_mem_mb=9.723
+timed_out=False
+
+STDOUT
+======== ABC command line "cec "local_data/tc_public/tc_public_2/input.blif" "results_candidate/r8_release_like_ascii/public30/tc_public_2/work/variants/both/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+
+STDERR

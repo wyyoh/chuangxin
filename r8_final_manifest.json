@@ -1,0 +1,80 @@
+﻿{
+    "generated_at":  "2026-06-22T23:59:59+08:00",
+    "phase":  "r8_final_release",
+    "release_tag":  "final_selector_v3_20260622",
+    "release_commit_note":  "Resolve with git rev-parse final_selector_v3_20260622 after tagging; this manifest is included in that tag.",
+    "head_before_release_commit":  "d9ea050cac1391829a03a793aba68a8cf966d571",
+    "branch":  "release/r8-preflight",
+    "formal_previous_tag":  "final_selector_v2_20260526",
+    "formal_previous_commit":  "0b0edf4890283e36fac943166a8c84a148c120b8",
+    "formal_previous_metrics":  {
+                                    "selected_total_nodes":  45870,
+                                    "max_selected_level":  25,
+                                    "cec":  "30/30",
+                                    "fallback":  0,
+                                    "submit_sha256":  "f2d23df5ce280304ea3c18f8c713afbf06577a31e2ba8b3e11e5d2c2b00b8fad"
+                                },
+    "final_metrics":  {
+                          "cases":  30,
+                          "selected_total_nodes":  43775,
+                          "max_selected_level":  21,
+                          "cec_passed":  30,
+                          "fallback_count":  0,
+                          "inner_fallback_count":  0,
+                          "bad_returncode_count":  0,
+                          "crash_timeout_cec_fail":  "0/0/0",
+                          "total_opt_time_sec":  428.362053,
+                          "total_cec_time_sec":  203.138462,
+                          "total_stats_time_sec":  43.318531,
+                          "peak_RSS_MB":  52.137
+                      },
+    "promotion_delta":  {
+                            "node_gain_vs_v2":  2095,
+                            "max_level_delta_vs_v2":  -4,
+                            "wins_ties_losses_vs_v2":  "11/19/0",
+                            "gain_excluding_best_case":  737,
+                            "gain_excluding_top2_cases":  122
+                        },
+    "package":  {
+                    "path":  "submit_sharecone.zip",
+                    "sha256":  "4b6236af057009318ea50e39ffc43ffa3a74708b49a07c2f08fd386ab6d1af8a",
+                    "previous_sha256":  "f2d23df5ce280304ea3c18f8c713afbf06577a31e2ba8b3e11e5d2c2b00b8fad",
+                    "abc_sha256":  "85f59e6291a1c4b10b757bf163d14d2152eaa974b21bc6f4e13f44ec49969805"
+                },
+    "verification":  {
+                         "readiness_check":  "reports/r8_release_readiness_check_final_prepackage.md",
+                         "release_report":  "reports/r8_release_packaging_final.md",
+                         "package_cec_root_log":  "submit/logs/reproduce_cec.log",
+                         "package_cec_inside_log":  "submit/logs/reproduce_cec_inside.log",
+                         "zip_extract_cec_log":  "logs/r8_zip_extract_reproduce_cec.log",
+                         "package_cec_root":  "30/30",
+                         "package_cec_inside":  "30/30",
+                         "zip_extract_cec":  "30/30"
+                     },
+    "hashes":  {
+                   "configs/final_selector.yaml":  "06f2b70fba7f6e1528b8fa291c88afb31382d85635ea2fd9d427247f4744bf8f",
+                   "configs/pipelines.yaml":  "1e77cb18374559e8ac56ebcd6644427a908ae1a0926d609653f6cd1d3df0f22b",
+                   "tools/package_submit.py":  "4b389e918d5052aa8911b3f9fcbda84422d8c86d06b834ca5d90dd3f34256936",
+                   "reports/final_metrics.csv":  "0afa2cf60837a09b58fd2c5e1aeb9711dd2930936d9ee8a701d42fb9928c4bff",
+                   "reports/final_scoreboard.xlsx":  "d42fa539055f5b97da377cab2cd07f06b22bab6242940f6d2c0fae773fa8b26c",
+                   "reports/failure_cases.md":  "aeeb8e27436cd54252ae025d958b8f21bc4926aa108fabb0a39f57f0eed95545",
+                   "reports/r8_release_packaging_final.md":  "05dc04aeacbdcb1c04461287c1615e3e76f5fabe60c4a94af04185b46f3a415e",
+                   "reports/r8_release_readiness_check_final_prepackage.md":  "1a80967e123328ac11f32b7e4cf81a2baf8a5655aba62ba84eb072106b31aa26",
+                   "reports/r8_release_readiness_check_final_prepackage.json":  "0fd385d66dee5e2e6f2547bb92d3be4c5a51519fdd9adf03335a2264ef7df7c6",
+                   "logs/final_cec.log":  "c3c6cb3372ec87f2ec871a247abf70986e0ee553b54cf1b3034c72bea63c2c5d",
+                   "submit/bin/abc.exe":  "85f59e6291a1c4b10b757bf163d14d2152eaa974b21bc6f4e13f44ec49969805",
+                   "submit/configs/final_selector.yaml":  "06f2b70fba7f6e1528b8fa291c88afb31382d85635ea2fd9d427247f4744bf8f",
+                   "submit/configs/pipelines.yaml":  "1e77cb18374559e8ac56ebcd6644427a908ae1a0926d609653f6cd1d3df0f22b",
+                   "submit/final_metrics.csv":  "0afa2cf60837a09b58fd2c5e1aeb9711dd2930936d9ee8a701d42fb9928c4bff",
+                   "submit/final_scoreboard.xlsx":  "d42fa539055f5b97da377cab2cd07f06b22bab6242940f6d2c0fae773fa8b26c",
+                   "submit/failure_cases.md":  "aeeb8e27436cd54252ae025d958b8f21bc4926aa108fabb0a39f57f0eed95545",
+                   "submit/final_cec.log":  "c3c6cb3372ec87f2ec871a247abf70986e0ee553b54cf1b3034c72bea63c2c5d",
+                   "submit/reproduce.md":  "f502bfb22ceb857c73276bb85c7fd3bb91292aac2dc98b5d17447f24f7048869",
+                   "submit/logs/reproduce_cec.log":  "83c0859c559758bbd34ff3588e7d052ad32a4e0e25236f58f80414e9a9ebbbd6",
+                   "submit/logs/reproduce_cec_inside.log":  "0951bc2842f040cbf9ecf1bfd807cebc2befd999fb3f62acc65320d010e844be",
+                   "logs/r8_zip_extract_reproduce_cec.log":  "64288d6f603a94c401b25c0279589c00624e124e78690927ba166caef07825d6",
+                   "submit_sharecone.zip":  "4b6236af057009318ea50e39ffc43ffa3a74708b49a07c2f08fd386ab6d1af8a",
+                   "submit_sharecone.zip.sha256":  "c62f7fe20cf4fd79ff91d8a3990fbbda03512ed7198212ee8baa0e5e8d09b8a6"
+               }
+}
+

@@ -1,0 +1,13 @@
+{
+    "nodes":  41004,
+    "max_level":  20,
+    "total_levels":  285,
+    "cec":  30,
+    "fallback":  0,
+    "bad_entry":  0,
+    "opt_time":  501.974,
+    "zip_sha256":  "E405F7C9E1DF63F1FC1EA59E48C49C06399371E8BD15DBBDDCDFF7F8B562E57E",
+    "formal_zip_sha256":  "4B6236AF057009318EA50E39FFC43FFA3A74708B49A07C2F08FD386AB6D1AF8A",
+    "zip_root_cec":  30,
+    "zip_inside_cec":  30
+}

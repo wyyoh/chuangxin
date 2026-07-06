@@ -1,0 +1,14 @@
+$ submit\bin\abc.exe -c cec "results_candidate/r29_postpass_entry_full_public_candidate_config/tc_public_26/work/v6/work/v5/work/variant_inputs/both/input.blif" "results_candidate/r29_postpass_entry_full_public_candidate_config/tc_public_26/work/v6/work/v5/work/variants/both/output.candidate.blif"
+returncode=0
+runtime_sec=0.070437
+peak_mem_mb=9.551
+timed_out=False
+
+STDOUT
+======== ABC command line "cec "results_candidate/r29_postpass_entry_full_public_candidate_config/tc_public_26/work/v6/work/v5/work/variant_inputs/both/input.blif" "results_candidate/r29_postpass_entry_full_public_candidate_config/tc_public_26/work/v6/work/v5/work/variants/both/output.candidate.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+
+STDERR

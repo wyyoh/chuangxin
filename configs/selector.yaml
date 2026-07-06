@@ -1,0 +1,16 @@
+# Coarse selector only. Do not add exact PI/PO/name/cube fingerprints,
+# case names, directory names, line counts, hashes, or port-combination rules.
+default_pipeline: dc2_fast
+
+rules:
+  - name: tiny_high_fanin_sop
+    when:
+      scale_grade_in: [tiny, small]
+      high_fanin_sop: true
+    pipeline: sop_fx
+
+  - name: medium_rewrite_cleanup
+    when:
+      scale_grade_in: [medium]
+      near_two_input_aig: false
+    pipeline: rewrite2

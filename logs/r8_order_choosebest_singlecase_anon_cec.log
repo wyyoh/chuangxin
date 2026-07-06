@@ -1,0 +1,239 @@
+===== anon_001 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_001/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_001/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.226901
+
+===== anon_002 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_002/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_002/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.194377
+
+===== anon_003 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_003/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_003/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.214237
+
+===== anon_004 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_004/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_004/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.199874
+
+===== anon_005 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_005/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_005/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.111078
+
+===== anon_006 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_006/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_006/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.180003
+
+===== anon_007 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_007/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_007/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent after structural hashing.  Time =     0.00 sec
+passed=True returncode=0 runtime_sec=0.181019
+
+===== anon_008 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_008/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_008/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.179765
+
+===== anon_009 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_009/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_009/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.200885
+
+===== anon_010 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_010/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_010/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.128023
+
+===== anon_011 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_011/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_011/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.04 sec
+passed=True returncode=0 runtime_sec=0.147961
+
+===== anon_012 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_012/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_012/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.06 sec
+passed=True returncode=0 runtime_sec=0.180392
+
+===== anon_013 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_013/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_013/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.28 sec
+passed=True returncode=0 runtime_sec=0.493984
+
+===== anon_014 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_014/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_014/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.15 sec
+passed=True returncode=0 runtime_sec=0.290493
+
+===== anon_015 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_015/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_015/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.09 sec
+passed=True returncode=0 runtime_sec=0.203191
+
+===== anon_016 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_016/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_016/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.137228
+
+===== anon_017 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_017/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_017/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.120852
+
+===== anon_018 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_018/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_018/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.25 sec
+passed=True returncode=0 runtime_sec=0.344045
+
+===== anon_019 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_019/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_019/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     1.93 sec
+passed=True returncode=0 runtime_sec=2.080684
+
+===== anon_020 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_020/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_020/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     2.16 sec
+passed=True returncode=0 runtime_sec=2.339017
+
+===== anon_021 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_021/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_021/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     2.08 sec
+passed=True returncode=0 runtime_sec=2.249737
+
+===== anon_022 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_022/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_022/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     3.85 sec
+passed=True returncode=0 runtime_sec=4.104191
+
+===== anon_023 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_023/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_023/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.128801
+
+===== anon_024 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_024/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_024/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.128683
+
+===== anon_025 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_025/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_025/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+passed=True returncode=0 runtime_sec=0.118109
+
+===== anon_026 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_026/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_026/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.07 sec
+passed=True returncode=0 runtime_sec=0.176226
+
+===== anon_027 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_027/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_027/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.117193
+
+===== anon_028 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_028/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_028/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.04 sec
+passed=True returncode=0 runtime_sec=0.144866
+
+===== anon_029 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_029/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_029/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.02 sec
+passed=True returncode=0 runtime_sec=0.119958
+
+===== anon_030 =====
+======== ABC command line "cec "data/tc_public_anon_r7b_stress/anon_030/input.blif" "results_candidate/r8_order_choosebest_singlecase_anon/public30/anon_030/output.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     4.13 sec
+passed=True returncode=0 runtime_sec=4.293798

@@ -1,0 +1,4 @@
+pipelines:
+  r28_r27_mfs_fraig_dc2_bal:
+    description: "R28 gated R27 post-pass: MFS, FRAIG, dc2, and balance."
+    steps: "mfs; fraig; dc2; balance"

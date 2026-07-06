@@ -1,0 +1,7 @@
+"scenario","category","count"
+"master_to_r11s_direct","candidate_results","27"
+"master_to_r11s_direct","protected_root_release","9"
+"master_to_r11s_direct","protected_submit_tree","281"
+"master_to_v3","candidate_results","27"
+"master_to_v3","protected_root_release","9"
+"master_to_v3","protected_submit_tree","281"

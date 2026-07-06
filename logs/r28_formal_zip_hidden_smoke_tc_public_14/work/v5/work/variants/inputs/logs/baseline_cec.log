@@ -1,0 +1,14 @@
+$ bin\abc.exe -c cec "C:/Users/yy257/cpipc_r28_formal_release/logs/r28_formal_zip_hidden_smoke_tc_public_14/work/v5/work/variant_inputs/inputs/input.blif" "C:/Users/yy257/cpipc_r28_formal_release/logs/r28_formal_zip_hidden_smoke_tc_public_14/work/v5/work/variants/inputs/baseline.blif"
+returncode=0
+runtime_sec=0.136708
+peak_mem_mb=16.512
+timed_out=False
+
+STDOUT
+======== ABC command line "cec "C:/Users/yy257/cpipc_r28_formal_release/logs/r28_formal_zip_hidden_smoke_tc_public_14/work/v5/work/variant_inputs/inputs/input.blif" "C:/Users/yy257/cpipc_r28_formal_release/logs/r28_formal_zip_hidden_smoke_tc_public_14/work/v5/work/variants/inputs/baseline.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.07 sec
+
+STDERR

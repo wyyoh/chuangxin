@@ -1,0 +1,119 @@
+# Benchmark "r7b_port_order_stress_input" written by ABC on Fri Jun 26 01:11:30 2026
+.model r7b_port_order_stress_input
+.inputs I0 I1 I2 I3 I4 I5 I6 I7 I8 I9
+.outputs O7 O4 O2 O1 O0 O6 O3 O5
+.names I0 I2 new_n19
+11 1
+.names I1 new_n19 new_n20
+11 1
+.names I0 I1 new_n21
+01 1
+.names I2 new_n21 new_n22
+01 1
+.names new_n20 new_n22 new_n23
+00 1
+.names I6 new_n23 new_n24
+00 1
+.names I7 I8 new_n25
+10 1
+.names I9 new_n25 new_n26
+11 1
+.names new_n24 new_n26 new_n27
+11 1
+.names I3 I5 new_n28
+00 1
+.names I4 new_n28 new_n29
+11 1
+.names new_n27 new_n29 new_n30
+11 1
+.names new_n19 new_n21 new_n31
+00 1
+.names new_n23 new_n31 new_n32
+10 1
+.names I6 new_n32 new_n33
+11 1
+.names I7 I8 new_n34
+01 1
+.names new_n33 new_n34 new_n35
+11 1
+.names I3 I4 new_n36
+10 1
+.names new_n35 new_n36 new_n37
+11 1
+.names I9 new_n37 new_n38
+01 1
+.names I5 new_n38 new_n39
+11 1
+.names new_n30 new_n39 O7
+00 0
+.names I6 new_n32 new_n41
+00 1
+.names I7 I8 new_n42
+11 1
+.names I9 new_n42 new_n43
+01 1
+.names new_n41 new_n43 new_n44
+01 1
+.names I6 new_n23 new_n45
+11 1
+.names I5 new_n36 new_n46
+11 1
+.names new_n45 new_n46 new_n47
+01 1
+.names new_n44 new_n47 O4
+11 1
+.names new_n23 new_n28 new_n49
+01 1
+.names new_n44 new_n49 new_n50
+11 1
+.names new_n38 new_n50 O2
+00 0
+.names new_n32 new_n46 new_n52
+11 1
+.names new_n22 new_n29 new_n53
+11 1
+.names I3 I5 new_n54
+01 1
+.names I4 new_n54 new_n55
+01 1
+.names new_n20 new_n55 new_n56
+11 1
+.names new_n53 new_n56 new_n57
+00 1
+.names new_n52 new_n57 new_n58
+01 1
+.names new_n26 new_n58 O1
+10 1
+.names new_n29 new_n33 new_n60
+11 1
+.names I3 I4 new_n61
+11 1
+.names I5 new_n61 new_n62
+11 1
+.names new_n24 new_n62 new_n63
+11 1
+.names new_n60 new_n63 new_n64
+00 1
+.names new_n34 new_n64 O0
+10 1
+.names new_n26 new_n64 O6
+10 1
+.names new_n27 new_n46 new_n67
+11 1
+.names I4 new_n54 new_n68
+11 1
+.names I9 new_n68 new_n69
+11 1
+.names new_n35 new_n69 new_n70
+11 1
+.names new_n67 new_n70 O3
+00 0
+.names new_n27 new_n68 new_n72
+11 1
+.names I5 I9 new_n73
+01 1
+.names new_n37 new_n73 new_n74
+11 1
+.names new_n72 new_n74 O5
+00 0
+.end

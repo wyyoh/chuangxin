@@ -1,0 +1,12 @@
+[
+    {
+        "path":  "local_data\\tc_public",
+        "exists":  false,
+        "case_dirs":  null
+    },
+    {
+        "path":  "C:\\Users\\yy257\\cpipc_r9_large_smallpo\\local_data\\tc_public",
+        "exists":  true,
+        "case_dirs":  30
+    }
+]

@@ -1,0 +1,141 @@
+{
+  "candidate": "R29 guarded post-pass entry",
+  "branch": "candidate/r29-postpass-entry",
+  "commit": "43329a7178dfc5c93ba901821b23a3cba1b3dabe",
+  "status": "## candidate/r29-postpass-entry",
+  "formal_baseline_tag": "final_selector_v6_20260626",
+  "formal_baseline_commit": "ffd327f5013e5bef4913750579a99dacf0c4dcfb",
+  "summary": {
+    "cases": 30,
+    "nodes": 37260,
+    "level_sum": 277,
+    "max_level": 20,
+    "cec_pass": 30,
+    "fallback": 0,
+    "bad_entry": 0,
+    "inner_fallback": 0,
+    "r28_accepted": 4,
+    "r29_accepted": 9,
+    "r29_skipped": 19,
+    "r29_rejected": 2,
+    "r29_gain_vs_v6": 204,
+    "total_opt_time_sec": 105.041315,
+    "total_cec_time_sec": 64.621365,
+    "total_stats_time_sec": 13.825113,
+    "peak_RSS_MB": 47.184,
+    "v6_nodes": 37464,
+    "v6_level_sum": 278,
+    "v6_max_level": 20,
+    "v6_total_opt_time_sec": 76.225724,
+    "v6_total_cec_time_sec": 55.51771,
+    "v6_total_stats_time_sec": 12.622708,
+    "v6_peak_RSS_MB": 47.309,
+    "node_gain_vs_v6": 204,
+    "level_sum_delta_vs_v6": -1,
+    "opt_time_delta_vs_v6_sec": 28.815591,
+    "cec_time_delta_vs_v6_sec": 9.103655,
+    "stats_time_delta_vs_v6_sec": 1.202405,
+    "peak_RSS_delta_vs_v6_MB": -0.125,
+    "wins_ties_losses_vs_v6": "9/21/0",
+    "gain_excluding_best_case": 147,
+    "gain_excluding_top2_cases": 111,
+    "accepted_cases": [
+      {
+        "case": "tc_public_12",
+        "node_delta": -3,
+        "level_delta": 0,
+        "reason": "medium_runtime_fraig_cleanup"
+      },
+      {
+        "case": "tc_public_14",
+        "node_delta": -29,
+        "level_delta": -1,
+        "reason": "r7b_high_overlap_guarded_fraig"
+      },
+      {
+        "case": "tc_public_15",
+        "node_delta": -9,
+        "level_delta": 0,
+        "reason": "r7b_high_overlap_guarded_fraig"
+      },
+      {
+        "case": "tc_public_18",
+        "node_delta": -3,
+        "level_delta": 0,
+        "reason": "medium_runtime_fraig_cleanup"
+      },
+      {
+        "case": "tc_public_19",
+        "node_delta": -27,
+        "level_delta": 0,
+        "reason": "large_smallpo_fraig_cleanup"
+      },
+      {
+        "case": "tc_public_20",
+        "node_delta": -33,
+        "level_delta": 0,
+        "reason": "large_smallpo_fraig_cleanup"
+      },
+      {
+        "case": "tc_public_21",
+        "node_delta": -36,
+        "level_delta": 0,
+        "reason": "large_smallpo_fraig_cleanup"
+      },
+      {
+        "case": "tc_public_22",
+        "node_delta": -57,
+        "level_delta": 0,
+        "reason": "large_smallpo_fraig_cleanup"
+      },
+      {
+        "case": "tc_public_23",
+        "node_delta": -7,
+        "level_delta": 0,
+        "reason": "r11_deepsyn_medium_tiny_po"
+      }
+    ],
+    "rejected_cases": [
+      {
+        "case": "tc_public_11",
+        "node_delta": 0,
+        "level_delta": 0,
+        "reason": "medium_runtime_fraig_cleanup",
+        "reject": "no_node_gain"
+      },
+      {
+        "case": "tc_public_13",
+        "node_delta": 0,
+        "level_delta": 0,
+        "reason": "r7b_high_overlap_guarded_fraig",
+        "reject": "no_node_gain"
+      }
+    ]
+  },
+  "checks": {
+    "candidate_branch_clean": true,
+    "cec_30_30": true,
+    "fallback_zero": true,
+    "bad_entry_zero": true,
+    "inner_fallback_zero": true,
+    "nodes_below_v6": true,
+    "max_level_safe": true,
+    "gain_excluding_best_positive": true,
+    "gain_excluding_top2_positive": true,
+    "at_least_three_wins": true,
+    "no_public_fingerprint_rules_observed": true,
+    "submit_not_rebuilt": true,
+    "release_packaging_approval_missing": true
+  },
+  "decision": "release-ready-pending-user-packaging-approval",
+  "current_formal_submit_sha256": "EF7638BC06771F86485588A16786EAD760550CA86EFAD858B93EE1D808AA4E7F",
+  "candidate_file_hashes": {
+    "tools/optimize_one.py": "4EBA04224BF62FFE077E69369FDE8091EF2C7CBF1EC0E353DF1807562C0100AF",
+    "tools/optimize_one_r29_postpass_candidate.py": "F47671979EDF4FF9C01325EFC6F332D231EA252E55FF6B1CAC7A73CEFB7AD1A9",
+    "configs/final_selector_candidate.yaml": "40B817775F5174A395118B3AB467C09DDC3770C7D5F151A3BAE50D692F39A862",
+    "configs/pipelines_candidate.yaml": "29D81D29703237DAD739A3ECAC27BAFE9B4C45871A4C2282082004E9A4EB9312",
+    "configs/pipelines_r29_postpass_candidate.yaml": "741E0237179D62827C89C450B6E534B739F4FF3F6A1E9DB5E01538BD003BA18B",
+    "reports/r29_candidate_entry_full_public_candidate_config.csv": "5E89B535576D2F59CC86BB834CC4C2621EC81B73CB375294650F6E192AD0F3CD",
+    "logs/r29_candidate_entry_full_public_candidate_config_cec.log": "BCEDEDA91FE76084410FB34DF3E3F46F456E7368C0E228ABE3B46278D2760953"
+  }
+}

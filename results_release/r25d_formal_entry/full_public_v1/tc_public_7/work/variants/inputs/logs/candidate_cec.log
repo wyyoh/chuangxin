@@ -1,0 +1,14 @@
+$ submit\bin\abc.exe -c cec "results_release/r25d_formal_entry/full_public_v1/tc_public_7/work/variant_inputs/inputs/input.blif" "results_release/r25d_formal_entry/full_public_v1/tc_public_7/work/variants/inputs/output.candidate.blif"
+returncode=0
+runtime_sec=0.181798
+peak_mem_mb=9.570
+timed_out=False
+
+STDOUT
+======== ABC command line "cec "results_release/r25d_formal_entry/full_public_v1/tc_public_7/work/variant_inputs/inputs/input.blif" "results_release/r25d_formal_entry/full_public_v1/tc_public_7/work/variants/inputs/output.candidate.blif""
+Cannot open file "abc.rc".
+Cannot open file "..\abc.rc".
+Cannot open file "..\..\abc.rc".
+Networks are equivalent.  Time =     0.01 sec
+
+STDERR

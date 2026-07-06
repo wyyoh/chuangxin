@@ -1,0 +1,2 @@
+﻿coderabbit command: NOT FOUND
+blocker: CodeRabbit CLI is not installed or not on PATH in this environment. Per project plan, no CodeRabbit review was run and no review is claimed.

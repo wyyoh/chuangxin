@@ -1,0 +1,14 @@
+{
+  "rows": 30,
+  "clean_nodes": 41004,
+  "stress_nodes": 41004,
+  "clean_max_level": 20,
+  "stress_max_level": 20,
+  "node_mismatches": 0,
+  "level_mismatches": 0,
+  "pipeline_mismatches": 0,
+  "variant_mismatches": 0,
+  "cec_failures": 0,
+  "fallback_count": 0,
+  "bad_entry": 0
+}

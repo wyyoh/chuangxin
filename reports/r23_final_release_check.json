@@ -1,0 +1,92 @@
+{
+    "status":  "pass",
+    "passed":  17,
+    "total":  17,
+    "checks":  [
+                   {
+                       "name":  "submit_zip_sha256",
+                       "ok":  true,
+                       "detail":  "35BE0138E0B132E39118F4E0466B27AA2F9FA54291091094CB6076D79E54287D"
+                   },
+                   {
+                       "name":  "sha256_file_matches",
+                       "ok":  true,
+                       "detail":  "35BE0138E0B132E39118F4E0466B27AA2F9FA54291091094CB6076D79E54287D"
+                   },
+                   {
+                       "name":  "metrics_cases",
+                       "ok":  true,
+                       "detail":  "30"
+                   },
+                   {
+                       "name":  "metrics_nodes",
+                       "ok":  true,
+                       "detail":  "41004"
+                   },
+                   {
+                       "name":  "metrics_max_level",
+                       "ok":  true,
+                       "detail":  "20"
+                   },
+                   {
+                       "name":  "metrics_cec_pass",
+                       "ok":  true,
+                       "detail":  "30"
+                   },
+                   {
+                       "name":  "metrics_fallback",
+                       "ok":  true,
+                       "detail":  "0"
+                   },
+                   {
+                       "name":  "metrics_bad_entry",
+                       "ok":  true,
+                       "detail":  "0"
+                   },
+                   {
+                       "name":  "cec_logs\\final_cec.log",
+                       "ok":  true,
+                       "detail":  "passed=30 bad=0"
+                   },
+                   {
+                       "name":  "cec_submit\\logs\\reproduce_cec.log",
+                       "ok":  true,
+                       "detail":  "passed=30 bad=0"
+                   },
+                   {
+                       "name":  "cec_submit\\logs\\reproduce_cec_inside.log",
+                       "ok":  true,
+                       "detail":  "passed=30 bad=0"
+                   },
+                   {
+                       "name":  "cec_logs\\r23_final_zip_extract_cec.log",
+                       "ok":  true,
+                       "detail":  "passed=30 bad=0"
+                   },
+                   {
+                       "name":  "cec_logs\\r23_final_zip_extract_inside_cec.log",
+                       "ok":  true,
+                       "detail":  "passed=30 bad=0"
+                   },
+                   {
+                       "name":  "hash_match_reports\\final_metrics.csv",
+                       "ok":  true,
+                       "detail":  "2ACCD0810D68E952DB7A428261E6DEA542D3C48F912CE3C33BA943E5DDD2082B / 2ACCD0810D68E952DB7A428261E6DEA542D3C48F912CE3C33BA943E5DDD2082B"
+                   },
+                   {
+                       "name":  "hash_match_reports\\final_scoreboard.xlsx",
+                       "ok":  true,
+                       "detail":  "C3DDFA8A13FF0ADEBAAB182BA14469E3DBF08D480301214B2FC8F06F4DAD7D3B / C3DDFA8A13FF0ADEBAAB182BA14469E3DBF08D480301214B2FC8F06F4DAD7D3B"
+                   },
+                   {
+                       "name":  "hash_match_reports\\failure_cases.md",
+                       "ok":  true,
+                       "detail":  "51F0985BDAB67F811D87FA4C04CFCC7A17BA0780B6029C3E300DA0829AEB765F / 51F0985BDAB67F811D87FA4C04CFCC7A17BA0780B6029C3E300DA0829AEB765F"
+                   },
+                   {
+                       "name":  "hash_match_logs\\final_cec.log",
+                       "ok":  true,
+                       "detail":  "79E35CEC7F37C2482F0D9FD63589C01D8456E51C49FF5E07F0747C40F6DCB1B5 / 79E35CEC7F37C2482F0D9FD63589C01D8456E51C49FF5E07F0747C40F6DCB1B5"
+                   }
+               ]
+}
